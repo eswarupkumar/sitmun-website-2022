@@ -1,0 +1,49 @@
+.about-us{
+    max-width: 80vw;
+    margin: 20px auto;
+    padding: 0 200px;
+    font-family: sans-serif;
+}
+.about-us h2{
+    font-size: 40px;
+    color: #021D6C;
+    position: relative;
+    animation: swiperight 0.5s ease-out;
+    text-align: center;
+}
+.about-us p{
+    line-height: 25px;
+    position: relative;
+    /* animation: swipeleft 0.5s ease-out; */
+}
+
+/* @keyframes swiperight{
+    0%{
+        right: 200px;
+        opacity: 0;
+    }
+    60%{
+        opacity: 0.3;
+    }
+    100%{
+        right: 0;
+        opacity: 1;
+    }
+}
+@keyframes swipeleft{
+    0%{
+        left: 200px;
+        opacity: 0;
+    }
+    60%{
+        opacity: 0.3;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+} */
+
+.why-us{
+    font-family: sans-serif;
+}
