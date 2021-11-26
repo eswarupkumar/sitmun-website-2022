@@ -1,49 +1,30 @@
 .about-us{
     max-width: 80vw;
     margin: 20px auto;
-    padding: 0 200px;
     font-family: sans-serif;
 }
 .about-us h2{
     font-size: 40px;
+    font-weight: 700;
     color: #021D6C;
-    position: relative;
-    animation: swiperight 0.5s ease-out;
     text-align: center;
+    padding: 30px 0;
 }
 .about-us p{
-    line-height: 25px;
-    position: relative;
-    /* animation: swipeleft 0.5s ease-out; */
+    line-height: 22px;
 }
 
-/* @keyframes swiperight{
-    0%{
-        right: 200px;
-        opacity: 0;
+/*  MEDIA QUERRIES FOR MAX WIDTH 510 px  */
+@media (max-width: 760px) {
+    .about-us{
+        max-width: 90vw;
     }
-    60%{
-        opacity: 0.3;
-    }
-    100%{
-        right: 0;
-        opacity: 1;
+    .about-us h2{
+        font-size: 24px;
     }
 }
-@keyframes swipeleft{
-    0%{
-        left: 200px;
-        opacity: 0;
+@media (min-width: 1600px){
+    .about-us{
+        max-width: 1350px;
     }
-    60%{
-        opacity: 0.3;
-    }
-    100%{
-        left: 0;
-        opacity: 1;
-    }
-} */
-
-.why-us{
-    font-family: sans-serif;
 }
