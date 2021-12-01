@@ -1,49 +1,21 @@
 .about-us{
-    max-width: 80vw;
     margin: 20px auto;
-    padding: 0 200px;
     font-family: sans-serif;
 }
 .about-us h2{
     font-size: 40px;
-    color: #021D6C;
-    position: relative;
-    animation: swiperight 0.5s ease-out;
+    font-weight: 700;
+    color: #29A0D3;
     text-align: center;
+    padding: 30px 0;
 }
 .about-us p{
-    line-height: 25px;
-    position: relative;
-    /* animation: swipeleft 0.5s ease-out; */
+    line-height: 22px;
 }
 
-/* @keyframes swiperight{
-    0%{
-        right: 200px;
-        opacity: 0;
+/*  MEDIA QUERRIES  */
+@media (max-width: 760px) {
+    .about-us h2{
+        font-size: 24px;
     }
-    60%{
-        opacity: 0.3;
-    }
-    100%{
-        right: 0;
-        opacity: 1;
-    }
-}
-@keyframes swipeleft{
-    0%{
-        left: 200px;
-        opacity: 0;
-    }
-    60%{
-        opacity: 0.3;
-    }
-    100%{
-        left: 0;
-        opacity: 1;
-    }
-} */
-
-.why-us{
-    font-family: sans-serif;
 }
