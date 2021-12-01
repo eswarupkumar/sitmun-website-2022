@@ -1,12 +1,11 @@
 .about-us{
-    max-width: 80vw;
     margin: 20px auto;
     font-family: sans-serif;
 }
 .about-us h2{
     font-size: 40px;
     font-weight: 700;
-    color: #021D6C;
+    color: #29A0D3;
     text-align: center;
     padding: 30px 0;
 }
@@ -14,17 +13,9 @@
     line-height: 22px;
 }
 
-/*  MEDIA QUERRIES FOR MAX WIDTH 510 px  */
+/*  MEDIA QUERRIES  */
 @media (max-width: 760px) {
-    .about-us{
-        max-width: 90vw;
-    }
     .about-us h2{
         font-size: 24px;
-    }
-}
-@media (min-width: 1600px){
-    .about-us{
-        max-width: 1350px;
     }
 }

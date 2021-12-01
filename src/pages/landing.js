@@ -1,7 +1,8 @@
 import NavbarSection from "../components/common/navbar";
 import HeroSection from "../components/landing/hero";
-import WhyUs from "../components/landing/WhyUs";
 import AboutUs from "../components/landing/AboutUs";
+import Faq from "../components/landing/Faq";
+import Footer from "../components/common/Footer";
 
 function LandingPage() {
   return (
@@ -10,8 +11,11 @@ function LandingPage() {
       <NavbarSection />
       <HeroSection />
 
-      <WhyUs />
+
       <AboutUs />
+      <Faq />
+      <Footer />
+
     </div>
   );
 }

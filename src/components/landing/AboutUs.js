@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../css/about-us.css';
+import { Container } from 'react-bootstrap';
 
 function AboutUs() {
     // This is about
     return (
-        <div className="about-us">
+        <Container className="about-us" id='about'>
             <h2>ABOUT THIS EVENT</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
@@ -12,7 +13,7 @@ function AboutUs() {
             sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
             ut aliquip ex ea commodo consequat.</p>
-        </div>
+        </Container>
     )
 }
 
