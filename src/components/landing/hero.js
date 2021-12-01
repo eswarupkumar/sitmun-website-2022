@@ -1,57 +1,93 @@
 import React from "react";
 import "../../css/hero.css";
 // import video from "../../img/video.mp4";
-import img from "../../img/logo.png";
-import img1 from "../../img/Italy.png";
-import img2 from "../../img/logo.png";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+// import img from "../../img/logo.png";
+// import img1 from "../../img/Italy.png";
+import bg from "../../img/descend-sun@3000x2000px.png";
+import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-// import "swiper/swiper.scss"; // core Swiper
-// import "swiper/modules/navigation/navigation.scss"; // Navigation module
-// import "swiper/modules/pagination/pagination.scss";
-
-// Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/effect-fade";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
+import Typewriter from "typewriter-effect";
 
 // import Swiper core and required modules
-import SwiperCore, { EffectFade, Autoplay } from "swiper";
+import SwiperCore, { EffectCards } from "swiper";
 
 // install Swiper modules
-SwiperCore.use([EffectFade, Navigation, Pagination, Autoplay]);
+// SwiperCore.use([EffectFade, Navigation, Pagination, Autoplay]);
+SwiperCore.use([EffectFlip]);
 
 function HeroSection() {
   return (
-    <Swiper
-      spaceBetween={30}
-      effect={"fade"}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
-      navigation={true}
-      pagination={{
-        clickable: true,
-      }}
-      className="mySwiper"
-    >
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </SwiperSlide>
-    </Swiper>
+    <div className="hero_page_wrapper">
+      <div className="hero_page_main">
+        <div className="hero_title_wrapper">
+          <div className="event_name">
+            <p>
+              SITMUN <span className="event_year">2022</span>
+            </p>
+          </div>
+          <div className="why_us">
+            <p>
+              A Place where you
+              <span>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "<b>GET INSPIRED</b>",
+                      "<b>MEET NEW FACES</b>",
+                      "<b>KNOW THE WORLD</b>",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 1000,
+                    skipAddStyles: true,
+                  }}
+                />
+              </span>
+            </p>
+          </div>
+        </div>
+        {/* <Swiper
+          effect={"cards"}
+          grabCursor={true}
+          className="mySwiper"
+          autoplay={{ delay: 1000 }}
+          pagination={{
+            clickable: true,
+          }}
+        >
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-1.jpg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-2.jpg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-3.jpg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-4.jpg"
+            />
+          </SwiperSlide>
+        </Swiper> */}
+      </div>
+    </div>
   );
 }
 

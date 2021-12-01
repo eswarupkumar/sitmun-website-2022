@@ -5,7 +5,7 @@ import "../../css/navbar.css";
 
 function NavbarSection() {
   return (
-    <Navbar scrolling dark expand="md" fixed="top">
+    <Navbar bg="light" expand="md">
       <Container>
         <Navbar.Brand href="#home">
           <img
