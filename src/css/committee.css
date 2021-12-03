@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-image: url('../img/bgcommittee.jpg'); 
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+}
+
+.bg h1{
+    color: #29a0d3;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    font-weight: bold;
+}
+
+.bg p{
+    color: #29a0d3;
+    position: absolute;
+    float: right;
+    right: -2%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card{
+    width: 20em;
+    margin-left: 3.5em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    transition: transform .5s;
+    display: block;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 640px){
+    .bg h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+}
