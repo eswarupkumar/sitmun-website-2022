@@ -1,5 +1,6 @@
 import NavbarSection from "../components/common/navbar";
 import HeroSection from "../components/landing/hero";
+import Countdown from "../components/landing/Countdown";
 import AboutUs from "../components/landing/AboutUs";
 import Faq from "../components/landing/Faq";
 import Footer from "../components/common/Footer";
@@ -10,12 +11,10 @@ function LandingPage() {
       {/* <h1>Welcome to Mun Website</h1> */}
       <NavbarSection />
       <HeroSection />
-
-
+      <Countdown />
       <AboutUs />
       <Faq />
       <Footer />
-
     </div>
   );
 }

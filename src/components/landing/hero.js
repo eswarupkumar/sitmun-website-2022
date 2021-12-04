@@ -19,80 +19,80 @@ SwiperCore.use([EffectFlip]);
 
 function HeroSection() {
   return (
-    // <div className="hero_page_wrapper">
-    //   <div className="hero_page_main">
-    //     <div className="hero_title_wrapper">
-    //       <div className="event_name">
-    //         <p>
-    //           SITMUN <span className="event_year">2022</span>
-    //         </p>
-    //       </div>
-    //       <div className="why_us">
-    //         <p>
-    //           A Place where you
-    //           <span>
-    //             <Typewriter
-    //               options={{
-    //                 strings: [
-    //                   "<b>GET INSPIRED</b>",
-    //                   "<b>MEET NEW FACES</b>",
-    //                   "<b>KNOW THE WORLD</b>",
-    //                 ],
-    //                 autoStart: true,
-    //                 loop: true,
-    //                 pauseFor: 1000,
-    //                 skipAddStyles: true,
-    //               }}
-    //             />
-    //           </span>
-    //         </p>
-    //       </div>
-    //     </div>
-    //     {/* <Swiper
-    //       effect={"cards"}
-    //       grabCursor={true}
-    //       className="mySwiper"
-    //       autoplay={{ delay: 1000 }}
-    //       pagination={{
-    //         clickable: true,
-    //       }}
-    //     >
-    //       <SwiperSlide>
-    //         <img
-    //           className="images"
-    //           alt="mun_image"
-    //           src="https://swiperjs.com/demos/images/nature-1.jpg"
-    //         />
-    //       </SwiperSlide>
-    //       <SwiperSlide>
-    //         <img
-    //           className="images"
-    //           alt="mun_image"
-    //           src="https://swiperjs.com/demos/images/nature-2.jpg"
-    //         />
-    //       </SwiperSlide>
-    //       <SwiperSlide>
-    //         <img
-    //           className="images"
-    //           alt="mun_image"
-    //           src="https://swiperjs.com/demos/images/nature-3.jpg"
-    //         />
-    //       </SwiperSlide>
-    //       <SwiperSlide>
-    //         <img
-    //           className="images"
-    //           alt="mun_image"
-    //           src="https://swiperjs.com/demos/images/nature-4.jpg"
-    //         />
-    //       </SwiperSlide>
-    //     </Swiper> */}
-    //   </div>
-    // </div>
-    <>
-      <video className="videoTag" autoPlay loop muted>
-        <source src={video} type="video/mp4" />
-      </video>
-    </>
+    <div className="hero_page_wrapper">
+      <div className="hero_page_main">
+        <div className="hero_title_wrapper">
+          <div className="event_name">
+            <p>
+              SITMUN <span className="event_year">2022</span>
+            </p>
+          </div>
+          <div className="why_us">
+            <p>
+              A Place where you
+              <span>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "<b>GET INSPIRED</b>",
+                      "<b>MEET NEW FACES</b>",
+                      "<b>KNOW THE WORLD</b>",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 1000,
+                    skipAddStyles: true,
+                  }}
+                />
+              </span>
+            </p>
+          </div>
+        </div>
+        {/* <Swiper
+          effect={"cards"}
+          grabCursor={true}
+          className="mySwiper"
+          autoplay={{ delay: 1000 }}
+          pagination={{
+            clickable: true,
+          }}
+        >
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-1.jpg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-2.jpg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-3.jpg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="images"
+              alt="mun_image"
+              src="https://swiperjs.com/demos/images/nature-4.jpg"
+            />
+          </SwiperSlide>
+        </Swiper> */}
+      </div>
+    </div>
+    // <>
+    //   <video className="videoTag" autoPlay loop muted>
+    //     <source src={video} type="video/mp4" />
+    //   </video>
+    // </>
   );
 }
 
