@@ -40,7 +40,7 @@ function EbandTeampage() {
       <br></br>
       <br></br>
 
-      <h1><center>Team Section</center></h1>
+      <h1><center>Team Gallery</center></h1>
 
       <br></br>
       <br></br>
