@@ -2,7 +2,7 @@
   height: 100vh;
 }
 .event_name {
-  font-size: 50px;
+  font-size: 65px;
   font-weight: 800;
   text-align: center;
 }
@@ -11,6 +11,8 @@
 }
 .hero_page_main {
   display: flex;
+  text-align-last: center;
+  transform: translate(0%, 50%);
 }
 .hero_title_wrapper {
   align-self: center;
@@ -18,6 +20,9 @@
 }
 .why_us {
   font-size: 40px;
+}
+.typewriter_class {
+  color: #29a0d3;
 }
 .mySwiper {
   width: 50vw;
