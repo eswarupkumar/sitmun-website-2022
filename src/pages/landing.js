@@ -10,6 +10,7 @@ function LandingPage() {
       {/* <h1>Welcome to Mun Website</h1> */}
       <NavbarSection />
       <HeroSection />
+      {/* <div style={{height: '100vh'}}></div> */}
 
 
       <AboutUs />

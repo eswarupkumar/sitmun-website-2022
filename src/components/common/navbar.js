@@ -1,42 +1,39 @@
-import React from "react";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import React, {useState, useEffect} from "react";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import logo from "../../img/logo.png";
 import "../../css/navbar.css";
 
 function NavbarSection() {
+  const [navBackground, setNavBackground] = useState(false);
+  const setNavbar = ()=>{
+    if(window.scrollY>86){
+      setNavBackground(true)
+    }else{
+      setNavBackground(false)
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('scroll', setNavbar);
+    // eslint-disable-next-line
+  }, [])
   return (
-    <Navbar bg="light" expand="md">
+    <Navbar variant={`${navBackground ? "dark": 'light'}`} expand="md" fixed="top" className={`navbar ${navBackground ? 'solid': 'transparent'} `}>
       <Container>
         <Navbar.Brand href="#home">
           <img
             src={logo}
-            width="80"
-            height="80"
+            width="60"
+            height="60"
             className="d-inline-block align-top"
             alt="SITMUN logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse className="justify-content-end">
-          {/* <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav> */}
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#home">Team</Nav.Link>
-          <Nav.Link href="#home">Committee</Nav.Link>
-          <Nav.Link href="#home">Register</Nav.Link>
+          <Nav.Link href="#home" className='navbar-menu'>HOME</Nav.Link>
+          <Nav.Link href="#home" className='navbar-menu'>TEAM</Nav.Link>
+          <Nav.Link href="#home" className='navbar-menu'>COMMITTEE</Nav.Link>
+          <Nav.Link href="#home" className='navbar-menu-button'><Button href="#home" className='register-button'>REGISTER</Button></Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

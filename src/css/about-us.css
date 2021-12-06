@@ -1,21 +1,43 @@
 .about-us{
     margin: 20px auto;
-    font-family: sans-serif;
+    font-family: sans-serif;  
 }
 .about-us h2{
     font-size: 40px;
     font-weight: 700;
     color: #29A0D3;
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 0 10px;
 }
 .about-us p{
-    line-height: 22px;
+    line-height: 28px;
+    text-align: justify;
+    padding-left: 40px;
+}
+.about-us .about-us-div{
+    display: flex;
+    align-items: center;
+}
+.about-us img{
+    height: 250px;
 }
 
 /*  MEDIA QUERRIES  */
 @media (max-width: 760px) {
     .about-us h2{
         font-size: 24px;
+    }
+}
+@media (max-width: 770px) {
+    .about-us img{
+        display: none;
+    }
+    .about-us p{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 1000px) {
+    .about-us img{
+        height: 200px;
     }
 }
