@@ -1,0 +1,17 @@
+.under-line{
+    height: 4px;
+    width: 160px;
+    background-color: #423F3E;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+.under-line-middle{
+    height: 10px;
+    width: 40px;
+    background-color: #29A0D3;
+    margin: 10px auto;
+    position: relative;
+    bottom: 16.5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

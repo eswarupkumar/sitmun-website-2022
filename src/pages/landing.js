@@ -12,6 +12,8 @@ function LandingPage() {
       <NavbarSection />
       <HeroSection />
       <Countdown />
+      {/* <div style={{height: '100vh'}}></div> */}
+
       <AboutUs />
       <Faq />
       <Footer />

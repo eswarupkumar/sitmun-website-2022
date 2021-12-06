@@ -2,6 +2,7 @@ import React from 'react'
 import Accordion from './Accoridon'
 import '../../css/faq.css'
 import { Container } from 'react-bootstrap';
+import UnderLine from '../common/UnderLine';
 
 function Faq() {
     const allFaq = [
@@ -24,9 +25,14 @@ function Faq() {
     return (
         <Container className='faq'>
             <h2>HAVE A QUESTION?</h2>
-            {allFaq.map((faq)=>(
-                <Accordion key={faq.id} question={faq.question} answer={faq.answer} />
-            ))}   
+            <UnderLine />
+            <div className='faq-div'>
+                <div>
+                    {allFaq.map((faq)=>(
+                        <Accordion key={faq.id} question={faq.question} answer={faq.answer} />
+                    ))}
+                </div>  
+            </div> 
         </Container>
     )
 }

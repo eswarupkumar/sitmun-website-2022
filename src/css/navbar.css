@@ -1,0 +1,59 @@
+.navbar.transparent{
+    transition: all 0.6s ease-in-out;
+    background-color: transparent;
+}
+.navbar.solid{
+    transition: all 0.6s ease-in-out;
+    background-color: #423F3E;
+    
+}
+.navbar.solid .navbar-menu{
+    color: #fff;
+}
+.navbar.solid .navbar-menu:hover, .navbar-menu:hover{
+    color: #29A0D3; 
+}
+.navbar-menu{
+    color: #2e2727;
+    font-weight: 500;
+}
+.register-button{
+    border-radius: 30px;
+    background-color: #29A0D3;
+    font-weight: 500;
+    border: none;
+}
+.register-button:hover{
+    background-image: linear-gradient(to right, #29A0D3, hsl(280, 87%, 65%));
+
+}
+@media (min-width: 768px) {
+    .navbar-menu{
+        margin-left: 40px;
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-menu::before{
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 0;
+        background-color: #29A0D3;
+        bottom: 0;
+    }
+    .navbar-menu:hover::before {
+        transition: all 0.3s ease;
+        width: 100%;
+    }
+    .navbar-menu-button{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-menu,.navbar-menu-button{
+        color: #fff;
+        background-color: #423F3E;
+        border: 0;
+    }
+}
