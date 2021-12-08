@@ -3,6 +3,7 @@ import HeroSection from "../components/landing/hero";
 import AboutUs from "../components/landing/AboutUs";
 import Faq from "../components/landing/Faq";
 import Footer from "../components/common/Footer";
+import Sponsor from "../components/landing/Sponsor";
 
 function LandingPage() {
   return (
@@ -10,13 +11,12 @@ function LandingPage() {
       {/* <h1>Welcome to Mun Website</h1> */}
       <NavbarSection />
       <HeroSection />
-      {/* <div style={{height: '100vh'}}></div> */}
 
 
       <AboutUs />
       <Faq />
+      <Sponsor />
       <Footer />
-
     </div>
   );
 }

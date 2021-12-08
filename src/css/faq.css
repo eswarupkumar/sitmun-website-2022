@@ -81,9 +81,17 @@
     background-color: #e7e4e4;
     border: 2px solid #e7e4e4;
 }
+.q-dark p{
+    transition: all ease 0.25s;
+    transform: rotate(-180deg);
+}
 .q-light{
     background-color: #F7F7F7;
     border: 2px solid #f1f3f3;
+}
+.q-light p{
+    transition: all ease 0.25s;
+    transform: rotate(0deg);
 }
 .q-light-start{
     margin-bottom: 16px;
