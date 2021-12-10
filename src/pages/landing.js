@@ -6,6 +6,7 @@ import Faq from "../components/landing/Faq";
 import Footer from "../components/common/Footer";
 import WhenWhere from "../components/landing/WhenWhere";
 import Gallery from "../components/landing/Gallery";
+import Sponsor from "../components/landing/Sponsor";
 
 function LandingPage() {
   return (
@@ -19,6 +20,7 @@ function LandingPage() {
       <WhenWhere/>
       <Gallery/>
       <Faq />
+      <Sponsor />
       <Footer />
     </div>
   );
