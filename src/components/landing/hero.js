@@ -1,11 +1,11 @@
 import React from "react";
 import "../../css/hero.css";
-import video from "../../img/recap.mp4";
-import hero_bg from "../../img/Blob Group.svg";
-// import img1 from "../../img/Italy.png";
-import bg from "../../img/descend-sun@3000x2000px.png";
+// import video from "../../img/recap.mp4";
+// import hero_bg from "../../img/Blob Group.svg";
+// // import img1 from "../../img/Italy.png";
+// import bg from "../../img/descend-sun@3000x2000px.png";
 import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import Typewriter from "typewriter-effect";

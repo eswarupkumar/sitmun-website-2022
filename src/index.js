@@ -4,13 +4,14 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import LandingPage from "./pages/landing";
-
+import SimpleReactLightbox from 'simple-react-lightbox'
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<LandingPage />} />
       {/* <Route path="team" element={<TeamPage />} /> */}
       {/* <Route path="committee" element={<CommitteePage />} /> */}
+      
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
