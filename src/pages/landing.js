@@ -6,6 +6,7 @@ import Faq from "../components/landing/Faq";
 import Footer from "../components/common/Footer";
 import Sponsor from "../components/landing/Sponsor";
 import Gallery from "../components/landing/Gallery";
+import WhenWhere from "../components/landing/WhenWhere";
 function LandingPage() {
   return (
     <div>
