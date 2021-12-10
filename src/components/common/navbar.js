@@ -33,7 +33,7 @@ function NavbarSection() {
           <Nav.Link href="#home" className='navbar-menu'>HOME</Nav.Link>
           <Nav.Link href="#home" className='navbar-menu'>TEAM</Nav.Link>
           <Nav.Link href="#home" className='navbar-menu'>COMMITTEE</Nav.Link>
-          <Nav.Link href="#home" className='navbar-menu-button'><Button href="#home" className='register-button'>REGISTER</Button></Nav.Link>
+          <Nav.Link href="#home" className='navbar-menu-button'><Button className='register-button'>REGISTER</Button></Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
