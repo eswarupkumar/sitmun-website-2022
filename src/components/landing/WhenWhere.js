@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../../css/when.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Modal, TabContainer } from "react-bootstrap";
+import { Container, Modal, Row } from "react-bootstrap";
 import locationblack from "../../img/locationblack.svg";
 // import UnderLine from "../common/UnderLine";
 import eventblack from "../../img/eventblack.svg";
@@ -19,8 +18,8 @@ function WhenWhere() {
         {/* <h2>SAVE THE DATE </h2>
         <UnderLine /> */}
       </div>
-      <div className="container ">
-        <div className="row m-lg-2 ">
+      <Container>
+        <Row className=" m-lg-2 ">
           <div
             class="col-lg d-flex justify-content-center"
             data-aos="fade-right"
@@ -69,8 +68,8 @@ function WhenWhere() {
               </Modal.Header>
             </Modal>
           </div>
-        </div>
-      </div>
+        </Row>
+      </Container>
     </div>
   );
 }
