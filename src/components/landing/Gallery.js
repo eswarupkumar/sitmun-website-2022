@@ -1,6 +1,6 @@
 import React from "react";
 import TinySlider from "tiny-slider-react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 import Italy from "../../img/Italy.png";
 import mountain from "../../img/mountain.jpg";
 import mountain2 from "../../img/mountain2.jpg";
@@ -35,21 +35,22 @@ function Gallery() {
   R0lGODlhAQABAPAAAMzMzAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==";
 
   const settings = {
-    lazyload: true,
-    nav: false,
-    mouseDrag: true,
     loop: true,
-    mouseDrag: true,
     items: 1,
+    gutter: 15,
+    speed: 200,
     slideBy: 1,
+    center: true,
     autoplay: true,
+    lazyload: true,
+    arrowKeys: true,
+    mouseDrag: true,
+    container: "#customize",
+    controlsContainer: "#customize-controls",
+    navContainer: "#customize-thumbnails",
+    navAsThumbnails: true,
     autoplayButtonOutput: false,
     autoplayHoverPause: true,
-    center: true,
-    animateIn: "tns-fadeOut",
-    arrowKeys: true,
-    speed: 200,
-    gutter: 15,
     autoplayTimeout: 2000,
     autoWidth: true,
     responsive: {
@@ -58,7 +59,8 @@ function Gallery() {
       },
       450: {
         items: 1,
-        autoWidth: true,
+        // center:true,
+        autoWidth: false,
       },
       700: {
         items: 2,
