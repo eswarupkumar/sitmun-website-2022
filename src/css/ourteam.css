@@ -1,0 +1,48 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+ .hero {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .row{
+    padding:0px;
+    margin: 0px;   
+   background: #29A0D3;
+ }
+ .img-fluid{
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .heroeb {
+   width: 100%;
+
+}
+.headerText{
+   font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+   font-size: 5rem;
+   font-weight: 600;
+
+}
+.GalleryHeading{
+   font-family: "Monserrat", sans-serif;
+   color: #29A0D3;
+   text-align: center;
+   margin: 0.625rem;
+   font-size: 4rem;
+   font-weight: 600;
+}
+
+ 
+

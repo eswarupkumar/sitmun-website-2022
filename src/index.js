@@ -4,12 +4,13 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import LandingPage from "./pages/landing";
+import TeamPage from "./pages/ebandteam";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      {/* <Route path="team" element={<TeamPage />} /> */}
+      <Route path="/team" element={<TeamPage />} />
       {/* <Route path="committee" element={<CommitteePage />} /> */}
       
     </Routes>
