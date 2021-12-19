@@ -7,9 +7,15 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
+import { CardActionArea, Divider } from '@mui/material';
 import img1 from "../img/d1.jpg";
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import img from "../img/logo.png";
+import img2 from "../img/team.svg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const useStyles=makeStyles({
@@ -25,58 +31,66 @@ function EbandTeampage() {
   return (
     <div>
       <Navbar />  
-      <div class="hero">
-        <div class="hero-content">
-          <h1 class="hero-title">
-            Our Team
-          </h1>
-          <h2 class="hero-subtitle">
-            United We Stand Divided We Fall
-          </h2>
-          {/* <button type="button" class="hero-button" onclick="location.href='tours.html'">teamtour &raquo;</button> */}
-        </div>
-      </div>
-      <br></br>
-      <br></br>
-      <br></br>
+      <section className='heroeb' >
+        <Container fluid>
+          <Row>
+            <Col>
+            <Container fluid>
+            <div className="row">
+              <div className="col-sm-6 d-flex flex-column text-center align-item-center justify-content-center">
+                <h1 className="headerText" >Our Team</h1>           
+              </div>
+              <div className="col-sm-6 d-flex align-item-center justify-content-center">
+                <img className='img-fluid' src={img2} alt=""></img>
+              </div>
+            </div>
+            </Container>
+            </Col>
+          </Row>
+        </Container>
+          
+        </section>
+        <br></br>
+        <br></br>
+        <br></br>
 
-      <h1><center>Team Gallery</center></h1>
+        <Container><h1 className="GalleryHeading"><center>Team Gallery</center></h1></Container>
 
-      <br></br>
-      <br></br>
-      <br></br>
-      <div className='teamContainer'>
-        <Grid container spacing={6} className={classes.gridContainer}>
-          <Grid item xs={12} sm={6} md={4} >
-            <Card sx={{ maxWidth: 400 }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="400"
-                  image={img}
-                  alt="green iguana"
-                />
-                <CardContent style={{backgroundColor: "#29A0D3"}}>
-                  <Typography gutterBottom variant="h5" component="div" color="white" >
-                    Munkee
-                  </Typography>
-                  <Typography variant="body2" color="white">
-                    Munkee are a widespread group of squamate reptiles
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4} >
-          <Card sx={{ maxWidth: 400 }}>
-              <CardActionArea >
-                <CardMedia
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className='container-fluid'>
+          <Container fluid>
+          <Grid container spacing={6} className={classes.gridContainer}>
+            <Grid item xs={12} sm={6} md={4} >
+              <Card sx={{ maxWidth: 400 }}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    height="400"
+                    image={img}
+                    alt="green iguana"
+                  />
+                  <CardContent style={{backgroundColor: "#29A0D3"}}>
+                    <Typography gutterBottom variant="h5" component="div" color="white" >
+                      Munkee
+                    </Typography>
+                    <Typography variant="body2" color="white">
+                      Munkee are a widespread group of squamate reptiles
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+           </Grid>
+            <Grid item xs={12} sm={6} md={4} >
+              <Card sx={{ maxWidth: 400 }}>
+                <CardActionArea >
+                  <CardMedia
                   component="img"
                   height="400"
                   image={img1}
                   alt="green iguana"
-                  
-                />
+                  />
                 <CardContent style={{backgroundColor: "#29A0D3"}}>
                   <Typography gutterBottom variant="h5" component="div" color="white">
                     Munkee
@@ -151,6 +165,8 @@ function EbandTeampage() {
             </Card>
           </Grid>
         </Grid>     
+          </Container>
+         
         
       </div>
 
