@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import LandingPage from "./pages/landing";
-import SimpleReactLightbox from 'simple-react-lightbox'
+
 ReactDOM.render(
   <BrowserRouter>
     <Routes>

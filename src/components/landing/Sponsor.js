@@ -8,7 +8,7 @@ import bmw from '../../img/bmw.svg';
 import jbl from '../../img/jbl-1.svg'
 import tesla from '../../img/tesla-motors-1.svg';
 import '../../css/sponsor.css';
- 
+  
 
 function Sponsor() {
     const settings = {
