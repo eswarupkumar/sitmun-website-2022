@@ -1,0 +1,39 @@
+.hero_page_wrapper {
+  height: 100vh;
+}
+.event_name {
+  font-size: 65px;
+  font-weight: 800;
+  text-align: center;
+}
+.event_year {
+  color: #29a0d3;
+}
+.hero_page_main {
+  display: flex;
+  text-align-last: center;
+  transform: translate(0%, 50%);
+}
+.hero_title_wrapper {
+  align-self: center;
+  margin-left: 15px;
+}
+.why_us {
+  font-size: 40px;
+}
+.typewriter_class {
+  color: #29a0d3;
+}
+.mySwiper {
+  width: 50vw;
+  height: 50vh;
+}
+.images {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.hero_title_wrapper {
+  flex-grow: 2;
+}

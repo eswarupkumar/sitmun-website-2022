@@ -1,0 +1,105 @@
+.WhenWhere {
+  margin: 100px auto;
+  font-family: sans-serif;
+  align-items: center;
+  height:auto;
+  background-color:#29a0d3;
+}
+.WhenWhere h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 30px 0 10px;
+}
+.WhenWhere img {
+  width: 12vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.schedule__img{
+    width: 10vw !important;
+}
+#h5__1{
+    margin: 140px 0 0 -60px;
+    color: white;
+}
+#h5__2{
+    margin: 150px 0 0 -15px;
+    color: white;
+}
+#h5__3{
+    margin: 150px 0 0 -50px;
+    color: white;
+}
+#h5__3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* Media */
+
+@media (max-width: 991px){
+    /* .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+        height: fit-content;
+    } */
+    .WhenWhere img {
+        width: 15vw;
+        margin: 30px;
+      }
+      .schedule__img{
+        width: 15vw !important;
+        /* margin-right:40px ; */
+    }
+    #h5__1{
+    
+        margin: 40px ;
+        color: white;
+        align-items: flex-end;
+    }
+    #h5__2{
+        margin: 40px;
+        color: white;
+        justify-content: right!important;
+    }
+    #h5__3{
+        margin: 40px ;
+        color: white;
+    }
+} 
+@media (max-width: 760px) {
+  .WhenWhere {
+      justify-content: left !important;
+  }
+  .WhenWhere h5 {
+    text-align: center;
+    margin: 20px 0 0 30px;
+    font-size: 20px;
+  }
+  .WhenWhere h2{
+    font-size: 24px;
+  }
+  .WhenWhere img {
+    width: 20vw;
+    margin: 20px;
+    justify-content: left;
+  }
+  /* .modal {
+    margin-top: 10px;
+    width:300px;
+    height: max-content;
+  }
+  .modal img{
+    width:290px;
+    height: 500px;
+  } */
+}
+
+
+
+

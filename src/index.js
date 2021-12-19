@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import LandingPage from "./pages/landing";
@@ -10,6 +11,7 @@ ReactDOM.render(
       <Route path="/" element={<LandingPage />} />
       {/* <Route path="team" element={<TeamPage />} /> */}
       {/* <Route path="committee" element={<CommitteePage />} /> */}
+      
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
