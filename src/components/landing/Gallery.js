@@ -35,24 +35,33 @@ function Gallery() {
   R0lGODlhAQABAPAAAMzMzAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==";
 
   const settings = {
-    loop: true,
-    items: 1,
-    gutter: 15,
-    speed: 200,
+    // loop: true,
+    // items: 1,
+    // gutter: 15,
+    // speed: 200,
     slideBy: 1,
     center: true,
-    autoplay: true,
+    // autoplay: true,
     lazyload: true,
     arrowKeys: true,
     mouseDrag: true,
-    container: "#customize",
-    controlsContainer: "#customize-controls",
-    navContainer: "#customize-thumbnails",
-    navAsThumbnails: true,
+    // // container: "#customize",
+    // // controlsContainer: "#customize-controls",
+    // // navContainer: "#customize-thumbnails",
+    // navAsThumbnails: true,
     autoplayButtonOutput: false,
     autoplayHoverPause: true,
-    autoplayTimeout: 2000,
+    // autoplayTimeout: 2000,
     autoWidth: true,
+    container: "customize",
+    items: 3,
+    controls: false,
+    navAsThumbnails: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayButton: false,
+    swipeAngle: false,
+    speed: 400,
     responsive: {
       300: {
         items: 1,
@@ -95,7 +104,12 @@ function Gallery() {
             ))}
           </TinySlider>
 
-          {/* <Button className="btn btn-primary">next</Button> */}
+          {/* <button type="button" onClick={() => this.onGoTo("prev")}>
+            Previous
+          </button>
+          <button type="button" onClick={() => this.onGoTo("next")}>
+            Next
+          </button> */}
         </div>
       </Container>
     </>
