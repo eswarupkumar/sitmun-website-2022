@@ -15,6 +15,7 @@ import Col from 'react-bootstrap/Col'
 import img from "../img/logo.png";
 import img2 from "../img/team.svg";
 import Footer from "../components/common/Footer";
+import ScrollTop from "../components/common/ScrollTop";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -32,6 +33,7 @@ function EbandTeampage() {
   return (
     <div>
       <Navbar />  
+      <ScrollTop />
       <section className='heroeb' >
         <Container fluid>
           <Row>

@@ -7,11 +7,13 @@ import Footer from "../components/common/Footer";
 import Sponsor from "../components/landing/Sponsor";
 import Gallery from "../components/landing/Gallery";
 import WhenWhere from "../components/landing/WhenWhere";
+import ScrollTop from "../components/common/ScrollTop";
 function LandingPage() {
   return (
     <div>
       {/* <h1>Welcome to Mun Website</h1> */}
       <NavbarSection />
+      <ScrollTop />
       <HeroSection />
       <Countdown />
       <AboutUs />

@@ -1,0 +1,18 @@
+.scroll-top{
+    border-radius: 100%;
+    background-color: #29A0D3;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 10px #23414d;
+    cursor: pointer;
+    z-index: 1;
+}
+@media (min-width: 600px) {
+    .scroll-top{
+        bottom: 36px;
+        right: 36px;
+    }
+}

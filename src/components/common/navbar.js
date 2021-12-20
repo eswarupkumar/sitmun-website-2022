@@ -1,12 +1,11 @@
 import React, {useState, useEffect} from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
-import {Link, useNavigate, useLocation} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import logo from "../../img/logo.png";
 import "../../css/navbar.css";
 
 function NavbarSection() {
   const [navBackground, setNavBackground] = useState(false);
-  // let navigate = useNavigate();
   let location = useLocation();
   const setNavbar = ()=>{
     if(location.pathname!=='/'){
@@ -17,10 +16,7 @@ function NavbarSection() {
       setNavBackground(false)
     }
   }
-  useEffect(() => {
-    window.addEventListener('scroll', setNavbar);
-    // eslint-disable-next-line
-  }, [])
+  window.addEventListener('scroll', setNavbar);
   useEffect(() => {
     window.scrollTo(0, 0);
     setNavbar();
