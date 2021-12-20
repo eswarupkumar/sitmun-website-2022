@@ -22,6 +22,7 @@ function LandingPage() {
       <Faq />
       <Sponsor />
       <Footer />
+      
     </div>
   );
 }
