@@ -19,8 +19,8 @@ function LandingPage() {
       <AboutUs />
       <WhenWhere/>
       <Gallery/>
-      <Faq />
       <Sponsor />
+      <Faq />
       <Footer />
       
     </div>

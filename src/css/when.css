@@ -3,7 +3,8 @@
   font-family: sans-serif;
   align-items: center;
   height:auto;
-  background-color:#29a0d3;
+  background-color: #29a0d3;
+  position: relative;
 }
 .WhenWhere h2 {
   font-size: 40px;

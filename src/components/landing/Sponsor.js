@@ -1,4 +1,5 @@
 import React from 'react'
+import SlantDiv from "../common/SlantDiv";
 import TinySlider from "tiny-slider-react";
 import { Container } from 'react-bootstrap';
 import adidas from '../../img/adidas-9.svg';
@@ -37,24 +38,27 @@ function Sponsor() {
         swipeAngle: false
     };
     return (
-        <Container className='sponsor-div'>
-            <div>
-                <h4>OUR<br/>PARTNERS</h4>
-            </div>
-            <div className='sponsor-slider'>
-                <TinySlider settings={settings}>
-                    <div className='sponsor-slider-div'><img src={adidas} alt="sponsor-1" /></div>
-                    <div className='sponsor-slider-div'><img src={ameritrade} alt='sponsor-2' /></div>
-                    <div className='sponsor-slider-div'><img src={altrusa} alt='sponsor-3' /></div>  
-                    <div className='sponsor-slider-div'><img src={bmw} alt='sponsor-6' /></div>
-                    <div className='sponsor-slider-div'><img src={jbl} alt='sponsor-7' /></div>
-                    <div className='sponsor-slider-div'><img src={tesla} alt='sponsor-8' /></div>
-                    <div className='sponsor-slider-div'><img src={adidas} alt="sponsor-9" /></div>
-                    {/* <div className='sponsor-slider-div'><img src={ameritrade} alt='sponsor-10' /></div>
-                    <div className='sponsor-slider-div'><img src={altrusa} alt='sponsor-11' /></div> */}
-                </TinySlider>
-            </div>
-        </Container>
+        <div className="sponsor-section" style={{position: 'relative'}}>
+            <SlantDiv alt={true} />
+            <Container className='sponsor-div2'>
+                <div>
+                    <h4>OUR<br/>PARTNERS</h4>
+                </div>
+                <div className='sponsor-slider'>
+                    <TinySlider settings={settings}>
+                        <div className='sponsor-slider-div'><img src={adidas} alt="sponsor-1" /></div>
+                        <div className='sponsor-slider-div'><img src={ameritrade} alt='sponsor-2' /></div>
+                        <div className='sponsor-slider-div'><img src={altrusa} alt='sponsor-3' /></div>  
+                        <div className='sponsor-slider-div'><img src={bmw} alt='sponsor-6' /></div>
+                        <div className='sponsor-slider-div'><img src={jbl} alt='sponsor-7' /></div>
+                        <div className='sponsor-slider-div'><img src={tesla} alt='sponsor-8' /></div>
+                        <div className='sponsor-slider-div'><img src={adidas} alt="sponsor-9" /></div>
+                        {/* <div className='sponsor-slider-div'><img src={ameritrade} alt='sponsor-10' /></div>
+                        <div className='sponsor-slider-div'><img src={altrusa} alt='sponsor-11' /></div> */}
+                    </TinySlider>
+                </div>
+            </Container>
+        </div>
     );
 }
 

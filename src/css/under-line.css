@@ -11,7 +11,10 @@
     background-color: #29A0D3;
     margin: 10px auto;
     position: relative;
-    bottom: 16.5px;
+    bottom: 17px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+.underline-light{
+    background-color: #fff;
 }
