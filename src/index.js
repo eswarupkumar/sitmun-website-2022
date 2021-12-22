@@ -5,14 +5,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import LandingPage from "./pages/landing";
 import TeamPage from "./pages/ebandteam";
+import CommitteePage from "./pages/committee";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/team" element={<TeamPage />} />
-      {/* <Route path="committee" element={<CommitteePage />} /> */}
-      
+      <Route path="/committee" element={<CommitteePage />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")

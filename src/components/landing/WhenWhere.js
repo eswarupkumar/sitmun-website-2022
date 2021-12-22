@@ -47,9 +47,6 @@ function WhenWhere() {
             </div>
             <div
               class="col-lg d-flex justify-content-center mx-auto"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-anchor-placement="center-bottom"
             >
               <img className="schedule__img" src={scheduleblack} alt="schedule" />
               <h5 id="h5__3" onClick={handleShow}>
