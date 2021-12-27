@@ -84,7 +84,7 @@ function Gallery() {
   };
   return (
     <>
-      <div class="heading">
+      <div className="heading" id='gallary'>
         <h2>GALLERY</h2>
         <UnderLine />
       </div>

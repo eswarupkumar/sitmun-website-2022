@@ -1,0 +1,36 @@
+.banner-div img,.banner-img-div{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 400px;
+    margin: 92px 30px 0 auto;
+    overflow: hidden;
+    color: white;
+    white-space: nowrap;
+}
+.banner-div{
+    overflow: hidden;
+}
+.banner-img-div{
+    width: 385px;
+    margin: 146px 40px 0 auto;
+    font-size: 26px;
+}
+.banner-div p{
+    width: fit-content;
+    text-size-adjust: 100%;
+    padding-left: 400px;
+    animation: bannermove-data 60s linear infinite;
+}
+@keyframes bannermove-data {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}

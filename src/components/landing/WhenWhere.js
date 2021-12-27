@@ -18,14 +18,14 @@ function WhenWhere() {
   return (
     <div className="WhenWhere">
       <SlantDiv alt={false} />
-        <div class="heading">
+        <div className="heading">
           <h2>SAVE THE DATE </h2>
           <UnderLine col='light' />
         </div>
         <Container>
           <Row className=" m-lg-2 ">
             <div
-              class="col-lg d-flex justify-content-center"
+              className="col-lg d-flex justify-content-center"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-anchor-placement="center-bottom"
@@ -37,7 +37,7 @@ function WhenWhere() {
               </h5>
             </div>
             <div
-              class="col-lg d-flex justify-content-center"
+              className="col-lg d-flex justify-content-center"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-anchor-placement="center-bottom"
@@ -46,7 +46,7 @@ function WhenWhere() {
               <h5 id="h5__2">MARCH X-Y</h5>
             </div>
             <div
-              class="col-lg d-flex justify-content-center mx-auto"
+              className="col-lg d-flex justify-content-center mx-auto"
             >
               <img className="schedule__img" src={scheduleblack} alt="schedule" />
               <h5 id="h5__3" onClick={handleShow}>

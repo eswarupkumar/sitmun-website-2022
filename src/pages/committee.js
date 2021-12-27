@@ -18,7 +18,7 @@ function CommitteePage() {
             </div>
 
             <div className="flex">
-                <div class="card1">
+                <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
                     <div className="card-container">
@@ -26,7 +26,7 @@ function CommitteePage() {
                     </div>
                 </div>
 
-                <div class="card1">
+                <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
                     <div className="card-container">
@@ -34,7 +34,7 @@ function CommitteePage() {
                     </div>
                 </div>
 
-                <div class="card1">
+                <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
                     <div className="card-container">
@@ -42,7 +42,7 @@ function CommitteePage() {
                     </div>
                 </div>
 
-                <div class="card1">
+                <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
                     <div className="card-container">
@@ -50,7 +50,7 @@ function CommitteePage() {
                     </div>
                 </div>
 
-                <div class="card1">
+                <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
                     <div className="card-container">
@@ -58,7 +58,7 @@ function CommitteePage() {
                     </div>
                 </div>
 
-                <div class="card1">
+                <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
                     <div className="card-container">
