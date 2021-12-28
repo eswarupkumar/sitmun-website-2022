@@ -25,6 +25,7 @@
     text-size-adjust: 100%;
     padding-left: 280px;
     animation: bannermove-data 30s linear infinite;
+    letter-spacing: 1px;
 }
 @keyframes bannermove-data {
     0% {
