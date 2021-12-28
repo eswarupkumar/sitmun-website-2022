@@ -8,6 +8,9 @@ import Sponsor from "../components/landing/Sponsor";
 import Gallery from "../components/landing/Gallery";
 import WhenWhere from "../components/landing/WhenWhere";
 import ScrollTop from "../components/common/ScrollTop";
+import RegisterBtn from "../components/landing/Register";
+
+
 function LandingPage() {
   return (
     <div>
@@ -21,6 +24,7 @@ function LandingPage() {
       <Gallery/>
       <Sponsor />
       <Faq />
+      <RegisterBtn />
       <Footer />
       
     </div>
