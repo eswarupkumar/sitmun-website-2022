@@ -44,8 +44,7 @@ function EbandTeampage() {
   return (
     <div>
       <Navbar />  
-      <section className='heroeb' >
-        <Container fluid>
+        <section className='heroeb' >
           <Row>
             <Col>
             <Container fluid>
@@ -55,21 +54,20 @@ function EbandTeampage() {
                 <img className='img-fluid' src={img2} alt=""></img>
               </div>
               <div className="col-sm-6 d-flex flex-column text-center align-item-center justify-content-center">
-                <h1 className="headerText" >Our Team</h1>  
-                <h4 className="taglineText">United we stand divided we fall</h4>         
+                <div className="headerText">Our Team </div>
+                <div className="taglineText">United we stand divided we fall</div>  
               </div>
             </div>
             </Container>
             </Col>
           </Row>
-        </Container>
           
         </section>
         <br></br>
         <br></br>
         <br></br>
 
-        <Container><h1 className="GalleryHeading"><center>Team Gallery</center></h1></Container>
+        <Container><div className="GalleryHeading"><center>Team Gallery</center></div></Container>
 
         <br></br>
         <br></br>
