@@ -19,7 +19,7 @@ function Footer() {
                 </div>
                 <div>
                     <h4>QUICK LINKS</h4>
-                    <a href='/'>Home</a>
+                    <a href='https://silicon.ac.in/' target="_blank">Silicon</a>
                     <a href='/#about'>About This Event</a>
                     <a href='/#gallary'>Gallery</a>
                     <a href='/team'>Our Team</a>

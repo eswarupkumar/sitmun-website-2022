@@ -12,6 +12,12 @@ body {
     justify-content: center;
     align-items: center;
  }
+ .taglineText{
+   font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 3vw;
+ }
  .row{
     padding:0px;
     margin: 0px;   
@@ -31,7 +37,7 @@ body {
    color: white;
    text-align: center;
    margin: 0.625rem;
-   font-size: 5rem;
+   font-size: 7vw;
    font-weight: 600;
 
 }
@@ -40,9 +46,117 @@ body {
    color: #29A0D3;
    text-align: center;
    margin: 0.625rem;
-   font-size: 4rem;
+   font-size: 4vw;
    font-weight: 600;
 }
 
+/* @media screen and (min-width: 576px) {
+   div.headingsection{
+      font-size: 7vw;
+   }
+   .headerText{
+      font-family: "Monserrat", sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 7vw;
+      font-weight: 600;
+   
+   }
+   .GalleryHeading{
+      font-family: "Monserrat", sans-serif;
+      color: #29A0D3;
+      text-align: center;
+      margin: 0.625rem;
+      font-size: 4vw;
+      font-weight: 600;
+   }
+   .taglineText{
+      font-family: "Monserrat", sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 3vw;
+    }
+ }
  
+ @media screen and (max-width: 575px) {
+   div.headingsection{
+      font-size: 5vw;
+   }
+   .headerText{
+      font-family: "Monserrat", sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 80px;
+      font-weight: 600;
+   
+   }
+   .GalleryHeading{
+      font-family: "Monserrat", sans-serif;
+      color: #29A0D3;
+      text-align: center;
+      margin: 0.625rem;
+      font-size: 24px;
+      font-weight: 600;
+   }
+   .taglineText{
+      font-family: "Monserrat", sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+ }
 
+ 
+ */
+
+ @media screen and (min-width: 576px) {
+   div.headerText {
+      font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+   font-size: 7vw;
+   font-weight: 600;
+   }
+   div.GalleryHeading{
+      font-family: "Monserrat", sans-serif;
+      color: #29A0D3;
+      text-align: center;
+      margin: 0.625rem;
+      font-size: 4vw;
+      font-weight: 600;
+   }
+   div.taglineText{
+      font-family: "Monserrat", sans-serif;
+      color: white;
+      text-align: center;
+      margin-bottom: 0.625rem;
+      font-size: 3vw;
+    }
+ }
+ 
+ @media screen and (max-width: 575px) {
+   div.headerText {
+      font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+   font-size: 7vh;
+   font-weight: 600;
+   }
+   div.GalleryHeading{
+      font-family: "Monserrat", sans-serif;
+      color: #29A0D3;
+      text-align: center;
+      margin: 0.625rem;
+      font-size: 4vh;
+      font-weight: 600;
+   }
+   div.taglineText{
+      font-family: "Monserrat", sans-serif;
+      color: white;
+      text-align: center;
+      margin-bottom: 0.625rem;
+      font-size: 3vh;
+    }
+ }

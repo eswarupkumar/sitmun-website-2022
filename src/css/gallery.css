@@ -3,7 +3,7 @@
   font-family: sans-serif;
   margin-bottom: 10px;
 }
-.heading h2{
+.heading h2 {
   font-size: 40px;
   font-weight: 700;
   color: #29a0d3;
@@ -19,27 +19,51 @@
   padding: 30px 0 10px;
 }
 
-/* .modal .modal-content {
-  background-color: transparent;
-} */
-
-.slider img:hover {
-  filter: opacity(0.7);
+.control {
+  list-style: none;
+}
+.control li {
+  position: absolute;
+  z-index: 99;
+  margin-top: 140px;
+  margin-left: -70px;
+  color: white;
+  background-color: black;
+  padding: 12px 20px;
+  border-radius: 50%;
   cursor: pointer;
+}
+.control li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.control li.next {
+  right: 15px;
+}
+
+.thumbnail_img{
+ justify-items: center;
+ margin-left: 400px;
+}
+.thumbnail_img ul>img {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid #fff
 }
 
 .slider {
   height: fit-content;
-  display: flex;
-  flex-direction: column;
-  padding:5px;
+  padding: 5px;
 }
-.slider img{
-  /* margin-top: 10px; */
+.slider img {
   margin-bottom: 10px;
   width: 400px;
   height: 270px;
 }
+
 @media (max-width: 760px) {
   .slider img {
     width: auto;
@@ -48,6 +72,29 @@
   }
   .gallery h2 {
     font-size: 24px;
+  }
+  .control li.prev {
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 80px;
+    margin-top: 25%;
+  }
+  .control li.next {
+    background-color: rgba(0, 0, 0, 0.7);
+    right: 10px;
+    margin-top: 25%;
+  }
+  .thumbnail_img{
+    justify-items: center;
+    margin-left: 4px;
+   }
+  .thumbnail_img ul>img {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #fff
   }
 }
 
@@ -58,5 +105,21 @@
   }
   .gallery h2 {
     font-size: 24px;
+  }
+  .control li.prev {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .control li.next {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* right: 85px; */
+  }
+  .thumbnail_img{
+    justify-items: center;
+   }
+  .thumbnail_img ul>img {
+    display: inline-block;
+    margin: 5px;
+    right: 30px;
+   
   }
 }
