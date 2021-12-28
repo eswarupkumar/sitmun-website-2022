@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../css/when.css";
 import { Container, Modal, Row } from "react-bootstrap";
 import locationblack from "../../img/locationblack.svg";
-// import UnderLine from "../common/UnderLine";
+import UnderLine from "../common/UnderLine";
 import eventblack from "../../img/eventblack.svg";
 import scheduleblack from "../../img/scheduleblack.svg";
 import Tabs from "react-bootstrap/Tabs";
@@ -15,8 +15,8 @@ function WhenWhere() {
   return (
     <div className="WhenWhere">
       <div class="heading">
-        {/* <h2>SAVE THE DATE </h2>
-        <UnderLine /> */}
+        <h2>SAVE THE DATE </h2>
+        <UnderLine />
       </div>
       <Container>
         <Row className=" m-lg-2 ">

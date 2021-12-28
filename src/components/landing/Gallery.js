@@ -1,6 +1,8 @@
 import React from "react";
 import TinySlider from "tiny-slider-react";
-import { Container, Button } from "react-bootstrap";
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { Container } from "react-bootstrap";
 import Italy from "../../img/Italy.png";
 import mountain from "../../img/mountain.jpg";
 import mountain2 from "../../img/mountain2.jpg";
@@ -35,44 +37,42 @@ function Gallery() {
   R0lGODlhAQABAPAAAMzMzAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==";
 
   const settings = {
-    // loop: true,
-    // items: 1,
-    // gutter: 15,
-    // speed: 200,
+    gutter: 2,
+    edgePadding: 29,
     slideBy: 1,
     center: true,
-    // autoplay: true,
     lazyload: true,
     arrowKeys: true,
     mouseDrag: true,
-    // // container: "#customize",
-    // // controlsContainer: "#customize-controls",
-    // // navContainer: "#customize-thumbnails",
-    // navAsThumbnails: true,
+    container: ".slider",
+    controlsPosition: "bottom",
+    nav: true,
+    navPosition: "bottom",
+    // navContainer: "#customize_thumbnails",
+    navAsThumbnails: true,
     autoplayButtonOutput: false,
     autoplayHoverPause: true,
-    // autoplayTimeout: 2000,
     autoWidth: true,
-    container: "customize",
+    container: ".silder",
+    controlsContainer: "#custom-control",
     items: 3,
-    controls: false,
-    navAsThumbnails: true,
     autoplay: true,
     autoplayTimeout: 2000,
-    autoplayButton: false,
+    controls: true,
     swipeAngle: false,
     speed: 400,
+
     responsive: {
       300: {
         items: 1,
       },
       450: {
         items: 1,
-        // center:true,
         autoWidth: false,
       },
       700: {
         items: 2,
+        center: true,
       },
       800: {
         items: 5,
@@ -88,9 +88,17 @@ function Gallery() {
         <h2>GALLERY</h2>
         <UnderLine />
       </div>
-      <Container className="sponsor-div">
+      <Container className="container">
+        <ul className="control" id="custom-control">
+          <li className="prev">
+            <ArrowBackIosNewIcon />
+          </li>
+          <li className="next">
+            <ArrowForwardIosIcon />
+          </li>
+        </ul>
+
         <div className="sponsor-slider slider">
-          {/* <Button className="btn btn-primary">prev</Button> */}
           <TinySlider settings={settings} onInit={clickEvent}>
             {imgs.map((el, index) => (
               <div key={index} style={{ position: "relative" }}>
@@ -103,13 +111,21 @@ function Gallery() {
               </div>
             ))}
           </TinySlider>
-
-          {/* <button type="button" onClick={() => this.onGoTo("prev")}>
-            Previous
-          </button>
-          <button type="button" onClick={() => this.onGoTo("next")}>
-            Next
-          </button> */}
+        </div>
+        <div className="thumbnail_img ">
+          <ul>
+            <img src={Italy}/>
+            <img src={mountain}/>
+            <img src={mountain2}/>
+            <img src={mountain3}/>
+            <img src={mountain4}/>
+            <img src={mountain5}/>
+            <img src={mountain6}/>
+            <img src={mountain7}/>
+            <img src={mountain8}/>
+            <img src={mountain9}/>
+            <img src={mountain10}/>
+          </ul>
         </div>
       </Container>
     </>

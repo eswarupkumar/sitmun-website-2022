@@ -7,6 +7,7 @@ import Footer from "../components/common/Footer";
 import Sponsor from "../components/landing/Sponsor";
 import Gallery from "../components/landing/Gallery";
 import WhenWhere from "../components/landing/WhenWhere";
+import WhyChooseUs from "../components/landing/WhyChooseUs";
 function LandingPage() {
   return (
     <div>
@@ -17,6 +18,7 @@ function LandingPage() {
       <AboutUs />
       <WhenWhere/>
       <Gallery/>
+      {/* <WhyChooseUs/> */}
       <Faq />
       <Sponsor />
       <Footer />
