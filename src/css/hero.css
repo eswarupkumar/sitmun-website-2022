@@ -9,10 +9,17 @@
 .event_year {
   color: #29a0d3;
 }
+.event_tagline {
+  font-size: 19px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -28px;
+  text-transform: uppercase;
+}
 .hero_page_main {
   display: flex;
   text-align-last: center;
-  transform: translate(0%, 50%);
+  transform: translate(0%, 90%);
 }
 .hero_title_wrapper {
   align-self: center;
