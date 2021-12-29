@@ -18,7 +18,7 @@ function LandingPage() {
       <AboutUs />
       <WhenWhere/>
       <Gallery/>
-      {/* <WhyChooseUs/> */}
+      <WhyChooseUs/>
       <Faq />
       <Sponsor />
       <Footer />

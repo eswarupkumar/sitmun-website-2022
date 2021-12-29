@@ -17,7 +17,7 @@ import mountain10 from "../../img/mountain10.jpg";
 import UnderLine from "../common/UnderLine";
 
 import "../../css/gallery.css";
-
+ 
 function Gallery() {
   const imgs = [
     Italy,

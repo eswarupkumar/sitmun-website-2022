@@ -1,8 +1,4 @@
-.gallery {
-  margin: 15px auto;
-  font-family: sans-serif;
-  margin-bottom: 10px;
-}
+
 .heading h2 {
   font-size: 40px;
   font-weight: 700;
@@ -10,13 +6,18 @@
   text-align: center;
   padding: 30px 0 10px;
   margin: 15px;
+  margin-top: 20px;
 }
-.gallery h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #29a0d3;
-  text-align: center;
-  padding: 30px 0 10px;
+
+.slider {
+  height: fit-content;
+  margin:10px 50px 10px 50px;
+  padding: 5px;
+}
+.slider img {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 270px;
 }
 
 .control {
@@ -26,7 +27,7 @@
   position: absolute;
   z-index: 99;
   margin-top: 140px;
-  margin-left: -70px;
+  margin-left: -60px;
   color: white;
   background-color: black;
   padding: 12px 20px;
@@ -37,7 +38,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .control li.next {
-  right: 15px;
+  right: 20px;
 }
 
 .thumbnail_img{
@@ -54,15 +55,6 @@
   border: 1px solid #fff
 }
 
-.slider {
-  height: fit-content;
-  padding: 5px;
-}
-.slider img {
-  margin-bottom: 10px;
-  width: 400px;
-  height: 270px;
-}
 
 @media (max-width: 760px) {
   .slider img {
@@ -70,7 +62,7 @@
     height: 250;
     margin: 5px;
   }
-  .gallery h2 {
+  .heading h2 {
     font-size: 24px;
   }
   .control li.prev {
@@ -97,7 +89,7 @@
     border: 1px solid #fff
   }
 }
-
+ 
 @media (max-width: 1000px) {
   .col-sm img {
     width: 90vw;

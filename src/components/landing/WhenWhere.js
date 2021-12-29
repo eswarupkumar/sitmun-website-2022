@@ -12,7 +12,7 @@ function WhenWhere() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const [key, setKey] = useState("Day1");
-  return (
+  return ( 
     <div className="WhenWhere">
       <div class="heading">
         <h2>SAVE THE DATE </h2>
