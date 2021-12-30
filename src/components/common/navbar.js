@@ -10,7 +10,7 @@ function NavbarSection() {
   const setNavbar = ()=>{
     if(location.pathname!=='/'){
       setNavBackground(true)
-    }else if(window.scrollY>86){
+    }else if(window.scrollY>100){
       setNavBackground(true)
     }else{
       setNavBackground(false)
@@ -24,7 +24,7 @@ function NavbarSection() {
   }, [location.pathname])
 
   return (
-    <Navbar variant={`${navBackground ? "dark": 'light'}`} expand="lg" fixed="top" className={`navbar ${navBackground ? 'solid': 'transparent'} `}>
+    <Navbar variant="dark" expand="lg" fixed="top" className={`navbar ${navBackground ? 'solid': 'transparent'} `}>
       <Container>
         <Navbar.Brand href="/">
           <img
