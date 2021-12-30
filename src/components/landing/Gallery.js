@@ -84,7 +84,7 @@ function Gallery() {
   };
   return (
     <>
-      <div className="heading" id='gallary'>
+      <div className="heading" id="gallary">
         <h2>GALLERY</h2>
         <UnderLine />
       </div>
@@ -112,21 +112,21 @@ function Gallery() {
             ))}
           </TinySlider>
         </div>
-        <div className="thumbnail_img ">
+        {/* <div className="thumbnail_img ">
           <ul>
-            <img src={Italy}/>
-            <img src={mountain}/>
-            <img src={mountain2}/>
-            <img src={mountain3}/>
-            <img src={mountain4}/>
-            <img src={mountain5}/>
-            <img src={mountain6}/>
-            <img src={mountain7}/>
-            <img src={mountain8}/>
-            <img src={mountain9}/>
-            <img src={mountain10}/>
+            <img src={Italy} />
+            <img src={mountain} />
+            <img src={mountain2} />
+            <img src={mountain3} />
+            <img src={mountain4} />
+            <img src={mountain5} />
+            <img src={mountain6} />
+            <img src={mountain7} />
+            <img src={mountain8} />
+            <img src={mountain9} />
+            <img src={mountain10} />
           </ul>
-        </div>
+        </div> */}
       </Container>
     </>
   );
