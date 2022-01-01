@@ -1,6 +1,6 @@
 import React from "react";
 import FlipCountdown from "@rumess/react-flip-countdown";
-
+import "../../css/countdown.css";
 const Countdown = () => {
   return (
     <>

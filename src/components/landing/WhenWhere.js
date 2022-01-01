@@ -9,7 +9,6 @@ import scheduleblack from "../../img/scheduleblack.svg";
 import Tabs from "react-bootstrap/Tabs";
 import { Tab } from "react-bootstrap";
 
-
 function WhenWhere() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -20,14 +19,14 @@ function WhenWhere() {
       <SlantDiv alt={false} />
       <div className="heading">
         <h2>SAVE THE DATE </h2>
-        <UnderLine col='light' />
+        <UnderLine col="light" />
       </div>
-      <Container>
+      <Container className="info_section">
         <Row className=" m-lg-2 ">
           <div
             className="col-lg d-flex justify-content-center"
             data-aos="fade-right"
-            data-aos-duration="1000"
+            data-aos-duration="100"
             data-aos-anchor-placement="center-bottom"
           >
             <img src={locationblack} alt="loclogo" />
@@ -39,14 +38,17 @@ function WhenWhere() {
           <div
             className="col-lg d-flex justify-content-center"
             data-aos="fade-down"
-            data-aos-duration="1000"
+            data-aos-duration="200"
             data-aos-anchor-placement="center-bottom"
           >
             <img src={eventblack} alt="event" />
-            <h5 id="h5__2">MARCH X-Y</h5>
+            <h5 id="h5__2">MARCH 3-5</h5>
           </div>
           <div
             className="col-lg d-flex justify-content-center mx-auto"
+            data-aos="fade-left"
+            data-aos-duration="300"
+            data-aos-anchor-placement="center-bottom"
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
             <h5 id="h5__3" onClick={handleShow}>
@@ -61,9 +63,15 @@ function WhenWhere() {
                     onSelect={(k) => setKey(k)}
                     className="mb-2"
                   >
-                    <Tab eventKey="Day1" title="Day-1"><img src={locationblack} alt="" /></Tab>
-                    <Tab eventKey="Day2" title="Day-2"><img src={scheduleblack} alt="" /></Tab>
-                    <Tab eventKey="Day3" title="Day-3"><img src={eventblack} alt="" /></Tab>
+                    <Tab eventKey="Day1" title="Day-1">
+                      <img src={locationblack} alt="" />
+                    </Tab>
+                    <Tab eventKey="Day2" title="Day-2">
+                      <img src={scheduleblack} alt="" />
+                    </Tab>
+                    <Tab eventKey="Day3" title="Day-3">
+                      <img src={eventblack} alt="" />
+                    </Tab>
                   </Tabs>
                 </Modal.Title>
               </Modal.Header>

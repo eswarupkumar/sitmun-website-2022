@@ -47,14 +47,14 @@ function HeroSection() {
     anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
   });
 
-  return(
+  return (
     <div className="hero-section">
       <div className="hero-wrap"></div>
       <video preload="auto" autoPlay loop muted>
         <source src={heroVideo} type="video/mp4" />
       </video>
     </div>
-  ); 
+  );
 }
 //   return (
 //     <div data-aos="zoom-in-up" className="hero_page_wrapper">
