@@ -10,6 +10,7 @@ import WhenWhere from "../components/landing/WhenWhere";
 import ScrollTop from "../components/common/ScrollTop";
 import RegisterBtn from "../components/landing/Register";
 import Banner from "../components/landing/Banner";
+import Testimonial from "../components/landing/Testimonial"
 
 function LandingPage() {
   return (
@@ -23,6 +24,7 @@ function LandingPage() {
       <AboutUs />
       <WhenWhere/>
       <Gallery/>
+      <Testimonial/>
       <Sponsor />
       <Faq />
       <RegisterBtn />

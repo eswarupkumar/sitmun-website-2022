@@ -3,13 +3,13 @@ import '../../css/about-us.css';
 import { Container } from 'react-bootstrap';
 import aboutImg from '../../img/about-img.svg';
 import UnderLine from '../common/UnderLine';
+import Heading from '../common/Heading';
 
 function AboutUs() {
     // This is about
     return (
         <Container className="about-us" id='about'>
-            <h2>ABOUT THIS EVENT</h2>
-            <UnderLine />
+            <Heading head="ABOUT THIS EVENT" />
             <div className="about-us-div">
                 <img src={aboutImg} alt='about-event' data-aos="fade-down" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

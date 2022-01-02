@@ -15,6 +15,7 @@ import mountain8 from "../../img/mountain8.jpg";
 import mountain9 from "../../img/mountain9.jpeg";
 import mountain10 from "../../img/mountain10.jpg";
 import UnderLine from "../common/UnderLine";
+import Heading from "../common/Heading";
 
 import "../../css/gallery.css";
 
@@ -84,11 +85,8 @@ function Gallery() {
   };
   return (
     <>
-      <div className="heading" id="gallary">
-        <h2>GALLERY</h2>
-        <UnderLine />
-      </div>
       <Container className="container">
+        <Heading head="GALLERY" />
         <ul className="control" id="custom-control">
           <li className="prev">
             <ArrowBackIosNewIcon />
