@@ -1,55 +1,56 @@
-.tns-controls{
-    display: none;
-} 
-.tns-nav{
-    display: none;
+.tns-controls {
+  display: none;
 }
-.sponsor-section{
-    min-height: 350px;
-    display: flex;
-    align-items: center;
-    margin: 150px auto 100px;
+.tns-nav {
+  display: none;
 }
-.sponsor-slider{
-    margin: 30px auto;
-    padding: 10px 15px 10px 80px;
-    border: 1px solid #e7e4e4;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #e7e4e4;
+.sponsor-section {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  margin: 150px auto 100px;
 }
-.sponsor-slider img{
-    height: 50px;
+.sponsor-slider {
+  margin: 30px auto;
+  padding: 10px 15px 10px 80px;
+  border: 1px solid #e7e4e4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e7e4e4;
 }
-.sponsor-div2{
-    position: relative;
+.sponsor-slider img {
+  height: 50px;
 }
-.sponsor-div2 h4{
-    font-weight: 700;
-    margin: 30px 0 10px;
-    text-align: center;
-    position: absolute;
-    top: 40px;
-    transform: rotate(270deg);
-    z-index: 1;
-    font-size: 16px;
-    color: #fff;
+.sponsor-div2 {
+  position: relative;
 }
-.sponsor-slider-div{
-    border: 2px solid transparent;
-    /* margin-right: 10px; */
-    border-radius: 10px;
-    cursor: pointer;
+.sponsor-div2 h4 {
+  font-size: 15px;
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: 700;
+  margin: 30px 0 10px;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  transform: rotate(270deg);
+  z-index: 1;
+  color: #fff;
 }
-.sponsor-slider-div:hover{
-    border: 2px solid #fff; 
-    transition: all ease 1s;
+.sponsor-slider-div {
+  border: 2px solid transparent;
+  /* margin-right: 10px; */
+  border-radius: 10px;
+  cursor: pointer;
 }
-.sponsor-slider-div img{
-    display: block;
-    margin: 20px auto;
+.sponsor-slider-div:hover {
+  border: 2px solid #fff;
+  transition: all ease 1s;
+}
+.sponsor-slider-div img {
+  display: block;
+  margin: 20px auto;
 }
 @media (max-width: 420px) {
-    .sponsor-slider{
-        padding-left: 65px;
-    }
+  .sponsor-slider {
+    padding-left: 65px;
+  }
 }

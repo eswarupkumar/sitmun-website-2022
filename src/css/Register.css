@@ -1,10 +1,9 @@
-.registerdiv{
-    padding: 200px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.registerdiv {
+  padding: 200px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 120px auto;
-  font-family: sans-serif;
   align-items: center;
   height:auto;
   /* background-color: #29a0d3; */
@@ -14,7 +13,7 @@
 .registerdiv p{
     font-size: 20px;
     font-weight: 300;
-    color: #000;
+    color: #fff;
     /* padding: 1em 0 0  ; */
     text-align: center;
     margin-top: -2em;
