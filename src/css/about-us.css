@@ -2,13 +2,6 @@
   margin: 20px auto;
   /* font-family: sans-serif; */
 }
-.about-us h2 {
-  font-size: 35px;
-  font-family: "Montserrat", sans-serif;
-  color: #29a0d3;
-  text-align: center;
-  padding: 30px 0 2px;
-}
 .about-us p {
   font-family: "Barlow", sans-serif;
   line-height: 28px;
@@ -25,11 +18,6 @@
 }
 
 /*  MEDIA QUERRIES  */
-@media (max-width: 760px) {
-  .about-us h2 {
-    font-size: 24px;
-  }
-}
 @media (max-width: 770px) {
   .about-us img {
     display: none;

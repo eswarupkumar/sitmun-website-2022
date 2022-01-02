@@ -8,6 +8,7 @@ import eventblack from "../../img/eventblack.svg";
 import scheduleblack from "../../img/scheduleblack.svg";
 import Tabs from "react-bootstrap/Tabs";
 import { Tab } from "react-bootstrap";
+import Heading from "../common/Heading";
 
 function WhenWhere() {
   const [show, setShow] = useState(false);
@@ -17,11 +18,8 @@ function WhenWhere() {
   return (
     <div className="WhenWhere">
       <SlantDiv alt={false} />
-      <div className="heading">
-        <h2>SAVE THE DATE </h2>
-        <UnderLine col="light" />
-      </div>
-      <Container className="info_section">
+      <Container>
+        <Heading head="SAVE THE DATE " col="light" />
         <Row className=" m-lg-2 ">
           <div
             className="col-lg d-flex justify-content-center"
@@ -46,9 +44,6 @@ function WhenWhere() {
           </div>
           <div
             className="col-lg d-flex justify-content-center mx-auto"
-            data-aos="fade-left"
-            data-aos-duration="300"
-            data-aos-anchor-placement="center-bottom"
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
             <h5 id="h5__3" onClick={handleShow}>

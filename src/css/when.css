@@ -5,14 +5,6 @@
   background-color: #29a0d3;
   position: relative;
 }
-.WhenWhere h2 {
-  font-size: 35px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-  padding: 30px 0 10px;
-}
 .WhenWhere img {
   width: 12vw;
   margin-top: 50px;
@@ -83,9 +75,6 @@
     text-align: center;
     margin: 20px 0 0 30px;
     font-size: 20px;
-  }
-  .WhenWhere h2 {
-    font-size: 24px;
   }
   .WhenWhere img {
     width: 20vw;
