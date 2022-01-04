@@ -6,19 +6,20 @@
   position: relative;
 }
 .WhenWhere img {
-  width: 12vw;
-  margin-top: 50px;
+  width: 15vw;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 .schedule__img {
-  width: 10vw !important;
+  width: 15vw !important;
+  margin-top: 8px !important;
 }
 .info_section {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
 }
 #h5__1 {
-  margin: 140px 0 0 -60px;
+  margin: 135px 0 0 -60px;
   color: white;
 }
 #h5__2 {
@@ -45,11 +46,11 @@
         height: fit-content;
     } */
   .WhenWhere img {
-    width: 15vw;
+    width: 18vw;
     margin: 30px;
   }
   .schedule__img {
-    width: 15vw !important;
+    width: 18vw !important;
     /* margin-right:40px ; */
   }
   #h5__1 {

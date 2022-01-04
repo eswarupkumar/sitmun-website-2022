@@ -2,6 +2,7 @@
   margin-top: 40px !important;
   display: flex !important;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .flip-countdown.size-medium .flip-countdown-piece {
   display: flex;

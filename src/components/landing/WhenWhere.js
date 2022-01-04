@@ -23,9 +23,7 @@ function WhenWhere() {
         <Row className=" m-lg-2 ">
           <div
             className="col-lg d-flex justify-content-center"
-            data-aos="fade-right"
-            data-aos-duration="100"
-            data-aos-anchor-placement="center-bottom"
+            data-aos="zoom-in-up"
           >
             <img src={locationblack} alt="loclogo" />
             <h5 id="h5__1">
@@ -35,15 +33,14 @@ function WhenWhere() {
           </div>
           <div
             className="col-lg d-flex justify-content-center"
-            data-aos="fade-down"
-            data-aos-duration="200"
-            data-aos-anchor-placement="center-bottom"
+            data-aos="zoom-in-down"
           >
             <img src={eventblack} alt="event" />
             <h5 id="h5__2">MARCH 3-5</h5>
           </div>
           <div
             className="col-lg d-flex justify-content-center mx-auto"
+            data-aos="zoom-in-up"
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
             <h5 id="h5__3" onClick={handleShow}>

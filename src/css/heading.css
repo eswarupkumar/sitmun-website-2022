@@ -1,6 +1,7 @@
 .heading{
     margin: 20px auto 60px;
     font-family: sans-serif;
+    max-width: 35vw;
 }
 .heading h2{
     font-size: 40px;
@@ -14,8 +15,11 @@
     color: #fff;
 }
 @media (max-width: 760px) {
+    .heading{
+        max-width: 80vw;
+    }
     .heading h2{
-        font-size: 24px !important;
+        font-size: 28px !important;
         /* padding: 20px 0 5px; */
     }
 }
