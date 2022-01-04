@@ -30,6 +30,11 @@
     font-weight: bold;
     font-style: italic;
 } */
+
+*{
+    font-family: sans-serif;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
