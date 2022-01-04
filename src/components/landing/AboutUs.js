@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../css/about-us.css';
 import { Container } from 'react-bootstrap';
-import aboutImg from '../../img/about-img.svg';
-import UnderLine from '../common/UnderLine';
+import aboutImg from '../../img/about-img.jpg';
 import Heading from '../common/Heading';
 
 function AboutUs() {
