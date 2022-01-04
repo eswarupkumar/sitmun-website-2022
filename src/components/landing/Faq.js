@@ -2,7 +2,8 @@ import React from 'react'
 import Accordion from './Accoridon'
 import '../../css/faq.css'
 import { Container } from 'react-bootstrap';
-import UnderLine from '../common/UnderLine';
+import Heading from '../common/Heading';
+import SlantDiv from "../common/SlantDiv";
 
 function Faq() {
     const allFaq = [
@@ -24,8 +25,7 @@ function Faq() {
     ]
     return (
         <Container className='faq'>
-            <h2>HAVE A QUESTION?</h2>
-            <UnderLine />
+            <Heading head="HAVE A QUESTION?" />
             <div className='faq-div'>
                 <div>
                     {allFaq.map((faq)=>(

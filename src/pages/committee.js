@@ -4,19 +4,33 @@ import bgimg from '../img/bgcommittee.png';
 import Navbar from "../components/common/navbar";
 import Footer from "../components/common/Footer";
 import ScrollTop from "../components/common/ScrollTop";
-import { Container } from "react-bootstrap";
+import { Row,Col,Container } from "react-bootstrap";
 
 
 function CommitteePage() {
     return (
-        <>
+        <div>
             <Navbar />  
             <ScrollTop />
-            <div className="bg">
-                <img src={bgimg} alt="" />
-                <h1>Committees</h1>
-                <p>"A group who keep minutes and waste hours."</p>
-            </div>
+            <section className='heroeb' >
+                <Row>
+                    <Col>
+                    <Container fluid>
+                    <div className="row">
+                    
+                    <div className="col-sm-6 d-flex align-item-center justify-content-center">
+                        <img className='img-fluid' src={bgimg} alt=""></img>
+                    </div>
+                    <div className="col-sm-6 d-flex flex-column text-center align-item-center justify-content-center">
+                        <div className="headerText">Committees </div>
+                        <div className="taglineText">"A group who keep minutes and waste hours."</div>  
+                    </div>
+                    </div>
+                    </Container>
+                    </Col>
+                </Row>
+            
+            </section>
 
             <Container className="flex">
                 <div className="card1">
@@ -68,7 +82,7 @@ function CommitteePage() {
                 </div>
             </Container>
             <Footer />
-        </>
+        </div>
     );
 }
 

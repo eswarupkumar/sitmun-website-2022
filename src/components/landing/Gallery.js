@@ -15,6 +15,7 @@ import mountain8 from "../../img/mountain8.jpg";
 import mountain9 from "../../img/mountain9.jpeg";
 import mountain10 from "../../img/mountain10.jpg";
 import UnderLine from "../common/UnderLine";
+import Heading from "../common/Heading";
 
 import "../../css/gallery.css";
 
@@ -84,11 +85,8 @@ function Gallery() {
   };
   return (
     <>
-      <div className="heading" id='gallary'>
-        <h2>GALLERY</h2>
-        <UnderLine />
-      </div>
       <Container className="container">
+        <Heading head="GALLERY" />
         <ul className="control" id="custom-control">
           <li className="prev">
             <ArrowBackIosNewIcon />
@@ -112,21 +110,21 @@ function Gallery() {
             ))}
           </TinySlider>
         </div>
-        <div className="thumbnail_img ">
+        {/* <div className="thumbnail_img ">
           <ul>
-            <img src={Italy}/>
-            <img src={mountain}/>
-            <img src={mountain2}/>
-            <img src={mountain3}/>
-            <img src={mountain4}/>
-            <img src={mountain5}/>
-            <img src={mountain6}/>
-            <img src={mountain7}/>
-            <img src={mountain8}/>
-            <img src={mountain9}/>
-            <img src={mountain10}/>
+            <img src={Italy} />
+            <img src={mountain} />
+            <img src={mountain2} />
+            <img src={mountain3} />
+            <img src={mountain4} />
+            <img src={mountain5} />
+            <img src={mountain6} />
+            <img src={mountain7} />
+            <img src={mountain8} />
+            <img src={mountain9} />
+            <img src={mountain10} />
           </ul>
-        </div>
+        </div> */}
       </Container>
     </>
   );

@@ -1,0 +1,21 @@
+.heading{
+    margin: 20px auto 60px;
+    font-family: sans-serif;
+}
+.heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #29A0D3;
+    text-align: center;
+    padding: 30px 0 10px;
+    text-transform: uppercase;
+}
+.heading.light h2{
+    color: #fff;
+}
+@media (max-width: 760px) {
+    .heading h2{
+        font-size: 24px !important;
+        /* padding: 20px 0 5px; */
+    }
+}

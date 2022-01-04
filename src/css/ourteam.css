@@ -4,14 +4,14 @@ body {
     padding: 0;
     overflow-x: hidden;
  }
- .hero {
+ /* .hero {
     position: relative;
     width: 100vw;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
- }
+ } */
  .taglineText{
    font-family: "Monserrat", sans-serif;
    color: white;
@@ -141,7 +141,7 @@ body {
    color: white;
    text-align: center;
    margin: 0.625rem;
-   font-size: 7vh;
+   font-size: 5vh;
    font-weight: 600;
    }
    div.GalleryHeading{
@@ -157,6 +157,6 @@ body {
       color: white;
       text-align: center;
       margin-bottom: 0.625rem;
-      font-size: 3vh;
+      font-size: 2vh;
     }
  }
