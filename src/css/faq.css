@@ -1,5 +1,5 @@
 .faq {
-  margin: 20px auto 60px;
+  margin: 120px auto 40px;
   font-family: sans-serif;
 }
 .faq h2 {
@@ -45,7 +45,7 @@
   text-align: justify;
   font-family: "Barlow", sans-serif;
 }
-.active {
+ .faqactive {
   animation: faq-active 0.5s;
   animation-fill-mode: forwards;
   overflow: hidden;

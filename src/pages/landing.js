@@ -25,7 +25,7 @@ function LandingPage() {
       <WhenWhere/>
       <Gallery/>
       <Testimonial/>
-      <Sponsor />
+      {/*<Sponsor /> */}
       <Faq />
       <RegisterBtn />
       <Footer />

@@ -22,6 +22,10 @@ function Testimonial() {
             }
         },
         slideBy: 1,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplayTimeout: 3000,
+        autoplayButtonOutput: false,
         loop: true,
         speed: 400,
         swipeAngle: false

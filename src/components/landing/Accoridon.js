@@ -13,7 +13,7 @@ function Accoridon(props) {
                 <p><KeyboardArrowDownIcon/></p>
             </div>
             {showAnswer!==null && 
-                <div className={`answer ${showAnswer ? 'active' : 'inactive' }`}>
+                <div className={`answer ${showAnswer ? 'faqactive' : 'inactive' }`}>
                     <p>{answer}</p>
                 </div>
             }

@@ -24,16 +24,19 @@ function Faq() {
         }
     ]
     return (
-        <Container className='faq'>
-            <Heading head="HAVE A QUESTION?" />
-            <div className='faq-div'>
-                <div>
-                    {allFaq.map((faq)=>(
-                        <Accordion key={faq.id} question={faq.question} answer={faq.answer} />
-                    ))}
-                </div>  
-            </div> 
-        </Container>
+        <div style={{position: 'relative'}}>
+            <SlantDiv alt={false} />
+            <Container className='faq'>
+                <Heading head="HAVE A QUESTION?" col="light" />
+                <div className='faq-div'>
+                    <div>
+                        {allFaq.map((faq)=>(
+                            <Accordion key={faq.id} question={faq.question} answer={faq.answer} />
+                        ))}
+                    </div>  
+                </div> 
+            </Container>
+        </div>
     )
 }
 

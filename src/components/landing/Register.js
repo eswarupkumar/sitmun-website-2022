@@ -7,9 +7,8 @@ import Heading from "../common/Heading";
 function RegisterBtn() {
     return (
       <div style={{position: 'relative'}}>
-        <SlantDiv alt={false} />
         <Container className="registerdiv">
-          <Heading head="Haven't registered?" col='light' />
+          <Heading head="Haven't registered?" />
           <p>What are you waiting for?</p>
           <Button href="#" className="reg-btn text-center">Register Now!</Button>
         </Container>

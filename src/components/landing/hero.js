@@ -1,4 +1,5 @@
 import React from "react";
+import { Carousel } from "react-bootstrap";
 import "../../css/hero.css";
 import heroVideo from "../../img/hero-video.mp4";
 // import video from "../../img/recap.mp4";
@@ -10,9 +11,13 @@ import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import Typewriter from "typewriter-effect";
+import TinySlider from "tiny-slider-react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import Italy from "../../img/Italy.png";
+import mountain from "../../img/mountain.jpg";
+import mountain2 from "../../img/mountain2.jpg";
+import imgs from "../../img/Santorini.jpg";
 
 // import Swiper core and required modules
 import SwiperCore, { EffectCards } from "swiper";
@@ -47,12 +52,85 @@ function HeroSection() {
     anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
   });
 
+  // return (
+  //   <div className="hero-section">
+  //     <div className="hero-wrap"></div>
+  //     <video preload="auto" autoPlay loop muted>
+  //       <source src={heroVideo} type="video/mp4" />
+  //     </video>
+  //   </div>
+  // );
   return (
-    <div className="hero-section">
+    <div>
       <div className="hero-wrap"></div>
-      <video preload="auto" autoPlay loop muted>
-        <source src={heroVideo} type="video/mp4" />
-      </video>
+      <Carousel id="myCarousel">
+            <Carousel.Item>
+              <img
+                className="d-block w-100 hero-img "
+                src={Italy}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 hero-img"
+                src={mountain}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 hero-img"
+                src={imgs}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 hero-img"
+                src={mountain2}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+      <div data-aos="zoom-in-up" className="hero_page_wrapper">
+        {/* <img src={hero_bg} className="hero_bg" alt="hero_bg" /> */}
+        {/* <video className="videoTag" autoPlay loop muted>
+          <source src={video} type="video/mp4" />
+        </video> */}
+        <div className="hero_page_main">
+          <div className="hero_title_wrapper">
+            <div className="event_name">
+              <p>
+                SITMUN <span className="event_year">2022</span>
+              </p>
+            </div>
+            <div className="event_tagline">
+              <p>#Revolutionthroughresolution</p>
+            </div>
+            <div className="why_us">
+              <p>
+                A Place where you
+                <span className="typewriter_class">
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "<b>GET INSPIRED</b>",
+                        "<b>MEET NEW FACES</b>",
+                        "<b>KNOW THE WORLD</b>",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                      pauseFor: 1000,
+                      skipAddStyles: true,
+                    }}
+                  />
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
