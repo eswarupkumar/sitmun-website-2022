@@ -19,7 +19,7 @@ function CommitteePage() {
                     <div className="row">
                     
                     <div className="col-sm-6 d-flex align-item-center justify-content-center">
-                        <img className='img-fluid' src={bgimg} alt=""></img>
+                        <img className='img-fluid' id="imgbg" src={bgimg} alt=""></img>
                     </div>
                     <div className="col-sm-6 d-flex flex-column text-center align-item-center justify-content-center">
                         <div className="headerText">Committees </div>
@@ -36,50 +36,27 @@ function CommitteePage() {
                 <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
-                    <div className="card-container">
+                    {/* <div className="card-container">
                         <div className="text">Hello World</div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
-                    <div className="card-container">
+                    {/* <div className="card-container">
                         <div className="text">Hello World</div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="card1">
                     <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
                     <div className="text1"><h3><b>SIT MUN</b></h3></div>
-                    <div className="card-container">
+                    {/* <div className="card-container">
                         <div className="text">Hello World</div>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className="card1">
-                    <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
-                    <div className="text1"><h3><b>SIT MUN</b></h3></div>
-                    <div className="card-container">
-                        <div className="text">Hello World</div>
-                    </div>
-                </div>
-
-                <div className="card1">
-                    <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
-                    <div className="text1"><h3><b>SIT MUN</b></h3></div>
-                    <div className="card-container">
-                        <div className="text">Hello World</div>
-                    </div>
-                </div>
-
-                <div className="card1">
-                    <img src="https://source.unsplash.com/user/erondu/320x480" alt="Avatar" />
-                    <div className="text1"><h3><b>SIT MUN</b></h3></div>
-                    <div className="card-container">
-                        <div className="text">Hello World</div>
-                    </div>
-                </div>
             </Container>
             <Footer />
         </div>

@@ -11,6 +11,7 @@ import ScrollTop from "../components/common/ScrollTop";
 import RegisterBtn from "../components/landing/Register";
 import Banner from "../components/landing/Banner";
 import Testimonial from "../components/landing/Testimonial"
+import MsgfromSG from "../components/landing/MsgfromSG";
 
 function LandingPage() {
   return (
@@ -22,6 +23,7 @@ function LandingPage() {
       <HeroSection />
       <Countdown />
       <AboutUs />
+      <MsgfromSG/>
       <WhenWhere/>
       <Gallery/>
       <Testimonial/>
