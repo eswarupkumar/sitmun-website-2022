@@ -89,7 +89,7 @@ function EbandTeampage() {
 
       <Container>
         <div className="GalleryHeading">
-          <center>Team Gallery</center>
+          <center>Core Members</center>
         </div>
         <UnderLine></UnderLine>
       </Container>
@@ -99,14 +99,18 @@ function EbandTeampage() {
       <br></br>
       <Container fluid m={4}>
         <Grid container spacing={6} className={classes.gridContainer}>
-
           <Grid
             item
             xs={12}
             sm={6}
             md={4}
             className={classes.outerColumn}
-            style={{ display: "flex", justifyContent: "center" }}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              textAlign: "center",
+              fontFamily: "'Barlow', sans-serif",
+            }}
           >
             <Card
               sx={{
@@ -673,7 +677,6 @@ function EbandTeampage() {
             </Card>
           </Grid>
 
-          
           <Grid
             item
             xs={12}
@@ -757,8 +760,6 @@ function EbandTeampage() {
               </CardActionArea>
             </Card>
           </Grid>
-
-          
 
           <Container>
             <div className="TeamHeading">
@@ -850,7 +851,6 @@ function EbandTeampage() {
               </CardActionArea>
             </Card>
           </Grid>
-
 
           <Container>
             <div className="TeamHeading">
@@ -1026,7 +1026,6 @@ function EbandTeampage() {
             </Card>
           </Grid>
 
-
           <Container>
             <div className="TeamHeading">
               <center>Public Relations</center>
@@ -1158,7 +1157,6 @@ function EbandTeampage() {
               </CardActionArea>
             </Card>
           </Grid>
-          
 
           <Container>
             <div className="TeamHeading">
@@ -1166,7 +1164,7 @@ function EbandTeampage() {
             </div>
             <UnderLine></UnderLine>
           </Container>
-          
+
           <Grid
             item
             xs={12}
@@ -1250,7 +1248,6 @@ function EbandTeampage() {
               </CardActionArea>
             </Card>
           </Grid>
-          
 
           <Container>
             <div className="TeamHeading">
@@ -1342,8 +1339,6 @@ function EbandTeampage() {
               </CardActionArea>
             </Card>
           </Grid>
-
-          
         </Grid>
       </Container>
       <br></br>

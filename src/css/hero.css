@@ -6,7 +6,7 @@
   height: 100vh;
   z-index: 5;
 }
-.hero_page_main p{
+.hero_page_main p {
   color: #fff;
 }
 .event_name {
@@ -46,16 +46,19 @@
 .images {
   width: 50vw;
   height: 50vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hero_title_wrapper {
   flex-grow: 2;
 }
-#myCarousel,.hero-img{
-  height: 100vh; 
+#myCarousel,
+.hero-img {
+  height: 100vh;
 }
-#myCarousel .carousel-indicators, .carousel-control-prev, .carousel-control-next{
+#myCarousel .carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
   visibility: hidden;
 }
 /* .hero-section{
@@ -70,7 +73,7 @@
   height: 100vh;
   object-fit: cover;
 }*/
-.hero-wrap{
+.hero-wrap {
   position: absolute;
   margin: 0;
   padding: 0;
@@ -79,4 +82,4 @@
   background-color: #000;
   opacity: 0.6;
   z-index: 3;
-} 
+}
