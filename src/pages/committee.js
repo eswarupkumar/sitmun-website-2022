@@ -7,6 +7,7 @@ import unhrc from '../img/UNHRC.png';
 import Navbar from "../components/common/navbar";
 import Footer from "../components/common/Footer";
 import ScrollTop from "../components/common/ScrollTop";
+import cmhero from '../img/about-img.jpg';
 import { Row,Col,Container } from "react-bootstrap";
 
 
@@ -15,8 +16,8 @@ function CommitteePage() {
         <div>
             <Navbar />  
             <ScrollTop />
-            <section className='heroeb' >
-                <Row>
+            <section className='herocm' >
+                {/*<Row>
                     <Col>
                     <Container fluid>
                     <div className="row">
@@ -31,7 +32,13 @@ function CommitteePage() {
                     </div>
                     </Container>
                     </Col>
-                </Row>
+                </Row>*/}
+                <div className="cm-hero-wrap"></div>
+                <img src={cmhero} alt='cm-hero' />
+                <div className="cm-heading">
+                    <div className="headerText">Committees </div>
+                    <div className="taglineText">"A group who keep minutes and waste hours."</div>  
+                </div>
             
             </section>
 

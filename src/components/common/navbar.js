@@ -8,9 +8,7 @@ function NavbarSection() {
   const [navBackground, setNavBackground] = useState(false);
   let location = useLocation();
   const setNavbar = ()=>{
-    if(location.pathname!=='/'){
-      setNavBackground(true)
-    }else if(window.scrollY>100){
+    if(window.scrollY>100){
       setNavBackground(true)
     }else{
       setNavBackground(false)

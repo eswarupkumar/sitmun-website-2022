@@ -12,13 +12,20 @@
   box-shadow: 0 0 10px #e7e4e4;
   overflow: hidden;
   border-radius: 10px;
+  min-height: 455px;
 }
+/* .testimonial-card .card-body{
+  display: flex;
+  align-items: center;
+} */
 .testimonial-card p {
   font-family: "Barlow", sans-serif;
+  /* margin: auto 0 !important; */
+  
 }
 .card-footer-a {
   text-align: center;
-  margin: 3rem 0 0;
+  /* margin: 3rem 0 0; */
   padding: 0;
 }
 .card-footer-a img {
