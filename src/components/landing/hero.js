@@ -14,10 +14,19 @@ import Typewriter from "typewriter-effect";
 import TinySlider from "tiny-slider-react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import Italy from "../../img/Italy.png";
-import mountain from "../../img/mountain.jpg";
-import mountain2 from "../../img/mountain2.jpg";
-import imgs from "../../img/Santorini.jpg";
+// import Italy from "../../img/Italy.png";
+// import mountain from "../../img/mountain.jpg";
+// import mountain2 from "../../img/mountain2.jpg";
+// import imgs from "../../img/Santorini.jpg";
+
+import img1 from "../../img/landing-hero/DSC05014.JPG";
+import img2 from "../../img/landing-hero/DSC05312.JPG";
+import img3 from "../../img/landing-hero/DSC05419.JPG";
+import img4 from "../../img/landing-hero/DSC05422.JPG";
+import img5 from "../../img/landing-hero/DSC05710.JPG";
+import img6 from "../../img/landing-hero/DSC05744.JPG";
+import img7 from "../../img/landing-hero/DSC_6636.JPG";
+import img8 from "../../img/landing-hero/DSC_6969.JPG";
 
 // import Swiper core and required modules
 import SwiperCore, { EffectCards } from "swiper";
@@ -64,35 +73,66 @@ function HeroSection() {
     <div>
       <div className="hero-wrap"></div>
       <Carousel id="myCarousel">
-            <Carousel.Item>
-              <img
-                className="d-block w-100 hero-img "
-                src={Italy}
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 hero-img"
-                src={mountain}
-                alt="Second slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 hero-img"
-                src={imgs}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 hero-img"
-                src={mountain2}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img "
+            src={img1}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img2}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img3}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img4}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img5}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img6}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img7}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img8}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+      </Carousel>
       <div data-aos="zoom-in-up" className="hero_page_wrapper">
         {/* <img src={hero_bg} className="hero_bg" alt="hero_bg" /> */}
         {/* <video className="videoTag" autoPlay loop muted>
