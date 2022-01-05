@@ -19,9 +19,12 @@ function Testimonial() {
       300: {
         items: 1,
       },
-      700: {
-        items: 3,
+      768: {
+        items: 2,
       },
+      1200: {
+        items: 3,
+      }
     },
     slideBy: 1,
     autoplay: true,

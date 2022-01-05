@@ -4,6 +4,7 @@ import "../../css/footer.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Container } from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,9 +27,9 @@ function Footer() {
             Silicon
           </a>
           <a href="/#about">About This Event</a>
-          <a href="/#gallary">Gallery</a>
-          <a href="/team">Our Team</a>
-          <a href="/committee">Committee</a>
+          <a href="/#gallery">Gallery</a>
+          <Link to="/team" >Our Team</Link>
+          <Link to="/committee">Committee</Link>
         </div>
         <div className="footer_header">
           <h4>CONTACT US</h4>
