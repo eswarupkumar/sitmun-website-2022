@@ -10,7 +10,7 @@ import WhenWhere from "../components/landing/WhenWhere";
 import ScrollTop from "../components/common/ScrollTop";
 import RegisterBtn from "../components/landing/Register";
 import Banner from "../components/landing/Banner";
-import Testimonial from "../components/landing/Testimonial"
+import Testimonial from "../components/landing/Testimonial";
 import MsgfromSG from "../components/landing/MsgfromSG";
 
 function LandingPage() {
@@ -23,15 +23,14 @@ function LandingPage() {
       <HeroSection />
       <Countdown />
       <AboutUs />
-      <MsgfromSG/>
-      <WhenWhere/>
-      <Gallery/>
-      <Testimonial/>
-      {/*<Sponsor /> */}
+      <MsgfromSG />
+      <WhenWhere />
+      <Gallery />
+      <Testimonial />
+      {/* <Sponsor /> */}
       <Faq />
       <RegisterBtn />
       <Footer />
-      
     </div>
   );
 }
