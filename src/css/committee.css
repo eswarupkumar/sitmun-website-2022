@@ -47,6 +47,7 @@
   
   .text1 {
     position: absolute;
+   font-family: "Monserrat", sans-serif;
     color: #2281aa;
     top: 70%;
     left: 50%;
@@ -71,6 +72,7 @@
   
 .text {
     color: white;
+   font-family: "Barlow", sans-serif;
     display: flex;
     font-size: 14px;
     margin: 20px;

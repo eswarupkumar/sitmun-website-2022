@@ -13,7 +13,7 @@ body {
     align-items: center;
  } */
  .taglineText{
-   font-family: "Monserrat", sans-serif;
+   font-family: "Barlow",sans-serif;
    color: white;
    text-align: center;
    font-size: 3vw;
@@ -53,10 +53,15 @@ body {
 
 .TeamHeading{
    color: #29A0D3;
+   font-family: "Monserrat", sans-serif;
    text-align: center;
    margin-top: 1em;
    font-size: 3.5vw;
    font-weight: 600;
+}
+
+Card{
+   font-family: "Barlow",sans-serif;
 }
 
 /* @media screen and (min-width: 576px) {
