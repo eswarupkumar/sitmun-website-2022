@@ -3,17 +3,19 @@ import TinySlider from "tiny-slider-react";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Container } from "react-bootstrap";
-import Italy from "../../img/Italy.png";
-import mountain from "../../img/mountain.jpg";
-import mountain2 from "../../img/mountain2.jpg";
-import mountain3 from "../../img/mountain3.jpg";
-import mountain4 from "../../img/mountain4.webp";
-import mountain5 from "../../img/mountain5.jpg";
-import mountain6 from "../../img/mountain6.jpg";
-import mountain7 from "../../img/mountain7.webp";
-import mountain8 from "../../img/mountain8.jpg";
-import mountain9 from "../../img/mountain9.jpeg";
-import mountain10 from "../../img/mountain10.jpg";
+
+import img1 from "../../img/gallery/66.jpg";
+import img2 from "../../img/gallery/DSC05175.JPG";
+import img3 from "../../img/gallery/DSC05211.JPG";
+import img4 from "../../img/gallery/DSC05412.JPG";
+import img5 from "../../img/gallery/DSC05453.JPG";
+import img6 from "../../img/gallery/DSC05760.JPG";
+import img7 from "../../img/gallery/DSC05767.JPG";
+import img8 from "../../img/gallery/DSC06129.JPG";
+import img9 from "../../img/gallery/DSC_7099.JPG";
+import img10 from "../../img/gallery/IMG_0261.JPG";
+import img11 from "../../img/gallery/IMG_0523.JPG";
+
 import UnderLine from "../common/UnderLine";
 import Heading from "../common/Heading";
 
@@ -21,17 +23,17 @@ import "../../css/gallery.css";
 
 function Gallery() {
   const imgs = [
-    Italy,
-    mountain,
-    mountain2,
-    mountain3,
-    mountain4,
-    mountain5,
-    mountain6,
-    mountain7,
-    mountain8,
-    mountain9,
-    mountain10,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
   ];
   const loadingImage =
     "data:image/gif;base64,\
@@ -56,12 +58,12 @@ function Gallery() {
     autoWidth: true,
     container: ".silder",
     controlsContainer: "#custom-control",
-    items: 3,
+    items: 4,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 10000,
     controls: true,
     swipeAngle: false,
-    speed: 400,
+    speed: 1000,
 
     responsive: {
       300: {
@@ -110,21 +112,6 @@ function Gallery() {
             ))}
           </TinySlider>
         </div>
-        {/* <div className="thumbnail_img ">
-          <ul>
-            <img src={Italy} />
-            <img src={mountain} />
-            <img src={mountain2} />
-            <img src={mountain3} />
-            <img src={mountain4} />
-            <img src={mountain5} />
-            <img src={mountain6} />
-            <img src={mountain7} />
-            <img src={mountain8} />
-            <img src={mountain9} />
-            <img src={mountain10} />
-          </ul>
-        </div> */}
       </Container>
     </>
   );

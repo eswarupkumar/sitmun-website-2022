@@ -23,10 +23,11 @@ import img1 from "../../img/landing-hero/DSC05014.JPG";
 import img2 from "../../img/landing-hero/DSC05312.JPG";
 import img3 from "../../img/landing-hero/DSC05419.JPG";
 import img4 from "../../img/landing-hero/DSC05422.JPG";
-import img5 from "../../img/landing-hero/DSC05710.JPG";
+import img5 from "../../img/landing-hero/DSC_7073.JPG";
 import img6 from "../../img/landing-hero/DSC05744.JPG";
 import img7 from "../../img/landing-hero/DSC_6636.JPG";
 import img8 from "../../img/landing-hero/DSC_6969.JPG";
+import img9 from "../../img/landing-hero/DSC05203.JPG";
 
 // import Swiper core and required modules
 import SwiperCore, { EffectCards } from "swiper";
@@ -129,6 +130,13 @@ function HeroSection() {
           <img
             className="d-block w-100 hero-img"
             src={img8}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img9}
             alt="Second slide"
           />
         </Carousel.Item>
