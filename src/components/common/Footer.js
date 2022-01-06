@@ -13,9 +13,9 @@ function Footer() {
         <div>
           <img className="footer-logo" src={logo} alt="logo-img" height="120" />
           <div className="socials">
-            <a className="facebook" href="https://www.facebook.com/sitmunbbsr/">
+            {/* <a className="facebook" href="https://www.facebook.com/sitmunbbsr/">
               <FacebookOutlinedIcon fontSize="large" />
-            </a>
+            </a> */}
             <a className="insta" href="https://www.instagram.com/sitmunbbsr/">
               <InstagramIcon fontSize="large" />
             </a>
@@ -37,7 +37,7 @@ function Footer() {
             USG Public Relations <br />
             SIT MUN 2021 <br />
             Silicon Institute of Technology <br />
-            Phone: +91 8328880751 <br />
+            Phone: +91 7873712452 <br />
             Email: meta.academics@silicon.ac.in
           </p>
         </div>
