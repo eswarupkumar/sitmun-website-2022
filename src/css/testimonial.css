@@ -22,7 +22,6 @@
 .testimonial-card p {
   font-family: "Barlow", sans-serif;
   /* margin: auto 0 !important; */
-  
 }
 .card-footer-a {
   text-align: center;
@@ -32,7 +31,7 @@
 .card-footer-a img {
   width: 7rem;
   height: 7rem;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 100%;
   border: solid 3px #fff;
   margin: auto;
