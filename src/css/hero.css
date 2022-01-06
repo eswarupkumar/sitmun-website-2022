@@ -46,7 +46,6 @@
 .images {
   width: 50vw;
   height: 50vh;
-  object-fit: contain;
 }
 
 .hero_title_wrapper {
@@ -55,6 +54,7 @@
 #myCarousel,
 .hero-img {
   height: 100vh;
+  object-fit: cover;
 }
 #myCarousel .carousel-indicators,
 .carousel-control-prev,

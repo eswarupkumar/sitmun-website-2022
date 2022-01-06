@@ -1,17 +1,17 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "../../css/hero.css";
-import heroVideo from "../../img/hero-video.mp4";
+// import heroVideo from "../../img/hero-video.mp4";
 // import video from "../../img/recap.mp4";
 // import hero_bg from "../../img/Blob Group.svg";
 // // import img1 from "../../img/Italy.png";
 // import bg from "../../img/descend-sun@3000x2000px.png";
-import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
+// import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
+// import "swiper/swiper-bundle.min.css";
+// import "swiper/swiper.min.css";
 import Typewriter from "typewriter-effect";
-import TinySlider from "tiny-slider-react";
+// import TinySlider from "tiny-slider-react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // import Italy from "../../img/Italy.png";
@@ -23,17 +23,18 @@ import img1 from "../../img/landing-hero/DSC05014.JPG";
 import img2 from "../../img/landing-hero/DSC05312.JPG";
 import img3 from "../../img/landing-hero/DSC05419.JPG";
 import img4 from "../../img/landing-hero/DSC05422.JPG";
-import img5 from "../../img/landing-hero/DSC05710.JPG";
+import img5 from "../../img/landing-hero/DSC_7073.JPG";
 import img6 from "../../img/landing-hero/DSC05744.JPG";
 import img7 from "../../img/landing-hero/DSC_6636.JPG";
 import img8 from "../../img/landing-hero/DSC_6969.JPG";
+import img9 from "../../img/landing-hero/DSC05203.JPG";
 
 // import Swiper core and required modules
-import SwiperCore, { EffectCards } from "swiper";
+// import SwiperCore, { EffectCards } from "swiper";
 
 // install Swiper modules
 // SwiperCore.use([EffectFade, Navigation, Pagination, Autoplay]);
-SwiperCore.use([EffectFlip]);
+// SwiperCore.use([EffectFlip]);
 
 function HeroSection() {
   AOS.init();
@@ -132,6 +133,13 @@ function HeroSection() {
             alt="Second slide"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 hero-img"
+            src={img9}
+            alt="Second slide"
+          />
+        </Carousel.Item>
       </Carousel>
       <div data-aos="zoom-in-up" className="hero_page_wrapper">
         {/* <img src={hero_bg} className="hero_bg" alt="hero_bg" /> */}
@@ -169,8 +177,12 @@ function HeroSection() {
               </p>
             </div>
             <div className="btn-section">
-              <a href="/#about" className='hero-button'>Know More</a>
-              <a href="/" className='hero-button'>Register</a>
+              <a href="/#about" className="hero-button">
+                Know More
+              </a>
+              <a href="/" className="hero-button">
+                Register
+              </a>
             </div>
           </div>
         </div>
