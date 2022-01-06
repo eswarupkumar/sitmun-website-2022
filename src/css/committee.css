@@ -47,6 +47,7 @@
   
   .text1 {
     position: absolute;
+   font-family: "Monserrat", sans-serif;
     color: #2281aa;
     top: 70%;
     left: 50%;
@@ -71,6 +72,7 @@
   
 .text {
     color: white;
+   font-family: "Barlow", sans-serif;
     display: flex;
     font-size: 14px;
     margin: 20px;
@@ -78,3 +80,27 @@
     text-align: justify;
     transform: translate(0%, 35%);
   }
+
+.herocm img{
+  width: 100%;
+  height: 100vh;
+  margin-top: -120px;
+}
+.cm-heading{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40%;
+  /* top: 40%; */
+  z-index: 2;
+}
+.cm-hero-wrap{
+  position: absolute;
+  margin-top: -120px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: 1;
+}

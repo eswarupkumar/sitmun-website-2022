@@ -19,9 +19,12 @@ function Testimonial() {
       300: {
         items: 1,
       },
-      700: {
-        items: 3,
+      768: {
+        items: 2,
       },
+      1200: {
+        items: 3,
+      }
     },
     slideBy: 1,
     autoplay: true,
@@ -87,13 +90,10 @@ function Testimonial() {
                     Being a first timer I was hesitating a lot in the beginning
                     and had many doubts. But starting from the first day itself
                     I enjoyed the process of learning. It's a great platform,
-                    starting from debating to developing diplomacy. I have
-                    always been amazed and impressed by the Republic of Korea
-                    and me and my co-delegate were lucky enough to have an
-                    opportunity to represent it. We also won the Honorary
-                    Mention award. Many soft skills also develop in this whole
-                    process. It was a great experience for me. I believe for a
-                    college student - MUN is a ’MUST to have’ experience.
+                    starting from debating to developing diplomacy. Many soft
+                    skills also develop in this whole process. It was a great
+                    experience for me. I believe for a college student - MUN is
+                    a ’MUST to have’ experience.
                   </p>
                 </Card.Body>
                 <div className="card-footer-a">

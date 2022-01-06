@@ -8,9 +8,7 @@ function NavbarSection() {
   const [navBackground, setNavBackground] = useState(false);
   let location = useLocation();
   const setNavbar = ()=>{
-    if(location.pathname!=='/'){
-      setNavBackground(true)
-    }else if(window.scrollY>100){
+    if(window.scrollY>100){
       setNavBackground(true)
     }else{
       setNavBackground(false)
@@ -37,8 +35,8 @@ function NavbarSection() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse className="justify-content-end">
-          <Link to="/" className={location.pathname==='/' && !location.hash?"nav-link  navbar-menu active":"nav-link  navbar-menu"}>HOME</Link>
-          <a href='/#about' className={location.pathname==='/' && location.hash==='#about' ?"nav-link  navbar-menu active":"nav-link  navbar-menu"}>ABOUT</a>
+        <a href='/#gallery' className={location.pathname==='/' && location.hash==='#gallery' ?"nav-link  navbar-menu active":"nav-link  navbar-menu"}>GALLERY</a>
+          <a href='/#faq' className={location.pathname==='/' && location.hash==='#faq' ?"nav-link  navbar-menu active":"nav-link  navbar-menu"}>FAQ</a>
           <Link to="/team" className={location.pathname==='/team'?"nav-link  navbar-menu active":"nav-link  navbar-menu"}>TEAM</Link>
           <Link to="/committee" className={location.pathname==='/committee'?"nav-link  navbar-menu active":"nav-link  navbar-menu"}>COMMITTEE</Link>
           <Nav.Link href="#home" className='navbar-menu-button'><Button className='register-button'>REGISTER</Button></Nav.Link>

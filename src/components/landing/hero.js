@@ -176,6 +176,10 @@ function HeroSection() {
                 </span>
               </p>
             </div>
+            <div className="btn-section">
+              <a href="/#about" className='hero-button'>Know More</a>
+              <a href="/" className='hero-button'>Register</a>
+            </div>
           </div>
         </div>
       </div>
