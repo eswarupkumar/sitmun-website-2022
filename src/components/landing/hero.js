@@ -1,17 +1,17 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "../../css/hero.css";
-import heroVideo from "../../img/hero-video.mp4";
+// import heroVideo from "../../img/hero-video.mp4";
 // import video from "../../img/recap.mp4";
 // import hero_bg from "../../img/Blob Group.svg";
 // // import img1 from "../../img/Italy.png";
 // import bg from "../../img/descend-sun@3000x2000px.png";
-import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
+// import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
+// import "swiper/swiper-bundle.min.css";
+// import "swiper/swiper.min.css";
 import Typewriter from "typewriter-effect";
-import TinySlider from "tiny-slider-react";
+// import TinySlider from "tiny-slider-react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // import Italy from "../../img/Italy.png";
@@ -30,11 +30,11 @@ import img8 from "../../img/landing-hero/DSC_6969.JPG";
 import img9 from "../../img/landing-hero/DSC05203.JPG";
 
 // import Swiper core and required modules
-import SwiperCore, { EffectCards } from "swiper";
+// import SwiperCore, { EffectCards } from "swiper";
 
 // install Swiper modules
 // SwiperCore.use([EffectFade, Navigation, Pagination, Autoplay]);
-SwiperCore.use([EffectFlip]);
+// SwiperCore.use([EffectFlip]);
 
 function HeroSection() {
   AOS.init();
@@ -177,8 +177,12 @@ function HeroSection() {
               </p>
             </div>
             <div className="btn-section">
-              <a href="/#about" className='hero-button'>Know More</a>
-              <a href="/" className='hero-button'>Register</a>
+              <a href="/#about" className="hero-button">
+                Know More
+              </a>
+              <a href="/" className="hero-button">
+                Register
+              </a>
             </div>
           </div>
         </div>
