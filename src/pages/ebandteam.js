@@ -17,6 +17,7 @@ import sec_gen from "../img/Secretary General.jpg";
 import d_gen from "../img/Director General.jpg";
 import cda from "../img/CHARGE D' AFFAIRS.JPG";
 import dsg from "../img/Deputy Secretary General(Annada Gumansingh).jpg";
+import USG_log from "../img/IMG-20220106-WA0019.jpg"
 import DD_log from "../img/Deputy Director (Logistics).JPG";
 import usg_pr from "../img/USG(PR).jpg";
 import D_pr from "../img/Director(PR).jpg";
@@ -929,7 +930,7 @@ function EbandTeampage() {
                 <CardMedia
                   component="img"
                   height="350"
-                  image={dummy}
+                  image={USG_log}
                   alt="green iguana"
                 />
                 <CardContent style={{ backgroundColor: "#29A0D3" }}>
