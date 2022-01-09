@@ -38,7 +38,7 @@ function Testimonial() {
   return (
     <div className="testimonial">
       <Container>
-        <Heading head="WHY YOU CHOOSE US ?" />
+        <Heading head="WHY YOU CHOOSE US?" />
         <div>
           <TinySlider settings={settings}>
             <div>

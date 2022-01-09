@@ -87,14 +87,14 @@ function Gallery() {
   };
   return (
     <>
-      <Container className="container">
+      <Container className="container" id="gallery">
         <Heading head="GALLERY" />
         <ul className="control" id="custom-control">
           <li className="prev">
-            <ArrowBackIosNewIcon />
+            <ArrowBackIosNewIcon fontSize="large" />
           </li>
           <li className="next">
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon fontSize="large" />
           </li>
         </ul>
 

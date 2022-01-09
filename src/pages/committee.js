@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/committee.css';
+import '../css/ourteam.css';
 import bgimg from '../img/bgcommittee.png';
 import disec from '../img/DISEC.png';
 import unfccc from '../img/UNFCCC.png';

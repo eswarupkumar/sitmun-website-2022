@@ -16,7 +16,7 @@ function WhenWhere() {
   const handleShow = () => setShow(true);
   const [key, setKey] = useState("Day1");
   return (
-    <div className="WhenWhere">
+    <div style={{ position: "relative"}} className="WhenWhere">
       <SlantDiv alt={false} />
       <Container>
         <Heading head="SAVE THE DATE " col="light" />
