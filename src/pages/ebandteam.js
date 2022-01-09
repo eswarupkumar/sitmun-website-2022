@@ -15,10 +15,12 @@ import Col from "react-bootstrap/Col";
 
 import sec_gen from "../img/Secretary General.jpg";
 import d_gen from "../img/Director General.jpg";
-import cda from "../img/CHARGE D' AFFAIRS.JPG";
+import cda from "../img/CHARGE D' AFFAIRS.jpg";
 import dsg from "../img/Deputy Secretary General(Annada Gumansingh).jpg";
 import USG_log from "../img/IMG-20220106-WA0019.jpg"
-import DD_log from "../img/Deputy Director (Logistics).JPG";
+import DD_log from "../img/Deputy Director (Logistics).jpg";
+import D_log from "../img/Director (logistics).jpg";
+import usg_log from "../img/USG (Logistics).jpg";
 import usg_pr from "../img/USG(PR).jpg";
 import D_pr from "../img/Director(PR).jpg";
 import DD_pr from "../img/Deputy Director (Public Relations) .jpg";
@@ -26,6 +28,8 @@ import usg_da from "../img/USG(Delegate Affairs).jpg";
 import D_da from "../img/Director del affairs.jpg";
 import DD_da from "../img/Deputy Director(Del Affairs).jpg";
 import D_spon from "../img/Director(Sponsorship).jpeg";
+import usg_spon from "../img/USG (Sponsorship).jpg";
+import D_spon1 from "../img/Director Sponsorship.jpg";
 import DD_spon from "../img/Deputy Director Sponsorship.jpg";
 import D_finance from "../img/Director Finance (Auditor).jpg";
 import usg_cd from "../img/USG (Creativity and Designing).jpg";
@@ -33,9 +37,12 @@ import D_cd from "../img/Director (Creativity and Designing).jpg";
 import usg_dm from "../img/USG(Digital Marketing).jpg";
 import D_dm from "../img/Director(Digital Marketing).jpg";
 import D_eb from "../img/Director(EB affairs).png";
-import D_eb1 from "../img/Director (EB Affairs).JPG";
+import D_eb1 from "../img/Director (EB Affairs).jpg";
 import D_hosp from "../img/Director (Hospitality).jpg";
 import D_genoios from "../img/Director General OIOS.jpeg";
+import raj from "../img/Raj.jpg";
+import partha from "../img/Partha.jpg";
+import smriti from "../img/Smriti.jpg";
 import dummy from "../img/d1.jpg";
 import Footer from "../components/common/Footer";
 import ScrollTop from "../components/common/ScrollTop";
@@ -622,7 +629,7 @@ function EbandTeampage() {
                 <CardMedia
                   component="img"
                   height="350"
-                  image={dummy}
+                  image={usg_spon}
                   alt="green iguana"
                 />
                 <CardContent style={{ backgroundColor: "#29A0D3" }}>
@@ -706,7 +713,7 @@ function EbandTeampage() {
                 <CardMedia
                   component="img"
                   height="350"
-                  image={dummy}
+                  image={D_spon1}
                   alt="green iguana"
                 />
                 <CardContent style={{ backgroundColor: "#29A0D3" }}>
@@ -888,7 +895,7 @@ function EbandTeampage() {
                 <CardMedia
                   component="img"
                   height="350"
-                  image={dummy}
+                  image={usg_log}
                   alt="green iguana"
                 />
                 <CardContent style={{ backgroundColor: "#29A0D3" }}>
@@ -972,7 +979,7 @@ function EbandTeampage() {
                 <CardMedia
                   component="img"
                   height="350"
-                  image={dummy}
+                  image={D_log}
                   alt="green iguana"
                 />
                 <CardContent style={{ backgroundColor: "#29A0D3" }}>
@@ -1341,6 +1348,209 @@ function EbandTeampage() {
                   </Typography>
                   <Typography variant="body2" color="white">
                     Director
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+
+          <Container>
+            <div className="TeamHeading">
+              <center>Web-Dev Team</center>
+            </div>
+            <UnderLine></UnderLine>
+          </Container>
+
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={usg_dm}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    E Swarup Kumar
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={D_dm}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Swaugat Beura
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={smriti}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Smruti Dash
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={6}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={partha}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Partha Sarathi Praharaj
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={6}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={raj}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Raj Kishore Patra
                   </Typography>
                 </CardContent>
               </CardActionArea>
