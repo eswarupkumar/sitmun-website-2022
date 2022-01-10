@@ -138,7 +138,7 @@ function Testimonial() {
                 </Card.Body>
                 <div className="card-footer-a">
                   <img src={savyasachi} alt="user" />
-                  <h4>Savyasachi</h4>
+                  <h4>Sabyasachi Mitra</h4>
                   <svg
                     width="100%"
                     height="100%"
@@ -262,7 +262,7 @@ function Testimonial() {
                 </Card.Body>
                 <div className="card-footer-a">
                   <img src={keshav} alt="user" />
-                  <h4>Keshav</h4>
+                  <h4>Keshav Tibrewal</h4>
                   <svg
                     width="100%"
                     height="100%"

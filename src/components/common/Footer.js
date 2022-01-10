@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../img/logo.png";
 import "../../css/footer.css";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Container } from "react-bootstrap";
 import {Link} from "react-router-dom";
@@ -16,8 +16,11 @@ function Footer() {
             {/* <a className="facebook" href="https://www.facebook.com/sitmunbbsr/">
               <FacebookOutlinedIcon fontSize="large" />
             </a> */}
-            <a className="insta" href="https://www.instagram.com/sitmunbbsr/">
+            <a className="insta" href="https://www.instagram.com/sitmunbbsr/" target="_blank">
               <InstagramIcon fontSize="large" />
+            </a>
+            <a className="whatsapp" href="https://wa.me/+917873712452" target="_blank">
+              <WhatsAppIcon fontSize="large" />
             </a>
           </div>
         </div>

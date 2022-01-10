@@ -17,9 +17,8 @@ function WhenWhere() {
   const [key, setKey] = useState("Day1");
   return (
     <div style={{ position: "relative" }} className="WhenWhere">
-      <SlantDiv alt={false} />
       <Container>
-        <Heading head="SAVE THE DATE " col="light" />
+        <Heading head="SAVE THE DATE " />
         <Row className=" m-lg-2 ">
           <div
             className="col-lg d-flex justify-content-center"

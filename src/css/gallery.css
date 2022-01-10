@@ -1,7 +1,7 @@
 .gallery {
-  margin: 15px auto;
+  margin: 150px auto;
   font-family: sans-serif;
-  margin-bottom: 10px;
+  /* margin-bottom: 40px; */
 }
 .control {
   list-style: none;
@@ -12,8 +12,8 @@
 }
 .control li {
   position: absolute;
-  z-index: 99;
-  color: #29a0d3;
+  z-index: 3;
+  color: #fff;
   /* background-color: black; */
   /* padding: 12px 20px;
   border-radius: 50%; */

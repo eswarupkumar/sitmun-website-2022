@@ -20,6 +20,7 @@ import UnderLine from "../common/UnderLine";
 import Heading from "../common/Heading";
 
 import "../../css/gallery.css";
+import SlantDiv from "../common/SlantDiv";
 
 function Gallery() {
   const imgs = [
@@ -86,9 +87,10 @@ function Gallery() {
     console.log(slide);
   };
   return (
-    <>
+    <div style={{ position: "relative" }}>
+      <SlantDiv alt={false} />
       <Container className="container" id="gallery">
-        <Heading head="GALLERY" />
+        <Heading head="GALLERY" col="light" />
         <ul className="control" id="custom-control">
           <li className="prev">
             <ArrowBackIosNewIcon fontSize="large" />
@@ -113,7 +115,7 @@ function Gallery() {
           </TinySlider>
         </div>
       </Container>
-    </>
+    </div>
   );
 }
 

@@ -1,5 +1,5 @@
 .msgfromsg {
-  margin: 20px auto;
+  margin: 100px auto;
 }
 
 #sgimg {
@@ -15,4 +15,5 @@
   line-height: 28px;
   text-align: center;
   font-size: 18px;
+  color: #fff;
 }
