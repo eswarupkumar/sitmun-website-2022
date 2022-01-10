@@ -24,7 +24,7 @@ function Testimonial() {
       },
       1200: {
         items: 3,
-      }
+      },
     },
     slideBy: 1,
     autoplay: true,
@@ -38,7 +38,7 @@ function Testimonial() {
   return (
     <div className="testimonial">
       <Container>
-        <Heading head="WHY YOU CHOOSE US?" />
+        <Heading head="Why SITMUN?" />
         <div>
           <TinySlider settings={settings}>
             <div>

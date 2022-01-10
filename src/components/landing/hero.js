@@ -19,15 +19,15 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 // import mountain2 from "../../img/mountain2.jpg";
 // import imgs from "../../img/Santorini.jpg";
 
-import img1 from "../../img/landing-hero/DSC05014.jpg";
-import img2 from "../../img/landing-hero/DSC05312.jpg";
-import img3 from "../../img/landing-hero/DSC05419.jpg";
-import img4 from "../../img/landing-hero/DSC05422.jpg";
-import img5 from "../../img/landing-hero/DSC_7073.jpg";
-import img6 from "../../img/landing-hero/DSC05744.jpg";
-import img7 from "../../img/landing-hero/DSC_6636.jpg";
-import img8 from "../../img/landing-hero/DSC_6969.jpg";
-import img9 from "../../img/landing-hero/DSC05203.jpg";
+import img1 from "../../img/landing-hero/DSC05014.JPG";
+// import img2 from "../../img/landing-hero/DSC05312.jpg";
+// import img3 from "../../img/landing-hero/DSC05419.jpg";
+// import img4 from "../../img/landing-hero/DSC05422.jpg";
+import img5 from "../../img/landing-hero/DSC_7073.JPG";
+// import img6 from "../../img/landing-hero/DSC05744.jpg";
+// import img7 from "../../img/landing-hero/DSC_6636.jpg";
+import img8 from "../../img/landing-hero/DSC_6969.JPG";
+import img9 from "../../img/landing-hero/DSC05203.JPG";
 
 // import Swiper core and required modules
 // import SwiperCore, { EffectCards } from "swiper";
@@ -81,27 +81,27 @@ function HeroSection() {
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 hero-img"
             src={img2}
             alt="Second slide"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </Carousel.Item> */}
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 hero-img"
             src={img3}
             alt="Third slide"
           />
-        </Carousel.Item>
-        <Carousel.Item>
+        </Carousel.Item> */}
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 hero-img"
             src={img4}
             alt="Third slide"
           />
-        </Carousel.Item>
+        </Carousel.Item> */}
         <Carousel.Item>
           <img
             className="d-block w-100 hero-img"
@@ -110,21 +110,21 @@ function HeroSection() {
           />
         </Carousel.Item>
 
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 hero-img"
             src={img6}
             alt="Second slide"
           />
-        </Carousel.Item>
+        </Carousel.Item> */}
 
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100 hero-img"
             src={img7}
             alt="Second slide"
           />
-        </Carousel.Item>
+        </Carousel.Item> */}
 
         <Carousel.Item>
           <img

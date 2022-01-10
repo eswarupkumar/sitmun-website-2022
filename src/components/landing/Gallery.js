@@ -5,16 +5,16 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Container } from "react-bootstrap";
 
 import img1 from "../../img/gallery/66.jpg";
-import img2 from "../../img/gallery/DSC05175.jpg";
-import img3 from "../../img/gallery/DSC05211.jpg";
-import img4 from "../../img/gallery/DSC05412.jpg";
-import img5 from "../../img/gallery/DSC05453.jpg";
-import img6 from "../../img/gallery/DSC05760.jpg";
-import img7 from "../../img/gallery/DSC05767.jpg";
-import img8 from "../../img/gallery/DSC06129.jpg";
-import img9 from "../../img/gallery/DSC_7099.jpg";
-import img10 from "../../img/gallery/IMG_0261.jpg";
-import img11 from "../../img/gallery/IMG_0523.jpg";
+import img2 from "../../img/gallery/DSC05175.JPG";
+import img3 from "../../img/gallery/DSC05211.JPG";
+import img4 from "../../img/gallery/DSC05412.JPG";
+import img5 from "../../img/gallery/DSC05453.JPG";
+import img6 from "../../img/gallery/DSC05760.JPG";
+import img7 from "../../img/gallery/DSC05767.JPG";
+import img8 from "../../img/gallery/DSC06129.JPG";
+import img9 from "../../img/gallery/DSC_7099.JPG";
+import img10 from "../../img/gallery/IMG_0261.JPG";
+import img11 from "../../img/gallery/IMG_0523.JPG";
 
 import UnderLine from "../common/UnderLine";
 import Heading from "../common/Heading";

@@ -16,7 +16,7 @@ function WhenWhere() {
   const handleShow = () => setShow(true);
   const [key, setKey] = useState("Day1");
   return (
-    <div style={{ position: "relative"}} className="WhenWhere">
+    <div style={{ position: "relative" }} className="WhenWhere">
       <SlantDiv alt={false} />
       <Container>
         <Heading head="SAVE THE DATE " col="light" />
@@ -43,8 +43,10 @@ function WhenWhere() {
             data-aos="zoom-in-up"
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
-            <h5 id="h5__3" onClick={handleShow}>
+            <h5 id="h5__3">
+              {/*onClick={handleShow} */}
               SCHEDULE
+              <p>(Coming Soon)</p>
             </h5>
             <Modal size="lg" show={show} onHide={handleClose} className="modal">
               <Modal.Header>

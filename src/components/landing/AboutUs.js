@@ -1,26 +1,32 @@
-import React from 'react';
-import '../../css/about-us.css';
-import { Container } from 'react-bootstrap';
-import aboutImg from '../../img/about-img.jpg';
-import Heading from '../common/Heading';
+import React from "react";
+import "../../css/about-us.css";
+import { Container } from "react-bootstrap";
+import aboutImg from "../../img/about.jpg";
+import Heading from "../common/Heading";
 
 function AboutUs() {
-    // This is about
-    return (
-        <Container className="about-us" id='about'>
-            <Heading head="ABOUT THIS EVENT" />
-            <div className="about-us-div">
-                <img src={aboutImg} alt='about-event' data-aos="fade-down" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat.</p>
-            </div>
-            
-        </Container>
-    )
+  // This is about
+  return (
+    <Container className="about-us" id="about">
+      <Heading head="ABOUT THIS EVENT" />
+      <div className="about-us-div">
+        <img src={aboutImg} alt="about-event" data-aos="fade-down" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.
+        </p>
+      </div>
+    </Container>
+  );
 }
 
 export default AboutUs;

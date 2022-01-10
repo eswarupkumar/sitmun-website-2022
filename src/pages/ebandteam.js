@@ -15,10 +15,10 @@ import Col from "react-bootstrap/Col";
 
 import sec_gen from "../img/Secretary General.jpg";
 import d_gen from "../img/Director General.jpg";
-import cda from "../img/CHARGE D' AFFAIRS.jpg";
+import cda from "../img/CHARGE D' AFFAIRS.JPG";
 import dsg from "../img/Deputy Secretary General(Annada Gumansingh).jpg";
-import USG_log from "../img/IMG-20220106-WA0019.jpg"
-import DD_log from "../img/Deputy Director (Logistics).jpg";
+import USG_log from "../img/IMG-20220106-WA0019.jpg";
+import DD_log from "../img/Deputy Director (Logistics).JPG";
 import D_log from "../img/Director (logistics).jpg";
 import usg_log from "../img/USG (Logistics).jpg";
 import usg_pr from "../img/USG(PR).jpg";
@@ -37,7 +37,7 @@ import D_cd from "../img/Director (Creativity and Designing).jpg";
 import usg_dm from "../img/USG(Digital Marketing).jpg";
 import D_dm from "../img/Director(Digital Marketing).jpg";
 import D_eb from "../img/Director(EB affairs).png";
-import D_eb1 from "../img/Director (EB Affairs).jpg";
+import D_eb1 from "../img/Director (EB Affairs).JPG";
 import D_hosp from "../img/Director (Hospitality).jpg";
 import D_genoios from "../img/Director General OIOS.jpeg";
 import raj from "../img/Raj.jpg";
@@ -1353,7 +1353,6 @@ function EbandTeampage() {
               </CardActionArea>
             </Card>
           </Grid>
-
 
           <Container>
             <div className="TeamHeading">

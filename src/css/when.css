@@ -30,10 +30,14 @@
   margin: 150px 0 0 -50px;
   color: white;
 }
-#h5__3:hover {
+#h5__3 p {
+  font-size: 12px;
+  font-family: "Barlow", sans-serif;
+}
+/* #h5__3:hover {
   cursor: pointer;
   text-decoration: underline;
-}
+} */
 
 /* Media */
 
