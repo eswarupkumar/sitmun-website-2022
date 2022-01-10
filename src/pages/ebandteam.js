@@ -13,6 +13,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+
 import sec_gen from "../img/Secretary General.jpg";
 import d_gen from "../img/Director General.jpg";
 import cda from "../img/CHARGE D' AFFAIRS.JPG";
