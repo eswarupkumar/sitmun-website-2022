@@ -1,17 +1,18 @@
-.msgfromsg{
-    margin: 20px auto;
+.msgfromsg {
+  margin: 20px auto;
 }
 
-#sgimg{
-    width: 15em;
-    height: 15em;
-    border-radius: 100%;
-    margin-top: -30px;
+#sgimg {
+  width: 15em;
+  height: 15em;
+  border-radius: 100%;
+  margin-top: -30px;
+  object-fit: cover;
 }
 
-.msgfromsg p{
-    font-family: "Barlow", sans-serif;
-    line-height: 28px;
-    text-align: justify;
-    font-size: 18px;
+.msgfromsg p {
+  font-family: "Barlow", sans-serif;
+  line-height: 28px;
+  text-align: center;
+  font-size: 18px;
 }

@@ -34,7 +34,7 @@ import DD_spon from "../img/Deputy Director Sponsorship.jpg";
 import D_finance from "../img/Director Finance (Auditor).jpg";
 import usg_cd from "../img/USG (Creativity and Designing).jpg";
 import D_cd from "../img/Director (Creativity and Designing).jpg";
-import usg_dm from "../img/USG(Digital Marketing).jpg";
+import usg_dm from "../img/USG(Digital Marketing).jpeg";
 import D_dm from "../img/Director(Digital Marketing).jpg";
 import D_eb from "../img/Director(EB affairs).png";
 import D_eb1 from "../img/Director (EB Affairs).JPG";
@@ -103,7 +103,7 @@ function EbandTeampage() {
 
       <Container>
         <div className="GalleryHeading">
-          <center>Core Members</center>
+          <center>Core Secreteriat</center>
         </div>
         <UnderLine></UnderLine>
       </Container>
@@ -777,7 +777,7 @@ function EbandTeampage() {
 
           <Container>
             <div className="TeamHeading">
-              <center>Digital Marketing</center>
+              <center>Web Development</center>
             </div>
             <UnderLine></UnderLine>
           </Container>
@@ -860,6 +860,132 @@ function EbandTeampage() {
                   </Typography>
                   <Typography variant="body2" color="white">
                     Director
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={4}
+            md={4}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={smriti}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Smruti Dash
+                  </Typography>
+                  <Typography variant="body2" color="white">
+                    Contributor
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={4}
+            md={4}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={partha}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Partha Sarathi Praharaj
+                  </Typography>
+                  <Typography variant="body2" color="white">
+                    Contributor
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+
+          <Grid
+            item
+            xs={12}
+            sm={4}
+            md={4}
+            className={classes.outerColumn}
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Card
+              sx={{
+                minWidth: 340,
+                maxWidth: 340,
+                elevation: 10,
+                ":hover": { boxShadow: 20 },
+                borderRadius: 5,
+                boxShadow: 8,
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="350"
+                  image={raj}
+                  alt="green iguana"
+                />
+                <CardContent style={{ backgroundColor: "#29A0D3" }}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    color="white"
+                  >
+                    Raj Kishore Patra
+                  </Typography>
+                  <Typography variant="body2" color="white">
+                    Contributor
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -1354,14 +1480,14 @@ function EbandTeampage() {
             </Card>
           </Grid>
 
-          <Container>
+          {/* <Container>
             <div className="TeamHeading">
               <center>Web-Dev Team</center>
             </div>
             <UnderLine></UnderLine>
-          </Container>
+          </Container> */}
 
-          <Grid
+          {/* {/* <Grid
             item
             xs={12}
             sm={6}
@@ -1554,7 +1680,7 @@ function EbandTeampage() {
                 </CardContent>
               </CardActionArea>
             </Card>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
       <br></br>

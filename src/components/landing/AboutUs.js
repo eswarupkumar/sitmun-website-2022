@@ -12,17 +12,16 @@ function AboutUs() {
       <div className="about-us-div">
         <img src={aboutImg} alt="about-event" data-aos="fade-down" />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
+          Silicon Institute Of Technology Model United Nations(SITMUN) is a
+          simulation of the United Nations where students delegate on behalf of
+          member countries to find solutions to the rising global issues through
+          research, drafting, lobbying and debating. Students can also
+          participate as members of the International Press (as
+          reporters/photographers). SITMUN has been always been a unique
+          conglomeration of learning and experiencing a MUN, and this time
+          again, we are back with an unparalleled edition. Not even a pandemic
+          can stop those who dare, and this 4th-6th March, we aim at bringing
+          revolution through resolution. We are in, are you!?
         </p>
       </div>
     </Container>

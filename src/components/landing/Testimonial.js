@@ -38,7 +38,7 @@ function Testimonial() {
   return (
     <div className="testimonial">
       <Container>
-        <Heading head="Why SITMUN?" />
+        <Heading head="What Participants said?" />
         <div>
           <TinySlider settings={settings}>
             <div>
@@ -98,7 +98,7 @@ function Testimonial() {
                 </Card.Body>
                 <div className="card-footer-a">
                   <img src={sreelaxmi} alt="user" />
-                  <h4>Sreelaxmi</h4>
+                  <h4>Sreelaxmi Sukhari</h4>
                   <svg
                     width="100%"
                     height="100%"
@@ -223,7 +223,7 @@ function Testimonial() {
                 </Card.Body>
                 <div className="card-footer-a">
                   <img src={polaki} alt="user" />
-                  <h4>Polaki</h4>
+                  <h4>Polaki Sumant</h4>
                   <svg
                     width="100%"
                     height="100%"
