@@ -18,7 +18,7 @@ const useStyles=makeStyles({
     paddingRight: "30px",
   },
   root: {
-    minWidth: 340,
+    minWidth: 310,
     maxWidth: 340,
     transition: "transform 0.15s ease-in-out",
     "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
@@ -56,7 +56,7 @@ const CardComponent = (props) => {
     >
     <Card
       sx={{
-        minWidth: 320,
+        minWidth: 310,
         maxWidth: 340,
         elevation: 10,
         transition: "transform 0.15s ease-in-out",

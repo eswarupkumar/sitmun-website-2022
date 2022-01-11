@@ -52,12 +52,12 @@ const CardComponent2 = (props) => {
         justifyContent: "center",
         textAlign: "center",
         fontFamily: "'Barlow', sans-serif",
-        marginTop:"30px"
+        marginTop:"20px"
       }}
     >
     <Card
       sx={{
-        minWidth: 320,
+        minWidth: 310,
         maxWidth: 340,
         elevation: 10,
         transition: "transform 0.15s ease-in-out",

@@ -77,7 +77,7 @@ function DmTeam() {
           <CardComponent2 details={dmteam} />
         </Grid>
         <Container fluid m={4}>
-          <Grid container spacing={6} className={classes.gridContainer}>
+          <Grid container spacing={9} className={classes.gridContainer}>
             <CardComponent details={CoreTeam2} />
           </Grid>
         </Container>
