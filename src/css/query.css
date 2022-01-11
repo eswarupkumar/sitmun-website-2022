@@ -1,0 +1,27 @@
+.query{
+    border-radius: 100%;
+    background-color: #29A0D3;
+    position: fixed;
+    bottom: 30px;
+    right: 18px;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 70px;
+    box-shadow: 0 0 10px #23414d;
+    cursor: pointer;
+    z-index: 5;
+}
+.send__button{
+    background-color: #29A0D3;
+    border: 1px solid #29A0D3;
+}
+.form__label{
+    color: #29A0D3;
+    font-weight: 600;
+}
+@media (min-width: 600px) {
+    .query{
+        bottom: 36px;
+        right: 36px;
+    }
+}
