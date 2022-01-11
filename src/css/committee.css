@@ -26,12 +26,12 @@
   transform: scale(1.1);
 }
 
-.card1:nth-child(1) img {
+.card1:nth-child(2) img {
   width: 90%;
   margin-top: 3em;
 }
 
-.card1:nth-child(2) img {
+.card1:nth-child(1) img {
   width: 120%;
   margin-left: -2em;
 }

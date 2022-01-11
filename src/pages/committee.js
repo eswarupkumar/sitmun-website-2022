@@ -28,6 +28,21 @@ function CommitteePage() {
 
       <Container className="flex">
         <div className="card1">
+          <img src={unhrc} alt="Avatar" />
+          {/* <div className="text1"><h3><b>SIT MUN</b></h3></div> */}
+          <div className="card-container">
+            <div className="text">
+              Human rights are an innate virtue that we all should possess and
+              have for the utility. Since the dawn of civilization, numerous
+              ideologies and political revolutions have led to a dire
+              circumstance in matters of human rights. Ranging from the refugee
+              crisis to the poverty issues, many lives have been subjugated to
+              utter disdain, to tackle this issue, UNHRC was established.
+            </div>
+          </div>
+        </div>
+
+        <div className="card1">
           <center>
             <img src={disec} alt="" />
           </center>
@@ -44,21 +59,6 @@ function CommitteePage() {
               the imminent threat to the mortal existence on the planet. As is
               the truth, every coin has two sides, so does this situation, thus
               their needs to be a mechanism which ensures the safety.
-            </div>
-          </div>
-        </div>
-
-        <div className="card1">
-          <img src={unhrc} alt="Avatar" />
-          {/* <div className="text1"><h3><b>SIT MUN</b></h3></div> */}
-          <div className="card-container">
-            <div className="text">
-              Human rights are an innate virtue that we all should possess and
-              have for the utility. Since the dawn of civilization, numerous
-              ideologies and political revolutions have led to a dire
-              circumstance in matters of human rights. Ranging from the refugee
-              crisis to the poverty issues, many lives have been subjugated to
-              utter disdain, to tackle this issue, UNHRC was established.
             </div>
           </div>
         </div>
