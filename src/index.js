@@ -1,37 +1,25 @@
-import React, {Suspense, lazy} from "react";
+import React, { Suspense, lazy } from "react";
 import ReactDOM from "react-dom";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import RingLoader from "react-spinners/RingLoader";
 import "./index.css";
-const LandingPage = lazy(()=>import("./pages/landing"))
-const TeamPage = lazy(()=>import("./pages/ebandteam"))
-const CommitteePage = lazy(()=>import("./pages/committee"))
-// import LandingPage from "./pages/landing";
-// import TeamPage from "./pages/ebandteam";
-// import CommitteePage from "./pages/committee";
+// const LandingPage = lazy(()=>import("./pages/landing"))
+// const TeamPage = lazy(()=>import("./pages/ebandteam"))
+// const CommitteePage = lazy(()=>import("./pages/committee"))
+import LandingPage from "./pages/landing";
+import TeamPage from "./pages/ebandteam";
+import CommitteePage from "./pages/committee";
 
 // const loadcss = css'display: flex';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
+      <Route path="/" element={<LandingPage />} />
 
-      <Route path="/" element={
-        <Suspense fallback={<center><RingLoader color={"#29a0d3"} size={130} /></center>}>
-          <LandingPage />
-        </Suspense>} />
+      <Route path="/team" element={<TeamPage />} />
 
-      <Route path="/team" element={
-        <Suspense fallback={<center><RingLoader color={"#29a0d3"} size={130} /></center>}>
-          <TeamPage />
-        </Suspense>} />
-      
-      <Route path="/committee" element={
-        <Suspense fallback={<center><RingLoader color={"#29a0d3"} size={130} /></center>}>
-          <CommitteePage />
-        </Suspense>} />
-    
+      <Route path="/committee" element={<CommitteePage />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
