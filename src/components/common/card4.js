@@ -82,9 +82,6 @@ const CardComponent = (props) => {
             >
               {value.name}
             </Typography>
-            <Typography variant="body2" color="white" style={{ fontFamily: "Barlow",fontSize:"16px"}}>
-              {value.desg}
-            </Typography>
           </CardContent>
       </CardActionArea>
     </Card>

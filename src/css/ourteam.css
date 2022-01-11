@@ -3,14 +3,6 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-/* .hero {
-    position: relative;
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- } */
 .taglineText {
   font-family: "Barlow", sans-serif;
   color: white;
@@ -35,8 +27,10 @@ body {
   font-family: "Barlow", sans-serif;
   color: white;
   text-align: center;
-  margin: 0.625rem;
-  font-size: 7vw;
+  align-self: center;
+  align-content: center;
+  /* margin: 0.625rem;
+  font-size: 7vw; */
   font-weight: 600;
 }
 .GalleryHeading {
