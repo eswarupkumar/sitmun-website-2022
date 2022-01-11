@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import "../css/committee.css";
 import "../css/ourteam.css";
 import disec from "../img/DISEC.png";
@@ -9,11 +9,23 @@ import Footer from "../components/common/Footer";
 import ScrollTop from "../components/common/ScrollTop";
 import cmhero from "../img/about-img.jpg";
 import { Container } from "react-bootstrap";
+import Loading from "../components/common/Loading";
 
 function CommitteePage() {
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    setLoading(true);
+    document.body.style.overflow = "hidden"
+    setTimeout(() => {
+      setLoading(false);
+      document.body.style.overflowY = "scroll"
+    }, 4000);
+    // eslint-disable-next-line
+  }, [])
   return (
     <div>
-      <Navbar />
+    {loading ? <Loading />:
+      <Navbar />}
       <ScrollTop />
       <section className="herocm">
         <div className="cm-hero-wrap"></div>
