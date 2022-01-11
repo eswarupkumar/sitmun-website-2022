@@ -1,5 +1,6 @@
 import React from "react";
-import loading from "../../img/Bean Eater-1.2s-200px.svg";
+// import loading from "../../img/Bean Eater-1.2s-200px.svg";
+import loading from "../../img/munkee.png";
 import "../../css/loading.css";
 
 function Loading() {

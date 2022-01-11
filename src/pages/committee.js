@@ -20,9 +20,9 @@ function CommitteePage() {
         <img src={cmhero} alt="cm-hero" />
         <div className="cm-heading">
           <div className="headerText">Committees </div>
-          <div className="taglineText">
+          {/* <div className="taglineText">
             "A group who keep minutes and waste hours."
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -75,6 +75,21 @@ function CommitteePage() {
               residing. In a way utterly dreadful alterations have been
               implicated upon the world climate. Issues like global warming and
               rise in natural disasters seem to have become the new normal.
+            </div>
+          </div>
+        </div>
+
+        <div className="card1">
+          <img src={unhrc} alt="Avatar" />
+          {/* <div className="text1"><h3><b>SIT MUN</b></h3></div> */}
+          <div className="card-container">
+            <div className="text">
+              Human rights are an innate virtue that we all should possess and
+              have for the utility. Since the dawn of civilization, numerous
+              ideologies and political revolutions have led to a dire
+              circumstance in matters of human rights. Ranging from the refugee
+              crisis to the poverty issues, many lives have been subjugated to
+              utter disdain, to tackle this issue, UNHRC was established.
             </div>
           </div>
         </div>

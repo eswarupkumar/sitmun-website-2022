@@ -9,7 +9,7 @@ function RegisterBtn() {
     <div style={{ position: "relative" }}>
       <Container className="registerdiv">
         <Heading head="Haven't registered yet?" />
-        <p>Grab the opportunity now !</p>
+        <p>Grab your opportunity !</p>
         <Button
           href="https://forms.gle/LboD3ygEqvkEHvLVA"
           target="_blank"

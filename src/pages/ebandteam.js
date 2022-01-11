@@ -25,11 +25,11 @@ function EbandTeampage() {
       <CoreTeam />
       <Creative />
       <DATeam />
+      <PR />
       <Finance />
       <SponsorshipTeam />
       <DmTeam />
       <Logistics />
-      <PR />
       <Hospitality />
       <EAteam />
       <br></br>

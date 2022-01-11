@@ -141,7 +141,7 @@ function HeroSection() {
           />
         </Carousel.Item>
       </Carousel>
-      <div className="hero_page_wrapper">
+      <div className="hero_page_wrapper" data-aos="zoom-in-up">
         {" "}
         {/* data-aos="zoom-in-up" */}
         {/* <img src={hero_bg} className="hero_bg" alt="hero_bg" /> */}

@@ -1,15 +1,18 @@
-.loading{
-    z-index: 100;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+.loading {
+  z-index: 100;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .loading img {
-    align-items: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
 }

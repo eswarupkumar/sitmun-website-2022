@@ -1,4 +1,4 @@
-import React,{ useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import NavbarSection from "../components/common/navbar";
 import HeroSection from "../components/landing/hero";
 import Countdown from "../components/landing/Countdown";
@@ -17,35 +17,38 @@ import Query from "../components/common/Query";
 import Loading from "../components/common/Loading";
 
 function LandingPage() {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 12000);
     // eslint-disable-next-line
-  }, [])
+  }, []);
   return (
     <>
-    {loading ? <Loading />:
-    <div>
-      {/* <h1>Welcome to Mun Website</h1> */}
-      <NavbarSection />
-      <Banner />
-      <Query/>
-      <ScrollTop />
-      <HeroSection />
-      <Countdown />
-      <AboutUs />
-      <MsgfromSG />
-      <WhenWhere />
-      <Gallery />
-      <Testimonial />
-      {/* <Sponsor /> */}
-      <Faq />
-      <RegisterBtn />
-      <Footer />
-    </div>}
+      {loading ? (
+        <Loading />
+      ) : (
+        <div>
+          {/* <h1>Welcome to Mun Website</h1> */}
+          <NavbarSection />
+          <Banner />
+          <Query />
+          <ScrollTop />
+          <HeroSection />
+          <Countdown />
+          <AboutUs />
+          <MsgfromSG />
+          <WhenWhere />
+          <Gallery />
+          <Testimonial />
+          {/* <Sponsor /> */}
+          <Faq />
+          <RegisterBtn />
+          <Footer />
+        </div>
+      )}
     </>
   );
 }
