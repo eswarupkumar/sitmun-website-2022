@@ -1,8 +1,5 @@
 import Navbar from "../components/common/navbar";
-
 import * as React from "react";
-
-
 import CoreTeam from "../components/team/coreteam";
 import Creative from "../components/team/creatived";
 import DATeam from "../components/team/daAffairs";
@@ -14,6 +11,8 @@ import PR from "../components/team/PR";
 import Hospitality from "../components/team/Hospitality";
 import EAteam from "../components/team/EAteam";
 import TeamHero from "../components/team/teamhero";
+import Webteam from "../components/team/webdev";
+
 
 import Footer from "../components/common/Footer";
 import ScrollTop from "../components/common/ScrollTop";
@@ -26,8 +25,7 @@ function EbandTeampage() {
     <div>
       <Navbar />
       <ScrollTop />
-      <TeamHero/>     
-
+      <TeamHero/> 
       <br></br>
       <CoreTeam/>
       <Creative/> 
@@ -38,11 +36,9 @@ function EbandTeampage() {
       <Logistics/>
       <PR/>
       <Hospitality/>
-      <EAteam/>
-      
-       
-      
-      <br></br>
+      <EAteam/>  
+      <Webteam/>
+       <br></br>
       <br></br>
       <br></br>
       <Footer />
