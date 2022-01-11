@@ -16,8 +16,10 @@ function NavbarSection() {
   };
   window.addEventListener("scroll", setNavbar);
   useEffect(() => {
-    window.scrollTo(0, 0);
-    setNavbar();
+      if(!location.hash){
+        window.scrollTo(0, 0);
+      }
+      setNavbar();
     // eslint-disable-next-line
   }, [location.pathname]);
 
@@ -29,7 +31,7 @@ function NavbarSection() {
       className={`navbar ${navBackground ? "solid" : "transparent"} `}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/#hero">
           <img
             src={logo}
             width="76"

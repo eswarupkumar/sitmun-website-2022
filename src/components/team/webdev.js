@@ -4,7 +4,7 @@ import * as React from "react";
 import { makeStyles } from "@mui/styles";
 
 import Heading from "../common/Heading";
-import usg_dm from "../../img/USG(Digital Marketing).jpeg";
+import usg_dm from "../../img/USG(Digital Marketing).jpg";
 import D_dm from "../../img/Director(DigitalMarketing).jpg";
 import { useState } from "react";
 import dummy from "../../img/d1.jpg";
