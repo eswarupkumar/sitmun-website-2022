@@ -9,6 +9,10 @@ import CardComponent from "../common/card";
 import CardComponent2 from "../common/card2";
 import usg_dm from "../../img/USG(Digital Marketing).jpeg";
 import D_dm from "../../img/Director(DigitalMarketing).jpg";
+import dummy from "../../img/d1.jpg";
+import cont1 from "../../img/Smriti.jpg";
+import cont2 from "../../img/Partha.jpg";
+import cont3 from "../../img/Raj.jpg";
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -40,6 +44,23 @@ function DmTeam() {
       desg: "Director",
     },
   ];
+  const CoreTeam2 = [
+    {
+      name: "Smruti Dash",
+      img: cont1,
+      desg: "Contributor",
+    },
+    {
+      name: "Partha Sarathi Praharaj",
+      img: cont2,
+      desg: "Contributor",
+    },
+    {
+      name: "Raj Kishore Patra",
+      img: cont3,
+      desg: "Contributor",
+    },
+  ];
   const classes = useStyles();
   const clickMe = (event) => {
     console.log(event);
@@ -55,6 +76,11 @@ function DmTeam() {
         <Grid container spacing={6} className={classes.gridContainer}>
           <CardComponent2 details={dmteam} />
         </Grid>
+        <Container fluid m={4}>
+          <Grid container spacing={6} className={classes.gridContainer}>
+            <CardComponent details={CoreTeam2} />
+          </Grid>
+        </Container>
       </Container>
     </div>
   );

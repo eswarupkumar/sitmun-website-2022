@@ -10,7 +10,11 @@ function RegisterBtn() {
       <Container className="registerdiv">
         <Heading head="Haven't registered yet?" />
         <p>Grab the opportunity now !</p>
-        <Button href="#" className="reg-btn text-center">
+        <Button
+          href="https://forms.gle/LboD3ygEqvkEHvLVA"
+          target="_blank"
+          className="reg-btn text-center"
+        >
           Register
         </Button>
       </Container>

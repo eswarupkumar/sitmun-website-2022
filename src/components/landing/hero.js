@@ -141,7 +141,9 @@ function HeroSection() {
           />
         </Carousel.Item>
       </Carousel>
-      <div data-aos="zoom-in-up" className="hero_page_wrapper">
+      <div className="hero_page_wrapper">
+        {" "}
+        {/* data-aos="zoom-in-up" */}
         {/* <img src={hero_bg} className="hero_bg" alt="hero_bg" /> */}
         {/* <video className="videoTag" autoPlay loop muted>
           <source src={video} type="video/mp4" />

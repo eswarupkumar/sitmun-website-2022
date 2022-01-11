@@ -28,12 +28,12 @@ function Gallery() {
     img2,
     img3,
     img4,
-    img5,
     img6,
+    img5,
     img7,
+    img10,
     img8,
     img9,
-    img10,
     img11,
   ];
   const loadingImage =
