@@ -67,9 +67,11 @@ function SponsorshipTeam() {
       <Heading head="Sponsorship" />
       <Container fluid m={4}>
         <Container fluid m={4}>
-          <Grid container spacing={6} className={classes.gridContainer}>
-            <CardComponent details={sponsorteam} />
-          </Grid>
+        <Grid container spacing={9} className={classes.gridContainer}>
+             
+             <CardComponent details={sponsorteam}/>  
+             
+           </Grid>
         </Container>
         <Container fluid m={4}>
           <Grid container spacing={6} className={classes.gridContainer}>
