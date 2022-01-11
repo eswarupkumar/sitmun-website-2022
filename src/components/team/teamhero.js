@@ -9,22 +9,21 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../../css/ourteam.css";
 import img2 from "../../img/team.svg";
-import teamHero from "../../img/teamHero.jpg"
-
+import teamHero from "../../img/teamHero.jpg";
 
 function TeamHero() {
   return (
     <div>
       <section className="herocm">
-          <div className="cm-hero-wrap"></div>
-          <img src={teamHero} alt="cm-hero" />
-          <div className="cm-heading">
-            <div className="headerText">Our Team </div>
-            <div className="taglineText">
+        <div className="cm-hero-wrap"></div>
+        <img src={teamHero} alt="cm-hero" />
+        <div className="cm-heading">
+          <div className="headerText">Our Team </div>
+          {/* <div className="taglineText">
               United we stand divided we fall
-            </div>
-          </div>
-        </section>
+            </div> */}
+        </div>
+      </section>
       {/* <section className="heroeb">
         <Row>
           <Col>
