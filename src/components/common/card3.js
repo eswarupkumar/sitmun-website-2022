@@ -52,7 +52,7 @@ const CardComponent = (props) => {
         justifyContent: "center",
         textAlign: "center",
         fontFamily: "'Barlow', sans-serif",
-        marginTop:"30px"
+        marginTop:"20px"
       }}
     >
     <Card

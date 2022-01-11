@@ -12,6 +12,7 @@ import img2 from "../../img/team.svg";
 
 
 
+
 function TeamHero() {
     
     return (

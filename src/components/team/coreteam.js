@@ -72,7 +72,7 @@ function CoreTeam() {
     shadow: 1,
   });
     return (
-        <div >
+        <div>
             <Heading head="Core Team" />
             <Container fluid m={4} p={4}>
               <Grid container spacing={6} className={classes.gridContainer}>

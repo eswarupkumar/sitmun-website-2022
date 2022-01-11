@@ -56,6 +56,8 @@ const CardComponent = (props) => {
     >
     <Card
       sx={{
+        maxHeight:450,
+        minHeight:270,
         minWidth: 320,
         maxWidth: 340,
         elevation: 10,

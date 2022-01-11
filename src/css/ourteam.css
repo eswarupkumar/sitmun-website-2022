@@ -29,8 +29,6 @@ body {
   text-align: center;
   align-self: center;
   align-content: center;
-  /* margin: 0.625rem;
-  font-size: 7vw; */
   font-weight: 600;
 }
 .GalleryHeading {
@@ -55,64 +53,7 @@ Card{
    font-family: "Barlow",sans-serif;
 }
 
-/* @media screen and (min-width: 576px) {
-   div.headingsection{
-      font-size: 7vw;
-   }
-   .headerText{
-      font-family: "Monserrat", sans-serif;
-      color: white;
-      text-align: center;
-      font-size: 7vw;
-      font-weight: 600;
-   
-   }
-   .GalleryHeading{
-      font-family: "Monserrat", sans-serif;
-      color: #29A0D3;
-      text-align: center;
-      margin: 0.625rem;
-      font-size: 4vw;
-      font-weight: 600;
-   }
-   .taglineText{
-      font-family: "Monserrat", sans-serif;
-      color: white;
-      text-align: center;
-      font-size: 3vw;
-    }
- }
- 
- @media screen and (max-width: 575px) {
-   div.headingsection{
-      font-size: 5vw;
-   }
-   .headerText{
-      font-family: "Monserrat", sans-serif;
-      color: white;
-      text-align: center;
-      font-size: 80px;
-      font-weight: 600;
-   
-   }
-   .GalleryHeading{
-      font-family: "Monserrat", sans-serif;
-      color: #29A0D3;
-      text-align: center;
-      margin: 0.625rem;
-      font-size: 24px;
-      font-weight: 600;
-   }
-   .taglineText{
-      font-family: "Monserrat", sans-serif;
-      color: white;
-      text-align: center;
-      font-size: 30px;
-    }
- }
 
- 
- */
 
 @media screen and (min-width: 576px) {
   div.headerText {
@@ -121,14 +62,6 @@ Card{
     text-align: center;
     margin: 0.625rem;
     font-size: 7vw;
-    font-weight: 600;
-  }
-  div.GalleryHeading {
-    font-family: "Monserrat", sans-serif;
-    color: #29a0d3;
-    text-align: center;
-    margin: 0.625rem;
-    font-size: 4vw;
     font-weight: 600;
   }
   div.taglineText {
@@ -146,22 +79,14 @@ Card{
     color: white;
     text-align: center;
     margin: 0.625rem;
-    font-size: 5vh;
-    font-weight: 600;
-  }
-  div.GalleryHeading {
-    font-family: "Monserrat", sans-serif;
-    color: #29a0d3;
-    text-align: center;
-    margin: 0.625rem;
-    font-size: 4vh;
+    font-size: 7vh;
     font-weight: 600;
   }
   div.taglineText {
     font-family: "Monserrat", sans-serif;
-    color: white;
+    color: white(26, 24, 24);
     text-align: center;
     margin-bottom: 0.625rem;
-    font-size: 2vh;
+    font-size: 2.5vh;
   }
 }

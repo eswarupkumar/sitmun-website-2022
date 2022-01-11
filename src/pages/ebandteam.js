@@ -22,7 +22,7 @@ import ScrollTop from "../components/common/ScrollTop";
 function EbandTeampage() {
   
   return (
-    <div>
+    <div >
       <Navbar />
       <ScrollTop />
       <TeamHero/> 
