@@ -12,6 +12,7 @@ import RegisterBtn from "../components/landing/Register";
 import Banner from "../components/landing/Banner";
 import Testimonial from "../components/landing/Testimonial";
 import MsgfromSG from "../components/landing/MsgfromSG";
+import Query from "../components/common/Query";
 
 function LandingPage() {
   return (
@@ -19,6 +20,7 @@ function LandingPage() {
       {/* <h1>Welcome to Mun Website</h1> */}
       <NavbarSection />
       <Banner />
+      <Query/>
       <ScrollTop />
       <HeroSection />
       <Countdown />

@@ -11,8 +11,6 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<LandingPage />} />
 
-      <Route path="/" element={<LandingPage />} />
-
       <Route path="/team" element={<TeamPage />} />
 
       <Route path="/committee" element={<CommitteePage />} />
