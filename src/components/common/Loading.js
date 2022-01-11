@@ -1,13 +1,13 @@
-import React from 'react'
-import loading from '../../img/loading2.svg';
-import '../../css/loading.css'
+import React from "react";
+import loading from "../../img/Bean Eater-1.2s-200px.svg";
+import "../../css/loading.css";
 
 function Loading() {
-    return (
-        <div className="loading">
-            <img src={loading} alt='loading' />
-        </div>
-    )
+  return (
+    <div className="loading">
+      <img src={loading} alt="loading" />
+    </div>
+  );
 }
 
-export default Loading
+export default Loading;
