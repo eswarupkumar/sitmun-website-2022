@@ -20,35 +20,32 @@ function LandingPage() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
+    document.body.style.overflow = "hidden"
     setTimeout(() => {
       setLoading(false);
-    }, 12000);
+      document.body.style.overflowY = "scroll"
+    }, 10000);
     // eslint-disable-next-line
   }, []);
   return (
     <>
-      {loading ? (
-        <Loading />
-      ) : (
-        <div>
-          {/* <h1>Welcome to Mun Website</h1> */}
-          <NavbarSection />
-          <Banner />
-          <Query />
-          <ScrollTop />
-          <HeroSection />
-          <Countdown />
-          <AboutUs />
-          <MsgfromSG />
-          <WhenWhere />
-          <Gallery />
-          <Testimonial />
-          {/* <Sponsor /> */}
-          <Faq />
-          <RegisterBtn />
-          <Footer />
-        </div>
-      )}
+    {/* <h1>Welcome to Mun Website</h1> */}
+      {loading ? <Loading />:
+      <NavbarSection />}
+      <Banner />
+      <Query/>
+      <ScrollTop />
+      <HeroSection />
+      <Countdown />
+      <AboutUs />
+      <MsgfromSG />
+      <WhenWhere />
+      <Gallery />
+      <Testimonial />
+      {/* <Sponsor /> */}
+      <Faq />
+      <RegisterBtn />
+      <Footer />
     </>
   );
 }

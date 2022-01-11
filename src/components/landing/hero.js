@@ -72,7 +72,7 @@ function HeroSection() {
   // );
   return (
     <div>
-      <div className="hero-wrap"></div>
+      <div className="hero-wrap" id='hero'></div>
       <Carousel id="myCarousel">
         <Carousel.Item>
           <img
