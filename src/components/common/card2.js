@@ -14,44 +14,45 @@ const useStyles=makeStyles({
   gridContainer: {
     left: 0,
     top: 0,
-    paddingLeft: "30px",
-    paddingRight: "30px",
+    paddingLeft: "10px",
+    paddingRight: "10px",
   },
   root: {
     minWidth: 340,
     maxWidth: 340,
     transition: "transform 0.15s ease-in-out",
-    "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
   },
   cardHovered: {
     transform: "scale3d(1.05, 1.05, 1)",
   },
 });
-
-const CardComponent = (props) => {
-
+const CardComponent2 = (props) => {
+  // const card = this.props.card;
+  // const classes=useStyles();
+  // const clickMe = (event) => {
+  //   console.log(event);
+  // }
   const classes=useStyles();
 
   const [state, setState] = useState({
     raised:false,
     shadow:1,
-    
   })
-  
   return (
     <>
     {props.details.map((value,index)=>(
-    <Grid
+    <Grid 
       item
       xs={12}
       sm={6}
-      md={4}
+      md={6}
       className={classes.outerColumn}
       style={{
         display: "flex",
         justifyContent: "center",
         textAlign: "center",
         fontFamily: "'Barlow', sans-serif",
+        marginTop:"30px"
       }}
     >
     <Card
@@ -94,4 +95,4 @@ const CardComponent = (props) => {
     
   );
 };
-export default CardComponent;
+export default CardComponent2;

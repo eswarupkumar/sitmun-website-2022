@@ -19,39 +19,40 @@ const useStyles=makeStyles({
   },
   root: {
     minWidth: 340,
-    maxWidth: 340,
+    maxWidth: 400,
     transition: "transform 0.15s ease-in-out",
-    "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
   },
   cardHovered: {
     transform: "scale3d(1.05, 1.05, 1)",
   },
 });
-
 const CardComponent = (props) => {
-
+  // const card = this.props.card;
+  // const classes=useStyles();
+  // const clickMe = (event) => {
+  //   console.log(event);
+  // }
   const classes=useStyles();
 
   const [state, setState] = useState({
     raised:false,
     shadow:1,
-    
   })
-  
   return (
     <>
     {props.details.map((value,index)=>(
     <Grid
       item
       xs={12}
-      sm={6}
-      md={4}
+      sm={12}
+      md={12}
       className={classes.outerColumn}
       style={{
         display: "flex",
         justifyContent: "center",
         textAlign: "center",
         fontFamily: "'Barlow', sans-serif",
+        marginTop:"30px"
       }}
     >
     <Card
