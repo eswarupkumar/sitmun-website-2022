@@ -1,3 +1,4 @@
+import React,{ useState, useEffect} from "react";
 import NavbarSection from "../components/common/navbar";
 import HeroSection from "../components/landing/hero";
 import Countdown from "../components/landing/Countdown";
@@ -13,9 +14,20 @@ import Banner from "../components/landing/Banner";
 import Testimonial from "../components/landing/Testimonial";
 import MsgfromSG from "../components/landing/MsgfromSG";
 import Query from "../components/common/Query";
+import Loading from "../components/common/Loading";
 
 function LandingPage() {
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 12000);
+    // eslint-disable-next-line
+  }, [])
   return (
+    <>
+    {loading ? <Loading />:
     <div>
       {/* <h1>Welcome to Mun Website</h1> */}
       <NavbarSection />
@@ -33,7 +45,8 @@ function LandingPage() {
       <Faq />
       <RegisterBtn />
       <Footer />
-    </div>
+    </div>}
+    </>
   );
 }
 
