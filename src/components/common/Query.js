@@ -69,7 +69,7 @@ function Query() {
                   controlId="exampleForm.ControlInput1"
                 >
                   <Form.Label className="form__label">
-                    Email address:
+                    Your Email address:
                   </Form.Label>
                   <Form.Control
                     name="email"

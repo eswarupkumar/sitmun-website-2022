@@ -12,7 +12,7 @@ function AboutUs() {
       <div className="about-us-div">
         <img src={aboutImg} alt="about-event" data-aos="fade-down" />
         <p>
-          Silicon Institute Of Technology Model United Nations(SITMUN) is a
+          Silicon Institute Of Technology Model United Nations (SITMUN) is a
           simulation of the United Nations where students delegate on behalf of
           member countries to find solutions to the rising global issues through
           research, drafting, lobbying and debating. Students can also
