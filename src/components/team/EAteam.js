@@ -4,12 +4,10 @@ import { makeStyles } from "@mui/styles";
 
 import Heading from '../common/Heading';
 import { useState } from "react";
-import dummy from "../../img/d1.jpg";
 import Container from "react-bootstrap/Container";
 import CardComponent2 from "../common/card2";
-import D_hosp from "../../img/Director (Hospitality).jpg";
 import D_eb from "../../img/Director(EB affairs).png";
-import D_eb1 from "../../img/Director (EB Affairs).JPG";
+import D_eb1 from "../../img/Director (EB Affairs).jpg";
 
 
 const useStyles = makeStyles({

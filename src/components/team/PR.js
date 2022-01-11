@@ -3,14 +3,9 @@ import * as React from "react";
 import { makeStyles } from "@mui/styles";
 
 import Heading from '../common/Heading';
-import D_genoios from "../../img/Director General OIOS.jpeg";
-import D_cd from "../../img/Director (Creativity and Designing).jpg";
-import usg_cd from "../../img/USG (Creativity and Designing).jpg";
 import { useState } from "react";
-import dummy from "../../img/d1.jpg";
 import Container from "react-bootstrap/Container";
 import CardComponent from "../common/card";
-import CardComponent2 from "../common/card2";
 import usg_pr from "../../img/USG(PR).jpg";
 import D_pr from "../../img/Director(PR).jpg";
 import DD_pr from "../../img/Deputy Director (Public Relations) .jpg";
