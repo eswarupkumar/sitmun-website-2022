@@ -16,22 +16,6 @@ function CommitteePage() {
       <Navbar />
       <ScrollTop />
       <section className="herocm">
-        {/*<Row>
-                    <Col>
-                    <Container fluid>
-                    <div className="row">
-                    
-                    <div className="col-sm-6 d-flex align-item-center justify-content-center">
-                        <img className='img-fluid' id="imgbg" src={bgimg} alt=""></img>
-                    </div>
-                    <div className="col-sm-6 d-flex flex-column text-center align-item-center justify-content-center">
-                        <div className="headerText">Committees </div>
-                        <div className="taglineText">"A group who keep minutes and waste hours."</div>  
-                    </div>
-                    </div>
-                    </Container>
-                    </Col>
-                </Row>*/}
         <div className="cm-hero-wrap"></div>
         <img src={cmhero} alt="cm-hero" />
         <div className="cm-heading">
