@@ -23,18 +23,17 @@ function Query() {
 
   function sendEmail(e) {
     e.preventDefault();
-    e.target.reset();
     emailjs
       .sendForm(
-        "gmail",
-        "template_dk4l7k9",
-        // {name:"smruti",question:"hello",email:"smrutid12@gmail.com"},
+        "service_3hvm6zn",
+        "template_k9fa67e",
         e.target,
-        "user_SSXsyEsQ0riDYwLhG07VC"
+        "user_dRt8vo2JfuvtTsoAFNJUk"
       )
       .then((res) => {
-        console.log(res);
-        console.log(e.target);
+        e.target.reset();
+        // console.log(res);
+        // console.log(e.target);
       })
       .catch((err) => console.log(err));
   }
@@ -79,7 +78,11 @@ function Query() {
                   />
                 </Form.Group>
                 <Modal.Footer>
-                  <Button className="send__button" type="submit" onClick={handleClose}>
+                  <Button
+                    className="send__button"
+                    type="submit"
+                    onClick={handleClose}
+                  >
                     Send!
                   </Button>
                 </Modal.Footer>

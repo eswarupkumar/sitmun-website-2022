@@ -5,15 +5,17 @@ import { Button, Container } from "react-bootstrap";
 import Heading from "../common/Heading";
 
 function RegisterBtn() {
-    return (
-      <div style={{position: 'relative'}}>
-        <Container className="registerdiv">
-          <Heading head="Haven't registered?" />
-          <p>What are you waiting for?</p>
-          <Button href="#" className="reg-btn text-center">Register Now!</Button>
-        </Container>
-      </div>
-    );
-  }
-  
-  export default RegisterBtn;
+  return (
+    <div style={{ position: "relative" }}>
+      <Container className="registerdiv">
+        <Heading head="Haven't registered yet?" />
+        <p>Grab the opportunity now !</p>
+        <Button href="#" className="reg-btn text-center">
+          Register
+        </Button>
+      </Container>
+    </div>
+  );
+}
+
+export default RegisterBtn;
