@@ -8,11 +8,39 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
 }
-.loading img {
+.loading .loader {
   margin: auto;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loader img{
   width: 200px;
   height: 200px;
+  animation: mnkImg 1s ease-out infinite;
+  position: relative;
 }
+@keyframes mnkImg {
+  0% {
+    bottom: 0px;
+  }
+  70% {
+    bottom: 15px;
+  }
+  75% {
+    bottom: 15px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+.loading h4{
+  /* font-family: "Barlow", sans-serif; */
+  color: #29a0d3;
+  text-align: center;
+}
+

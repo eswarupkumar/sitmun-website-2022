@@ -6,7 +6,10 @@ import "../../css/loading.css";
 function Loading() {
   return (
     <div className="loading">
-      <img src={loading} alt="loading" />
+      <div className="loader">
+        <img src={loading} alt="loading" />
+        <h4>Keep Calm !<br/> MUNKEE is loading the page for you.....</h4>
+      </div>
     </div>
   );
 }

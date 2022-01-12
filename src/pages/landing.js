@@ -24,7 +24,7 @@ function LandingPage() {
     setTimeout(() => {
       setLoading(false);
       document.body.style.overflowY = "scroll"
-    }, 10000);
+    }, 10000000);
     // eslint-disable-next-line
   }, []);
   return (
