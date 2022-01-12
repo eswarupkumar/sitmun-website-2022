@@ -4,7 +4,6 @@ import { makeStyles } from "@mui/styles";
 
 import Heading from "../common/Heading";
 import { useState } from "react";
-import dummy from "../../img/d1.jpg";
 import Container from "react-bootstrap/Container";
 import CardComponent2 from "../common/card2";
 import D_hosp1 from "../../img/Director (Hospitality).jpg";

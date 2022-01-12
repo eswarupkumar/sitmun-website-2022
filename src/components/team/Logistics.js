@@ -3,17 +3,11 @@ import * as React from "react";
 import { makeStyles } from "@mui/styles";
 
 import Heading from "../common/Heading";
-import D_genoios from "../../img/Director General OIOS.jpeg";
-import sec_gen from "../../img/Secretary General.jpg";
-import d_gen from "../../img/Director General.jpg";
-import cda from "../../img/CHARGE D' AFFAIRS.JPG";
-import dsg from "../../img/Deputy Secretary General(Annada Gumansingh).jpg";
 import { useState } from "react";
-import dummy from "../../img/d1.jpg";
 import USG_log1 from "../../img/USG (Logistics).jpg";
 import USG_log2 from "../../img/IMG-20220106-WA0019.jpg";
 import D_log from "../../img/Director (logistics).jpg";
-import DD_log from "../../img/Deputy Director (Logistics).JPG";
+import DD_log from "../../img/Deputy Director (Logistics).jpg";
 import Container from "react-bootstrap/Container";
 import CardComponent from "../common/card";
 import CardComponent3 from "../common/card3";

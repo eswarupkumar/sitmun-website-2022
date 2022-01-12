@@ -10,7 +10,6 @@ import CardComponent2 from "../common/card2";
 import usg_dm from "../../img/USG(Digital Marketing).jpg";
 // import usg_dm from "../../img/-iyh3v5.jpg";
 import D_dm from "../../img/Director(DigitalMarketing).jpg";
-import dummy from "../../img/d1.jpg";
 import cont1 from "../../img/Smriti.jpg";
 import cont2 from "../../img/Partha.jpg";
 import cont3 from "../../img/Raj.jpg";

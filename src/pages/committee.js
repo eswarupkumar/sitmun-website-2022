@@ -4,6 +4,7 @@ import "../css/ourteam.css";
 import disec from "../img/DISEC.png";
 import unfccc from "../img/UNFCCC.png";
 import unhrc from "../img/UNHRC.png";
+import ip from "../img/IP LOGO.png";
 import Navbar from "../components/common/navbar";
 import Footer from "../components/common/Footer";
 import ScrollTop from "../components/common/ScrollTop";
@@ -92,16 +93,18 @@ function CommitteePage() {
         </div>
 
         <div className="card1">
-          <img src={unhrc} alt="Avatar" />
-          {/* <div className="text1"><h3><b>SIT MUN</b></h3></div> */}
+          <center>
+          <img src={ip} alt="Avatar" />
+          </center>
+          <div className="text1"><h3><b>IP</b></h3></div>
           <div className="card-container">
             <div className="text">
-              Human rights are an innate virtue that we all should possess and
-              have for the utility. Since the dawn of civilization, numerous
-              ideologies and political revolutions have led to a dire
-              circumstance in matters of human rights. Ranging from the refugee
-              crisis to the poverty issues, many lives have been subjugated to
-              utter disdain, to tackle this issue, UNHRC was established.
+            A revolution is a characteristic feature of ideation and curiosity, 
+            nevertheless this goes hand-in-hand with recognition and observation. 
+            International Press is the committee responsible for formulating reports 
+            and capturing the paramount snippets of the entire conference. The 
+            International Press Delegation allows participants to act as unbiased 
+            journalists, reporting on the proceedings of each simulation in the Conference.
             </div>
           </div>
         </div>
