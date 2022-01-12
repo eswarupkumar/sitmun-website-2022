@@ -70,7 +70,7 @@ function CoreTeam() {
   });
   return (
     <div>
-      <Heading head="Core Team" />
+      <Heading head="Core Secretariat" />
       <Container fluid m={4} p={4}>
         <Grid container spacing={6} className={classes.gridContainer}>
           <CardComponent details={CoreTeam} />
