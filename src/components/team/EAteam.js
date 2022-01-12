@@ -7,7 +7,7 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import CardComponent2 from "../common/card2";
 import D_eb from "../../img/Director(EB affairs).png";
-import D_eb1 from "../../img/Director (EB Affairs).jpg";
+import D_eb1 from "../../img/Director (EB Affairs).JPG";
 
 
 const useStyles = makeStyles({

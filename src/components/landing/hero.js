@@ -15,19 +15,19 @@ import Typewriter from "typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // import Italy from "../../img/Italy.png";
-// import mountain from "../../img/mountain.jpg";
-// import mountain2 from "../../img/mountain2.jpg";
-// import imgs from "../../img/Santorini.jpg";
+// import mountain from "../../img/mountain.JPG";
+// import mountain2 from "../../img/mountain2.JPG";
+// import imgs from "../../img/Santorini.JPG";
 
-import img1 from "../../img/landing-hero/DSC05014.jpg";
-// import img2 from "../../img/landing-hero/DSC05312.jpg";
-// import img3 from "../../img/landing-hero/DSC05419.jpg";
-// import img4 from "../../img/landing-hero/DSC05422.jpg";
-import img5 from "../../img/landing-hero/DSC_7073.jpg";
-// import img6 from "../../img/landing-hero/DSC05744.jpg";
-// import img7 from "../../img/landing-hero/DSC_6636.jpg";
-import img8 from "../../img/landing-hero/DSC_6969.jpg";
-import img9 from "../../img/landing-hero/DSC05203.jpg";
+import img1 from "../../img/landing-hero/DSC05014.JPG";
+// import img2 from "../../img/landing-hero/DSC05312.JPG";
+// import img3 from "../../img/landing-hero/DSC05419.JPG";
+// import img4 from "../../img/landing-hero/DSC05422.JPG";
+import img5 from "../../img/landing-hero/DSC_7073.JPG";
+// import img6 from "../../img/landing-hero/DSC05744.JPG";
+// import img7 from "../../img/landing-hero/DSC_6636.JPG";
+import img8 from "../../img/landing-hero/DSC_6969.JPG";
+import img9 from "../../img/landing-hero/DSC05203.JPG";
 
 // import Swiper core and required modules
 // import SwiperCore, { EffectCards } from "swiper";
@@ -241,28 +241,28 @@ function HeroSection() {
 //             <img
 //               className="images"
 //               alt="mun_image"
-//               src="https://swiperjs.com/demos/images/nature-1.jpg"
+//               src="https://swiperjs.com/demos/images/nature-1.JPG"
 //             />
 //           </SwiperSlide>
 //           <SwiperSlide>
 //             <img
 //               className="images"
 //               alt="mun_image"
-//               src="https://swiperjs.com/demos/images/nature-2.jpg"
+//               src="https://swiperjs.com/demos/images/nature-2.JPG"
 //             />
 //           </SwiperSlide>
 //           <SwiperSlide>
 //             <img
 //               className="images"
 //               alt="mun_image"
-//               src="https://swiperjs.com/demos/images/nature-3.jpg"
+//               src="https://swiperjs.com/demos/images/nature-3.JPG"
 //             />
 //           </SwiperSlide>
 //           <SwiperSlide>
 //             <img
 //               className="images"
 //               alt="mun_image"
-//               src="https://swiperjs.com/demos/images/nature-4.jpg"
+//               src="https://swiperjs.com/demos/images/nature-4.JPG"
 //             />
 //           </SwiperSlide>
 //         </Swiper> */}

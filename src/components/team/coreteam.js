@@ -6,7 +6,7 @@ import Heading from "../common/Heading";
 import D_genoios from "../../img/Director General OIOS.jpeg";
 import sec_gen from "../../img/Secretary General.jpg";
 import d_gen from "../../img/Director General.jpg";
-import cda from "../../img/CHARGE D' AFFAIRS.jpg";
+import cda from "../../img/CHARGE D' AFFAIRS.JPG";
 import dsg from "../../img/Deputy Secretary General(Annada Gumansingh).jpg";
 import { useState } from "react";
 import Container from "react-bootstrap/Container";

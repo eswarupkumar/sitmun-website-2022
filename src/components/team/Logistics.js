@@ -7,7 +7,7 @@ import { useState } from "react";
 import USG_log1 from "../../img/USG (Logistics).jpg";
 import USG_log2 from "../../img/IMG-20220106-WA0019.jpg";
 import D_log from "../../img/Director (logistics).jpg";
-import DD_log from "../../img/Deputy Director (Logistics).jpg";
+import DD_log from "../../img/Deputy Director (Logistics).JPG";
 import Container from "react-bootstrap/Container";
 import CardComponent from "../common/card";
 import CardComponent3 from "../common/card3";
