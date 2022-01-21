@@ -13,3 +13,39 @@
   margin-left: 7px;
   align-self: center;
 }
+
+.flip-countdown-piece:nth-child(2) .flip-countdown-title {
+  /* display: none !important; */
+  visibility: hidden;
+  position: relative;
+}
+
+.flip-countdown-piece:nth-child(2) .flip-countdown-title:after {
+  /* display: none !important; */
+  visibility: visible;
+  content: "Days";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flip-countdown-piece:nth-child(3) .flip-countdown-title {
+  /* display: none !important; */
+  visibility: hidden;
+  position: relative;
+}
+
+.flip-countdown-piece:nth-child(3) .flip-countdown-title:after {
+  /* display: none !important; */
+  visibility: visible;
+  content: "Hours";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 700px) {
+  .flip-countdown-piece:nth-child(2) {
+    margin-right: 10px !important;
+  }
+}
