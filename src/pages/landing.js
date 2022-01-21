@@ -15,25 +15,32 @@ import Testimonial from "../components/landing/Testimonial";
 import MsgfromSG from "../components/landing/MsgfromSG";
 import Query from "../components/common/Query";
 import Loading from "../components/common/Loading";
+import Toast from "../components/landing/Toast";
 
 function LandingPage() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
-    document.body.style.overflow = "hidden"
+    document.body.style.overflow = "hidden";
     setTimeout(() => {
       setLoading(false);
-      document.body.style.overflowY = "scroll"
+      document.body.style.overflowY = "scroll";
     }, 10000);
     // eslint-disable-next-line
   }, []);
   return (
     <>
-    {/* <h1>Welcome to Mun Website</h1> */}
-      {loading ? <Loading />:
-      <NavbarSection />}
+      {/* <h1>Welcome to Mun Website</h1> */}
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          <NavbarSection />
+          <Toast />
+        </>
+      )}
       <Banner />
-      <Query/>
+      <Query />
       <ScrollTop />
       <HeroSection />
       <Countdown />

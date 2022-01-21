@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 import CardComponent from "../common/card";
 import usg_da from "../../img/USG(Delegate Affairs).jpg";
 import D_da from "../../img/Director del affairs.jpg";
-import DD_da from "../../img/Deputy Director(Del Affairs).jpg";
+import DD_da from "../../img/testimonial-img/Sreelaxmi.jpeg";
 
 
 const useStyles = makeStyles({

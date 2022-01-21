@@ -1,0 +1,11 @@
+.Toastify__toast-theme--light {
+  background-color: #29a0d3 !important;
+  color: #fff !important;
+}
+.Toastify__toast-theme--light p {
+  margin: 0;
+}
+.Toastify__toast-theme--light a {
+  color: #fff;
+  font-weight: 700;
+}
