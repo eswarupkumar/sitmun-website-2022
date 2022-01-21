@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 const ToastText = () => {
   return (
     <div>
-      <p>
+      <p className="toast_content">
         SITMUN in collaboration with SSUIMUN is conducting an online MUN
         Workshop.{" "}
         <a href="https://rb.gy/0rcixn" target="_blank">
