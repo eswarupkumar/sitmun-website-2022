@@ -15,7 +15,7 @@ import Testimonial from "../components/landing/Testimonial";
 import MsgfromSG from "../components/landing/MsgfromSG";
 import Query from "../components/common/Query";
 import Loading from "../components/common/Loading";
-import Toast from "../components/landing/Toast";
+// import Toast from "../components/landing/Toast";
 
 function LandingPage() {
   const [loading, setLoading] = useState(true);
@@ -36,7 +36,7 @@ function LandingPage() {
       ) : (
         <>
           <NavbarSection />
-          <Toast />
+          {/* <Toast /> */}
         </>
       )}
       <Banner />
