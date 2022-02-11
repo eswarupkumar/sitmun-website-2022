@@ -20,7 +20,7 @@ function AboutUs() {
           reporters/photographers). SITMUN has always been a unique
           conglomeration of learning and experiencing a MUN, and this time
           again, we are back with an unparalleled edition. Not even a pandemic
-          can stop those who dare, and this 4th-6th March, we aim at bringing
+          can stop those who dare, and this 11th-13th March, we aim at bringing
           revolution through resolution. We are in, are you!?
         </p>
       </div>

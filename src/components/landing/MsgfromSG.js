@@ -20,16 +20,17 @@ function MsgfromSG() {
             <br></br> "It is not about the resolution you make! It is about the
             revolution you start." It is a moment of immense joy for me to
             invite you to the annual SIT Model United Nations Conference on
-            behalf of my secretariat. This year from 4th-6th March, SITMUN 2022
-            will be set in motion. Keeping in mind the disturbing COVID-19, we
-            assure to follow all COVID protocols and take necessary precautions
-            to curb the situation. We are committed to ensuring that the
-            delegates shall have an experience of a lifetime and learn values
-            that they can uphold in their lives going ahead as future citizens.
-            For those who dare, SITMUN 2022 will be an opportunity to revamp
-            their diplomatic, negotiating, lobbying and debating skills, and we
-            are prepared to give them that experience. Yet again, the legacy
-            will continue, and SITMUN is back with unprecedented surprises.
+            behalf of my secretariat. This year from 11th-13th March, SITMUN
+            2022 will be set in motion. Keeping in mind the disturbing COVID-19,
+            we assure to follow all COVID protocols and take necessary
+            precautions to curb the situation. We are committed to ensuring that
+            the delegates shall have an experience of a lifetime and learn
+            values that they can uphold in their lives going ahead as future
+            citizens. For those who dare, SITMUN 2022 will be an opportunity to
+            revamp their diplomatic, negotiating, lobbying and debating skills,
+            and we are prepared to give them that experience. Yet again, the
+            legacy will continue, and SITMUN is back with unprecedented
+            surprises.
             <br></br>
             <br></br>
             Sincerely,<br></br>Isha Bharadwaj<br></br>Secretary-General, SIT

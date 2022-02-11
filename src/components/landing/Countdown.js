@@ -11,7 +11,7 @@ const Countdown = () => {
         hideYear
         hideMinute
         hideSecond
-        endAt={"2022-03-04 00:00:00"}
+        endAt={"2022-03-11 00:00:00"}
       />
     </>
   );
