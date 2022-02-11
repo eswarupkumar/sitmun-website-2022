@@ -35,7 +35,7 @@ function WhenWhere() {
             data-aos="zoom-in-down"
           >
             <img src={eventblack} alt="event" />
-            <h5 id="h5__2">MARCH 4-6</h5>
+            <h5 id="h5__2">MARCH 11-13</h5>
           </div>
           <div
             className="col-lg d-flex justify-content-center mx-auto"
