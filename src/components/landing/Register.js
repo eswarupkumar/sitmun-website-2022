@@ -11,7 +11,7 @@ function RegisterBtn() {
         <Heading head="Haven't registered yet?" />
         <p>Grab your opportunity !</p>
         <Button
-          href="https://forms.gle/LboD3ygEqvkEHvLVA"
+          href="https://rb.gy/s1uypm"
           target="_blank"
           className="reg-btn text-center"
         >
