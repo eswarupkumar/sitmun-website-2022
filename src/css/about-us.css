@@ -16,6 +16,9 @@
 .about-us img {
   height: 250px;
 }
+.about-us .info-links {
+  text-align: center;
+}
 
 /*  MEDIA QUERRIES  */
 @media (max-width: 770px) {

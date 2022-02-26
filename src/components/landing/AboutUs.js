@@ -27,7 +27,7 @@ function AboutUs() {
           <div className="info-links">
             <div className="btn-section">
               <a href="/#about" className="hero-button">
-                Know More
+                Fee Structure
               </a>
               <a
                 href="https://rb.gy/s1uypm"
@@ -35,7 +35,7 @@ function AboutUs() {
                 rel="noreferrer"
                 className="hero-button"
               >
-                Register
+                Country Matrix
               </a>
             </div>
           </div>
