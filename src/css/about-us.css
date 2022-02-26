@@ -9,7 +9,7 @@
   padding-left: 40px;
   font-size: 18px;
 }
-.about-us .about-us-div {
+.about-us .about-us-wrapper {
   display: flex;
   align-items: center;
 }
