@@ -183,7 +183,7 @@ function HeroSection() {
                 Know More
               </a>
               <a
-                href="https://rb.gy/s1uypm"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeSNoBjRbeWeJivkB_a8t-7NfxvOu75pOu0_0Qksr7QbniYWw/viewform"
                 target="_blank"
                 rel="noreferrer"
                 className="hero-button"
