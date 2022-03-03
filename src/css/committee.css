@@ -79,9 +79,34 @@
   margin: 20px;
   position: absolute;
   text-align: justify;
-  transform: translate(0%, 35%);
+  transform: translate(0%, 10%);
 }
-
+.committee_details {
+  position: absolute;
+  /* text-align: center; */
+  transform: translate(12%, 536%);
+  display: flex;
+}
+.committe_page-button {
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background-color: #29a0d3;
+  margin: 8px;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 15px;
+  border-style: none;
+  border: 2px solid;
+  text-transform: uppercase;
+}
+.committe_page-button:hover {
+  background-image: linear-gradient(to right, #29a0d3, hsl(280, 87%, 65%));
+  color: #fff;
+}
+.agenda_img {
+  width: 100%;
+}
 .herocm img {
   width: 100%;
   height: 90vh;

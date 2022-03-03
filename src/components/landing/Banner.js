@@ -18,7 +18,7 @@ function Banner() {
         <div className="banner-div">
           <img src={banner} alt="banner" />
           <div className="banner-img-div">
-            <p> First round application now open 🤩! </p>
+            <p> Second round application coming soon 🤩! </p>
           </div>
         </div>
       )}
