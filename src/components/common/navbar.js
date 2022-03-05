@@ -16,10 +16,10 @@ function NavbarSection() {
   };
   window.addEventListener("scroll", setNavbar);
   useEffect(() => {
-      if(!location.hash){
-        window.scrollTo(0, 0);
-      }
-      setNavbar();
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+    setNavbar();
     // eslint-disable-next-line
   }, [location.pathname]);
 
@@ -83,7 +83,7 @@ function NavbarSection() {
             COMMITTEE
           </Link>
           <Nav.Link
-            href="https://forms.gle/LboD3ygEqvkEHvLVA"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeSNoBjRbeWeJivkB_a8t-7NfxvOu75pOu0_0Qksr7QbniYWw/viewform"
             target="_blank"
             className="navbar-menu-button"
           >
