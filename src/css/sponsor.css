@@ -5,7 +5,7 @@
   display: none;
 }
 .sponsor-section {
-  min-height: 350px;
+  min-height: 150px;
   display: flex;
   align-items: center;
   margin: 150px auto 100px;
@@ -22,6 +22,7 @@
 }
 .sponsor-div2 {
   position: relative;
+  top: -3em;;
 }
 .sponsor-div2 h4 {
   font-size: 15px;
@@ -33,7 +34,7 @@
   top: 40px;
   transform: rotate(270deg);
   z-index: 1;
-  color: #fff;
+  color: #29a0d3;
 }
 .sponsor-slider-div {
   border: 2px solid transparent;

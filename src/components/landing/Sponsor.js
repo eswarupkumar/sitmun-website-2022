@@ -1,5 +1,5 @@
 import React from 'react'
-import SlantDiv from "../common/SlantDiv";
+// import SlantDiv from "../common/SlantDiv";
 import TinySlider from "tiny-slider-react";
 import { Container } from 'react-bootstrap';
 import adidas from '../../img/adidas-9.svg';
@@ -39,7 +39,7 @@ function Sponsor() {
     };
     return (
         <div className="sponsor-section" style={{position: 'relative'}}>
-            <SlantDiv alt={true} />
+            {/* <SlantDiv alt={true} /> */}
             <Container className='sponsor-div2'>
                 <div>
                     <h4>OUR<br/>PARTNERS</h4>

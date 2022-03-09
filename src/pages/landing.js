@@ -15,13 +15,14 @@ import Testimonial from "../components/landing/Testimonial";
 import MsgfromSG from "../components/landing/MsgfromSG";
 import Query from "../components/common/Query";
 import Loading from "../components/common/Loading";
+import Advertisement from "../components/landing/Advertisement";
 // import Toast from "../components/landing/Toast";
 
 function LandingPage() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "scroll";
     setTimeout(() => {
       setLoading(false);
       document.body.style.overflowY = "scroll";
@@ -35,6 +36,7 @@ function LandingPage() {
         <Loading />
       ) : (
         <>
+          <Advertisement/>
           <NavbarSection />
           {/* <Toast /> */}
         </>
@@ -49,9 +51,9 @@ function LandingPage() {
       <WhenWhere />
       <Gallery />
       <Testimonial />
-      {/* <Sponsor /> */}
       <Faq />
       <RegisterBtn />
+      {/* <Sponsor /> */}
       <Footer />
     </>
   );

@@ -84,7 +84,7 @@
 .committee_details {
   position: absolute;
   /* text-align: center; */
-  transform: translate(12%, 536%);
+  transform: translate(10%, 536%);
   display: flex;
 }
 .committe_page-button {
