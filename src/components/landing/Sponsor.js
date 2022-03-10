@@ -2,12 +2,12 @@ import React from 'react'
 // import SlantDiv from "../common/SlantDiv";
 import TinySlider from "tiny-slider-react";
 import { Container } from 'react-bootstrap';
-import adidas from '../../img/adidas-9.svg';
-import ameritrade from '../../img/ameritrade-1.svg'; 
-import altrusa from '../../img/altrusa-international-inc.svg';
-import bmw from '../../img/bmw.svg';
-import jbl from '../../img/jbl-1.svg'
-import tesla from '../../img/tesla-motors-1.svg';
+import adidas from '../../img/Sponsor/Biggies_Burger.png';
+import ameritrade from '../../img/Sponsor/bites.jpeg'; 
+import altrusa from '../../img/Sponsor/captivates.png';
+import bmw from '../../img/Sponsor/cookncrew.jpg';
+import jbl from '../../img/Sponsor/greenhive.png'
+import tesla from '../../img/Sponsor/salon.png';
 import '../../css/sponsor.css';
   
 

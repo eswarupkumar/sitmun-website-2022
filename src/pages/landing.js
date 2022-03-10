@@ -53,7 +53,7 @@ function LandingPage() {
       <Testimonial />
       <Faq />
       <RegisterBtn />
-      {/* <Sponsor /> */}
+      <Sponsor />
       <Footer />
     </>
   );
