@@ -28,7 +28,9 @@ function LandingPage() {
       clock: 13,
     };
     const confetti = new ConfettiGenerator(confettiSettings);
-    confetti.render();
+    setTimeout(() => {
+      confetti.render();
+    }, 10000);
 
     return () => confetti.clear();
   }, []);
