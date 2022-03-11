@@ -42,35 +42,40 @@ function WhenWhere() {
           </div>
           <div
             className="col-lg d-flex justify-content-center mx-auto"
-            data-aos="zoom-in-up" onClick={handleShow}
+            data-aos="zoom-in-up"
+            onClick={handleShow}
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
             <h5 id="h5__3">
-              
               SCHEDULE
               {/* <p>(Coming Soon)</p> */}
             </h5>
-            <Modal size="lg" show={show} onHide={handleClose} className="modal">
-              <Modal.Header>
-                <Modal.Title>
-                  <Tabs
-                    id="controlled-tab-example"
-                    activeKey={key}
-                    onSelect={(k) => setKey(k)}
-                    className="mb-2"
-                  >
-                    <Tab eventKey="Day1" title="Day-1">
-                      <img src={day1} alt="" />
-                    </Tab>
-                    <Tab eventKey="Day2" title="Day-2">
-                      <img src={day2} alt="" />
-                    </Tab>
-                    <Tab eventKey="Day3" title="Day-3">
-                      <img src={day3} alt="" />
-                    </Tab>
-                  </Tabs>
-                </Modal.Title>
-              </Modal.Header>
+            <Modal
+              size="lg"
+              show={show}
+              onHide={() => {
+                setShow(false);
+              }}
+            >
+              <Modal.Header closeButton></Modal.Header>
+              <Modal.Body>
+                <Tabs
+                  id="controlled-tab-example"
+                  activeKey={key}
+                  onSelect={(k) => setKey(k)}
+                  className="mb-2"
+                >
+                  <Tab eventKey="Day1" title="Day-1">
+                    <img className="itenary_schedule" src={day1} alt="" />
+                  </Tab>
+                  <Tab eventKey="Day2" title="Day-2">
+                    <img className="itenary_schedule" src={day2} alt="" />
+                  </Tab>
+                  <Tab eventKey="Day3" title="Day-3">
+                    <img className="itenary_schedule" src={day3} alt="" />
+                  </Tab>
+                </Tabs>
+              </Modal.Body>
             </Modal>
           </div>
         </Row>

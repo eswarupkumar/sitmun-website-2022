@@ -72,6 +72,9 @@
     color: #29a0d3;
   }
 }
+.itenary_schedule {
+  width: 100%;
+}
 @media (max-width: 760px) {
   .WhenWhere {
     justify-content: left !important;
