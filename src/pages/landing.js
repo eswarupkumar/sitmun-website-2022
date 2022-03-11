@@ -24,8 +24,8 @@ function LandingPage() {
     const confettiSettings = {
       target: "my-canvas",
       respawn: false,
-      max: 250,
-      clock: 15,
+      max: 270,
+      clock: 13,
     };
     const confetti = new ConfettiGenerator(confettiSettings);
     confetti.render();
@@ -63,7 +63,7 @@ function LandingPage() {
       <Query />
       <ScrollTop />
       <HeroSection />
-      <Countdown />
+      {/* <Countdown /> */}
       <AboutUs />
       <MsgfromSG />
       <WhenWhere />
