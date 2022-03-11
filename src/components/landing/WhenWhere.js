@@ -3,6 +3,9 @@ import "../../css/when.css";
 import SlantDiv from "../common/SlantDiv";
 import { Container, Modal, Row } from "react-bootstrap";
 import locationblack from "../../img/locationblack.svg";
+import day1 from "../../img/itenary/day1.jpeg";
+import day2 from "../../img/itenary/day2.jpeg";
+import day3 from "../../img/itenary/day3.jpeg";
 import UnderLine from "../common/UnderLine";
 import eventblack from "../../img/eventblack.svg";
 import scheduleblack from "../../img/scheduleblack.svg";
@@ -39,13 +42,13 @@ function WhenWhere() {
           </div>
           <div
             className="col-lg d-flex justify-content-center mx-auto"
-            data-aos="zoom-in-up"
+            data-aos="zoom-in-up" onClick={handleShow}
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
             <h5 id="h5__3">
-              {/*onClick={handleShow} */}
+              
               SCHEDULE
-              <p>(Coming Soon)</p>
+              {/* <p>(Coming Soon)</p> */}
             </h5>
             <Modal size="lg" show={show} onHide={handleClose} className="modal">
               <Modal.Header>
@@ -57,13 +60,13 @@ function WhenWhere() {
                     className="mb-2"
                   >
                     <Tab eventKey="Day1" title="Day-1">
-                      <img src={locationblack} alt="" />
+                      <img src={day1} alt="" />
                     </Tab>
                     <Tab eventKey="Day2" title="Day-2">
-                      <img src={scheduleblack} alt="" />
+                      <img src={day2} alt="" />
                     </Tab>
                     <Tab eventKey="Day3" title="Day-3">
-                      <img src={eventblack} alt="" />
+                      <img src={day3} alt="" />
                     </Tab>
                   </Tabs>
                 </Modal.Title>
