@@ -9,6 +9,10 @@ import scheduleblack from "../../img/scheduleblack.svg";
 import Tabs from "react-bootstrap/Tabs";
 import { Tab } from "react-bootstrap";
 import Heading from "../common/Heading";
+import day1 from "../../img/Day1.jpeg";
+import day2 from "../../img/Day2.jpeg";
+import day3 from "../../img/Day3.jpeg";
+
 
 function WhenWhere() {
   const [show, setShow] = useState(false);
@@ -42,28 +46,28 @@ function WhenWhere() {
             data-aos="zoom-in-up"
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
-            <h5 id="h5__3">
-              {/*onClick={handleShow} */}
+            
+            <h5 id="h5__3" onClick={handleShow}>
               SCHEDULE
-              <p>(Coming Soon)</p>
+              {/* <p>(Coming Soon)</p> */}
             </h5>
-            <Modal size="lg" show={show} onHide={handleClose} className="modal">
+            <Modal size="md" show={show} onHide={handleClose} className="modal">
               <Modal.Header>
                 <Modal.Title>
                   <Tabs
                     id="controlled-tab-example"
                     activeKey={key}
                     onSelect={(k) => setKey(k)}
-                    className="mb-2"
+                    className="mb-3"
                   >
                     <Tab eventKey="Day1" title="Day-1">
-                      <img src={locationblack} alt="" />
+                      <center><img src={day1} alt="" /></center>
                     </Tab>
                     <Tab eventKey="Day2" title="Day-2">
-                      <img src={scheduleblack} alt="" />
+                      <img src={day2} alt="" />
                     </Tab>
                     <Tab eventKey="Day3" title="Day-3">
-                      <img src={eventblack} alt="" />
+                      <img src={day3} alt="" />
                     </Tab>
                   </Tabs>
                 </Modal.Title>

@@ -29,12 +29,18 @@
 #h5__3 {
   margin: 150px 0 0 -50px;
   color: #29a0d3;
+  cursor: pointer;
 }
-#h5__3 p {
+
+.modal img{
+  width: 30em;
+  height: 30em;
+}
+/*#h5__3 p {
   font-size: 12px;
   font-family: "Barlow", sans-serif;
 }
-/* #h5__3:hover {
+#h5__3:hover {
   cursor: pointer;
   text-decoration: underline;
 } */
@@ -70,6 +76,7 @@
   #h5__3 {
     margin: 40px;
     color: #29a0d3;
+    cursor: pointer;
   }
 }
 @media (max-width: 760px) {
