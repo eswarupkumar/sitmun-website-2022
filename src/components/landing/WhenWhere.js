@@ -12,9 +12,6 @@ import scheduleblack from "../../img/scheduleblack.svg";
 import Tabs from "react-bootstrap/Tabs";
 import { Tab } from "react-bootstrap";
 import Heading from "../common/Heading";
-import day1 from "../../img/Day1.jpeg";
-import day2 from "../../img/Day2.jpeg";
-import day3 from "../../img/Day3.jpeg";
 
 
 function WhenWhere() {
@@ -55,11 +52,9 @@ function WhenWhere() {
               {/* <p>(Coming Soon)</p> */}
             </h5>
             <Modal
-              size="lg"
+              size="md"
               show={show}
-              onHide={() => {
-                setShow(false);
-              }}
+              onHide={handleClose}
             >
               <Modal.Header closeButton></Modal.Header>
               <Modal.Body>
