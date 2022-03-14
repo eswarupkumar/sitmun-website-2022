@@ -20,20 +20,21 @@ import Advertisement from "../components/landing/Advertisement";
 import ConfettiGenerator from "confetti-js";
 
 function LandingPage() {
-  React.useEffect(() => {
-    const confettiSettings = {
-      target: "my-canvas",
-      respawn: false,
-      max: 270,
-      clock: 13,
-    };
-    const confetti = new ConfettiGenerator(confettiSettings);
-    setTimeout(() => {
-      confetti.render();
-    }, 10000);
+  //Confetti library
+  // React.useEffect(() => {
+  //   const confettiSettings = {
+  //     target: "my-canvas",
+  //     respawn: false,
+  //     max: 270,
+  //     clock: 13,
+  //   };
+  //   const confetti = new ConfettiGenerator(confettiSettings);
+  //   setTimeout(() => {
+  //     confetti.render();
+  //   }, 10000);
 
-    return () => confetti.clear();
-  }, []);
+  //   return () => confetti.clear();
+  // }, []);
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -48,10 +49,10 @@ function LandingPage() {
   return (
     <>
       {/* <h1>Welcome to Mun Website</h1> */}
-      <canvas
+      {/* <canvas
         id="my-canvas"
         style={{ position: "absolute", zIndex: "9" }}
-      ></canvas>
+      ></canvas> */}
       {loading ? (
         <Loading />
       ) : (
@@ -72,7 +73,7 @@ function LandingPage() {
       <Gallery />
       <Testimonial />
       <Faq />
-      <RegisterBtn />
+      {/* <RegisterBtn /> */}
       <Sponsor />
       <Footer />
     </>

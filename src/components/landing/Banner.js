@@ -18,7 +18,11 @@ function Banner() {
         <div className="banner-div">
           <img src={banner} alt="banner" />
           <div className="banner-img-div">
-            <p> SITMUN 2022 is LIVE 🤩! </p>
+            <p>
+              {" "}
+              SITMUN 2022 is CLOSED. Thank you for making it a successful one
+              🥰.{" "}
+            </p>
           </div>
         </div>
       )}

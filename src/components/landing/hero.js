@@ -182,14 +182,14 @@ function HeroSection() {
               <a href="/#about" className="hero-button">
                 Know More
               </a>
-              <a
+              {/* <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeSNoBjRbeWeJivkB_a8t-7NfxvOu75pOu0_0Qksr7QbniYWw/viewform"
                 target="_blank"
                 rel="noreferrer"
                 className="hero-button"
               >
                 Register
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
