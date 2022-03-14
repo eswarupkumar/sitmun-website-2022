@@ -13,6 +13,7 @@ import Tabs from "react-bootstrap/Tabs";
 import { Tab } from "react-bootstrap";
 import Heading from "../common/Heading";
 
+
 function WhenWhere() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -51,11 +52,9 @@ function WhenWhere() {
               {/* <p>(Coming Soon)</p> */}
             </h5>
             <Modal
-              size="lg"
+              size="md"
               show={show}
-              onHide={() => {
-                setShow(false);
-              }}
+              onHide={handleClose}
             >
               <Modal.Header closeButton></Modal.Header>
               <Modal.Body>

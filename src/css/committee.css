@@ -155,4 +155,7 @@
   .eb_div div {
     padding: 1rem 0;
   }
+  .committee_details {
+    transform: translate(8.5%, 536%);
+  }
 }
