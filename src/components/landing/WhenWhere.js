@@ -13,11 +13,10 @@ import Tabs from "react-bootstrap/Tabs";
 import { Tab } from "react-bootstrap";
 import Heading from "../common/Heading";
 
-
 function WhenWhere() {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const [show_sch, setShow_sch] = useState(false);
+  const handleClose = () => setShow_sch(false);
+  const handleShow = () => setShow_sch(true);
   const [key, setKey] = useState("Day1");
   return (
     <div style={{ position: "relative" }} className="WhenWhere">
@@ -44,18 +43,13 @@ function WhenWhere() {
           <div
             className="col-lg d-flex justify-content-center mx-auto"
             data-aos="zoom-in-up"
-            onClick={handleShow}
           >
             <img className="schedule__img" src={scheduleblack} alt="schedule" />
-            <h5 id="h5__3">
+            <h5 id="h5__3" onClick={handleShow}>
               SCHEDULE
               {/* <p>(Coming Soon)</p> */}
             </h5>
-            <Modal
-              size="md"
-              show={show}
-              onHide={handleClose}
-            >
+            <Modal size="md" show={show_sch} onHide={() => setShow_sch(false)}>
               <Modal.Header closeButton></Modal.Header>
               <Modal.Body>
                 <Tabs
